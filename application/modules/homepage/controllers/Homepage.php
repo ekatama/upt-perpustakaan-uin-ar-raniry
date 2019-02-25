@@ -7,7 +7,12 @@
 
 		public function index()
 		{
+
+			$data['title'] = 'Dashboard';
+
+			$this->load->modules('templates/header', $data);
 			$this->load->view('homepage/view_homepage');
+
 		}
 
 	}
