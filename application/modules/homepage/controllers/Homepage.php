@@ -8,9 +8,8 @@
 		public function index()
 		{
 
-			$data['title'] = 'Dashboard';
 
-			$this->load->modules('templates/header', $data);
+			$this->load->modules('templates/header', );
 			$this->load->view('homepage/view_homepage');
 
 		}
