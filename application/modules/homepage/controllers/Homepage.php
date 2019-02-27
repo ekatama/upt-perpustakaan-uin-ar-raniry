@@ -9,7 +9,7 @@
 		{
 
 
-			$this->load->modules('templates/header', );
+			$this->load->modules('templates/header' );
 			$this->load->view('homepage/view_homepage');
 
 		}
