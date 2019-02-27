@@ -43,13 +43,13 @@
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="index.html">Home</a>
+                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="index.html">Beranda</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-home"><a href="index.html">Homepage 1</a></li>
                                         <li class="menu-item"><a href="homepage-2.html">Homepage 2</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
+                                <li class="menu-item menu-item-has-children"><a href="#">Tentang</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">About KU</a></li>
                                         <li class="menu-item menu-item-has-children"><a href="blog-full-right-sidebar-with-frame.html">Blog</a>
@@ -123,7 +123,7 @@
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="bachelor-of-science-in-business-administration.html">Academics</a>
+                                <li class="menu-item menu-item-has-children"><a href="bachelor-of-science-in-business-administration.html">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-has-children"><a>Undergraduate</a>
                                             <ul class="sub-menu">
