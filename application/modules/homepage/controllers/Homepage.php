@@ -9,8 +9,9 @@
 		{
 
 
-			$this->load->modules('templates/header' );
-			$this->load->view('homepage/view_homepage');
+			$this->load->view('templates/header');
+			$this->load->view('view_homepage');
+			$this->load->view('templates/footer');
 
 		}
 
