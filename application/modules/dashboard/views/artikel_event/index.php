@@ -1,7 +1,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/tambah_artikel"><i class="fas fa-plus"></i> Tambah Artikel</a>
+          <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/tambah_artikel"><i class="fas fa-plus"></i> Artikel</a>
+          <a class='btn btn-success' href="<?= base_url(); ?>index.php/dashboard/tambah_event"><i class="fas fa-plus"></i> Event</a>
         </div>
         <div class="col-md-6">
               <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search float-right">
@@ -28,7 +29,7 @@
                   </div>
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
                   <div class="card-body">
-                    <a href="" class=''><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
                   <div class="card-footer py-3">
@@ -47,7 +48,7 @@
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
                     </div>
                   <div class="card-body">
-                    <a href="" class=''><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
                   <div class="card-footer py-3">
@@ -65,7 +66,7 @@
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
                     </div>
                   <div class="card-body">
-                    <a href="" class=''><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
                   <div class="card-footer py-3">
@@ -83,7 +84,7 @@
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
                     </div>
                   <div class="card-body">
-                    <a href="" class=''><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
                   <div class="card-footer py-3">

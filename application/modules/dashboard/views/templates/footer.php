@@ -2,7 +2,7 @@
 <footer class="sticky-footer bg-white mt-5">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; UPT Perpustakaan UIN Ar-Raniry</span>
           </div>
         </div>
       </footer>

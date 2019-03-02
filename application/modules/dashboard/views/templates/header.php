@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title>UPT Perpustakaan - Dashboard</title>
 
   <!-- Custom fonts for this template-->
   <!-- <link href="assets/dashboard/vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css"> -->
@@ -54,20 +54,26 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Interface
+        Menu Utama
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTentang" aria-expanded="true" aria-controls="collapseTentang">
           <i class="fas fa-fw fa-cog"></i>
-          <span>Components</span>
+          <span>Tentang</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="collapseTentang" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tentang_perpustakaan">Tentang Perpustakaan</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/visi">Visi</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/misi">Misi</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tujuan">Tujuan</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/struktur_organisasi">Struktur Organisasi</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tupoksi">Tupoksi</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/program_sasaran">Program Sasaran</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/kegiatan">Kegiatan</a>
           </div>
         </div>
       </li>
@@ -89,46 +95,34 @@
         </div>
       </li>
 
+      <!-- Nav Item - Artikel -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/artikel_event/index">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Artikel & Event</span></a>
+      </li>
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/video_tour/index">
+          <i class="fas fa-play-circle"></i>
+          <span>Video Tour</span></a>
+      </li>
+
+
       <!-- Divider -->
       <hr class="sidebar-divider">
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Addons
+        User
       </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/artikel/index">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Artikel</span></a>
-      </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/logs/index">
           <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+          <span>Logs</span></a>
       </li>
 
       <!-- Divider -->
@@ -155,18 +149,6 @@
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
-
-          <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
