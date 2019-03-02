@@ -67,12 +67,7 @@
                                         <li class="menu-item"><a href="price-table.html">Kalender Kegiatan</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">koleksi</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="apply-to-kingster.html">Total Koleksi</a></li>
-                                        <li class="menu-item"><a href="campus-tour.html">Jenis Koleksi</a></li>
-                                        <li class="menu-item"><a href="scholarships.html">Koleksi Terbaru</a></li>
-                                    </ul>
+                                <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="#">Regulasi</a>
                                     <ul class="sub-menu">
@@ -143,12 +138,7 @@
                                     <li class="menu-item" data-size="60"><a href="price-table.html">Kalender Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="apply-to-kingster.html" class="sf-with-ul-pre">Koleksi</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="apply-to-kingster.html">Total Koleksi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="campus-tour.html">Jenis Koleksi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="scholarships.html">Koleksi Terbaru</a></li>
-                                </ul>
+                            <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                             </li>
                             <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">

@@ -1,7 +1,7 @@
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
         <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
-            <div class="gdlr-core-pbf-background-wrap" style="background-color: #192f59 ;"></div>
+            <div class="gdlr-core-pbf-background-wrap" style="background-color: #014441 ;"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
                     <div class="gdlr-core-pbf-element">
@@ -132,12 +132,12 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_18">
                                         <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Bergabung dengan kami</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Aplikasi Fall 2019 sekarang terbuka</span></div>
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Bergabung dengan kami</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Keuntungan Menjadi Anggota Perpustakaan</span></div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
                                         <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
-                                            <p>Kami tidak hanya memberi siswa pendidikan dan pengalaman yang membuat mereka sukses dalam karier. Kami membantu mereka berhasil dalam karier mereka — untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya.</p>
+                                            <p>Kami tidak hanya memberi mahasiswa/mahasiswi pendidikan dan pengalaman yang membuat mereka sukses dalam karier. Kami juga membantu mereka berhasil dalam karier mereka — untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya dengan membaca di perpustakaan.</p>
                                         </div>
                                     </div>
                                 </div>

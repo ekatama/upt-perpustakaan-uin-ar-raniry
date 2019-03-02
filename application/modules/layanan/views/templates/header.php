@@ -46,21 +46,21 @@
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="index.html">Beranda</a>
+                                <li class="menu-item menu-item-home menu-item-has-children"><a href="index.html">Beranda</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="about-us.html">Tentang</a>
+                                <li class="menu-item menu-item-has-children"><a href="tentang/views/view_tentang.php">Tentang</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Visi</a></li>
                                         <li class="menu-item"><a href="gallery.html">Misi</a></li>
                                         <li class="menu-item"><a href="price-table.html">Tujuan</a></li>
                                         <li class="menu-item"><a href="maintenance.html">Struktur Organisasi</a></li>
-                                        <li class="menu-item" data-size="60"><a href="maintenance.html">Tupoksi</a></li>
+                                        <li class="menu-item"><a href="maintenance.html">Tupoksi</a></li>
                                         <li class="menu-item"><a href="coming-soon.html">Program dan Sasaran</a></li>
                                         <li class="menu-item"><a href="coming-soon.html">Kegiatan</a></li>
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Layanan</a>
+                                <li class="menu-item current-menu-item menu-item-has-children"><a href="#">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
                                         <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
@@ -118,9 +118,9 @@
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home  menu-item-has-children kingster-normal-menu"><a href="index.html" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home menu-item-has-children kingster-normal-menu"><a href="index.html" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
-                            <li class="menu-item current-menu-item menu-item-has-children kingster-normal-menu"><a href="about-us.html" class="sf-with-ul-pre">Tentang</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Visi</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Misi</a></li>
@@ -131,7 +131,7 @@
                                     <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="bachelor-of-science-in-business-administration.html" class="sf-with-ul-pre">Layanan</a>
+                            <li class="menu-item current-menu-item menu-item-has-children kingster-normal-menu"><a href="bachelor-of-science-in-business-administration.html" class="sf-with-ul-pre">Layanan</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
