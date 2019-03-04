@@ -53,7 +53,7 @@
                                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                             <h3>Visi</h3>
                                             <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                                <p>If you would like to study in the university in the heart of the city that focus on chaning the world for better to morrow, you’re choosin the right place. We do not use special formulas to select students. We look at every single applicant&#8217;s application, academic and personal, to select students who suit to our community with a full range of backgrounds. If you would like to study</p>
+                                                <p>Menjadi universitas yang unggul dalam pengembangan dan pengintegrasian ilmu keislaman, sains, teknologi dan seni.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@
                                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                            <h3>Misi</h3>
                                             <div class="gdlr-core-text-box-item-content" id="div_983a_8">
-                                                <p>If you would like to study in the university in the heart of the city that focus on chaning the world for better to morrow, you’re choosin the right place. We do not use special formulas to select students. We look at every single applicantt&#8217;s application, academic and personal, to select students who suit to our community.</p>
+                                                <p>1. Melahirkan sarjana yang memiliki kemampuan akademik, profesi dan atau vokasi yang kompetitif.<br>2. Berorientasi pada masa depan dan berakhlak mulia.<br>3. Mengembangkan tradisi riset yang multidisipliner dan integrative bernbasis syariat islam.<br>4. Mengimplementasikan ilmu untuk membangun masyarakat madani, yang beriman, berilmu dan beramal.</p>
                                             </div>
                                         </div>
                                     </div>

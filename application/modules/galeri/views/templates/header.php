@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php echo $title ?></title>
+	<title><?php echo $title ?></title>
 
     <!-- CSS -->  
         <link rel="stylesheet" href="assets/plugins/goodlayers-core/plugins/combine/style.css" type="text/css" media="all">  
@@ -59,7 +59,7 @@
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item current-menu-item  menu-item-has-children"><a href="<?= base_url();?>layanan">Layanan</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>layanan">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
                                         <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
@@ -75,7 +75,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="<?= base_url();?>unduh">Unduh</a></li>
-                                <li class="menu-item"><a href="<?= base_url();?>galeri">Galeri</a></li>
+                                <li class="menu-item current-menu-item"><a href="<?= base_url();?>galeri">Galeri</a></li>
                                 <li class="menu-item"><a href="<?= base_url();?>situs">Situs</a></li>
                                 <li class="menu-item"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
                             </ul>
@@ -117,7 +117,7 @@
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home menu-item-has-children kingster-normal-menu"><a href="<?= base_url();  ?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
                             <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
@@ -130,7 +130,7 @@
                                     <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item current-menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>layanan" class="sf-with-ul-pre">Layanan</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>layanan" class="sf-with-ul-pre">Layanan</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
@@ -146,7 +146,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>unduh">Unduh</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>galeri">Galeri</a></li>
+                            <li class="menu-item current-menu-item kingster-normal-menu"><a href="<?= base_url();?>galeri">Galeri</a></li>
                             <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>situs">Situs</a></li>
                             <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
 

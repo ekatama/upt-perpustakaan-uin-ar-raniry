@@ -1,18 +1,18 @@
 <!-- Footer -->
-    <footer>
+        <footer>
         <div class="kingster-footer-wrapper ">
             <div class="kingster-footer-container kingster-container clearfix">
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="text-2" class="widget widget_text kingster-widget">
                         <div class="textwidget">
-                            <p><img src="assets/images/logo-upt-perpus-uin.png" alt="" />
+                            <p><img src="assets/images/logo-uin-2.png" alt="" />
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_10"></span>
-                                <br /> Box 35300
-                                <br /> 1810 Campus Way NE
-                                <br /> Bothell, WA 98011-8246</p>
-                            <p><span id="span_1dd7_11">+1-2534-4456-345</span>
+                                <br /> Perpustakaan UIN Ar-Raniry
+                                <br /> Jl. Syeikh Abdul Rauf Darussalam 
+                                <br /> Banda Aceh Indonesia, 23111 </p>
+                            <p><span id="span_1dd7_11">0651-7557325</span>
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_12"></span>
-                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">admin@kingsteruni.edu</a></p>
+                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">library@ar-raniry.ac.id</a></p>
                             <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
                                 <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_111"></div>
                             </div>

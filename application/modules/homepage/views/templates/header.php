@@ -16,7 +16,6 @@
     <!-- Custom Google Web Font -->  
         <link rel="stylesheet" id="redux-google-fonts-be_themes_data-css" href="http://fonts.googleapis.com/css?family=Montserrat%3A700%2C400%7CCrimson+Text%3A400italic%7CRaleway%3A400%2C600%7CSource+Sans+Pro%3A400&subset=latin&ver=1428407938" type="text/css" media="all">
 
-
 </head>
 <body class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full  kingster-with-sticky-navigation  kingster-blockquote-style-1 gdlr-core-link-to-lightbox">
 <!-- Mobile -->
@@ -46,21 +45,21 @@
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="index.html">Beranda</a>
+                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="<?= base_url(); ?>">Beranda</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="tentang/views/view_tentang.php">Tentang</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>tentang">Tentang</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Visi</a></li>
                                         <li class="menu-item"><a href="gallery.html">Misi</a></li>
                                         <li class="menu-item"><a href="price-table.html">Tujuan</a></li>
                                         <li class="menu-item"><a href="maintenance.html">Struktur Organisasi</a></li>
-                                        <li class="menu-item" data-size="60"><a href="maintenance.html">Tupoksi</a></li>
+                                        <li class="menu-item"><a href="maintenance.html">Tupoksi</a></li>
                                         <li class="menu-item"><a href="coming-soon.html">Program dan Sasaran</a></li>
                                         <li class="menu-item"><a href="coming-soon.html">Kegiatan</a></li>
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Layanan</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>layanan">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
                                         <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
@@ -69,16 +68,16 @@
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Regulasi</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>regulasi">Regulasi</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="course-list-1.html">Policy</a></li>
                                         <li class="menu-item"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="athletics.html">Unduh</a></li>
-                                <li class="menu-item"><a href="university-life.html">Galeri</a></li>
-                                <li class="menu-item"><a href="university-life.html">Situs</a></li>
-                                <li class="menu-item"><a href="university-life.html">FAQ</a></li>
+                                <li class="menu-item"><a href="<?= base_url();?>unduh">Unduh</a></li>
+                                <li class="menu-item"><a href="<?= base_url();?>galeri">Galeri</a></li>
+                                <li class="menu-item"><a href="<?= base_url();?>situs">Situs</a></li>
+                                <li class="menu-item"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -118,9 +117,9 @@
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="index.html" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();  ?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Tentang</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Visi</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Misi</a></li>
@@ -131,7 +130,7 @@
                                     <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="bachelor-of-science-in-business-administration.html" class="sf-with-ul-pre">Layanan</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>layanan" class="sf-with-ul-pre">Layanan</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
@@ -140,16 +139,16 @@
                             </li>
                             <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Regulasi</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>regulasi" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="course-list-1.html">Policy</a></li>
                                     <li class="menu-item" data-size="60"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item kingster-normal-menu"><a href="athletics.html">Unduh</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="university-life.html">Galeri</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="university-life.html">Situs</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="university-life.html">FAQ</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>unduh">Unduh</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>galeri">Galeri</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>situs">Situs</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
 
                         </ul>
                         <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>
@@ -174,17 +173,3 @@
             </div>
         </div>
     </header>
-
-    
-
-
-
-
-
-
-
-        
-        
-
-
-
