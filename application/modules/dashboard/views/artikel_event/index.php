@@ -23,76 +23,73 @@
         <div class="row mt-5">
             <div class="col-md-3">
               <div class="card shadow mb-4">
-              <div class="card-header">
+              <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
                     <span class='m-0 font-weight-bold text-primary'>Admin</span>
                   </div>
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
-                  <div class="card-body">
+                  <div class="card-body py-3">
                     <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
-                  <div class="card-footer py-3">
-                    <span class="m-0 font-weight-bold text-primary"><i class="far fa-eye"></i> 101 views</span>
+                  <div class="card-footer py-2">
+                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> 101 views</span>
                     <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
                   </div>
                 </div>
             </div>
             <div class="col-md-3">
               <div class="card shadow mb-4">
-              <div class="card-header">
+              <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
                     <span class='m-0 font-weight-bold text-primary'>Admin</span>
                   </div>
-                  <div class='img-fluid'>
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
-                    </div>
-                  <div class="card-body">
+                  <div class="card-body py-3">
                     <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
                     <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
                   </div>
-                  <div class="card-footer py-3">
-                    <span class="m-0 font-weight-bold text-primary"><i class="far fa-eye"></i> 101 views</span>
-                    <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
-                  </div>
-                </div>
-            </div><div class="col-md-3">
-              <div class="card shadow mb-4">
-              <div class="card-header">
-                    <span class="text-muted">Dibuat oleh: </span>
-                    <span class='m-0 font-weight-bold text-primary'>Admin</span>
-                  </div>
-                  <div class='img-fluid'>
-                    <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
-                    </div>
-                  <div class="card-body">
-                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
-                    <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
-                  </div>
-                  <div class="card-footer py-3">
-                    <span class="m-0 font-weight-bold text-primary"><i class="far fa-eye"></i> 101 views</span>
-                    <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
-                  </div>
-                </div>
-            </div><div class="col-md-3">
-              <div class="card shadow mb-4">
-              <div class="card-header">
-                    <span class="text-muted">Dibuat oleh: </span>
-                    <span class='m-0 font-weight-bold text-primary'>Admin</span>
-                  </div>
-                  <div class='img-fluid'>
-                    <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
-                    </div>
-                  <div class="card-body">
-                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
-                    <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
-                  </div>
-                  <div class="card-footer py-3">
-                    <span class="m-0 font-weight-bold text-primary"><i class="far fa-eye"></i> 101 views</span>
+                  <div class="card-footer py-2">
+                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> 101 views</span>
                     <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
                   </div>
                 </div>
             </div>
+            <div class="col-md-3">
+              <div class="card shadow mb-4">
+              <div class="card-header py-2">
+                    <span class="text-muted">Dibuat oleh: </span>
+                    <span class='m-0 font-weight-bold text-primary'>Admin</span>
+                  </div>
+                    <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
+                  <div class="card-body py-3">
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
+                  </div>
+                  <div class="card-footer py-2">
+                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> 101 views</span>
+                    <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card shadow mb-4">
+              <div class="card-header py-2">
+                    <span class="text-muted">Dibuat oleh: </span>
+                    <span class='m-0 font-weight-bold text-primary'>Admin</span>
+                  </div>
+                    <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
+                  <div class="card-body py-3">
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary">Cara Memilih Buku yang Baik dan Benar</h6></a>
+                    <p class='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore omnis.</p>
+                  </div>
+                  <div class="card-footer py-2">
+                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> 101 views</span>
+                    <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
+                  </div>
+                </div>
+            </div>
+
             
         </div>
     </div>

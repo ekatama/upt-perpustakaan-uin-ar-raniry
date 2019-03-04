@@ -106,6 +106,48 @@ class Dashboard extends CI_Controller{
             $this->load->view('templates/footer');
     }
 
+    public function galeri()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('galeri/index');
+            $this->load->view('templates/footer');
+    }
+
+    public function tambah_album()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('galeri/tambah_album');
+            $this->load->view('templates/footer');
+    }
+
+    public function tambah_foto()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('galeri/tambah_foto');
+            $this->load->view('templates/footer');
+    }
+
+    public function download()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('download/index');
+            $this->load->view('templates/footer');
+    }
+
+    public function tambah_file()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('download/tambah_file');
+            $this->load->view('templates/footer');
+    }
+
+    public function weblink()
+    {
+            $this->load->view('templates/header');
+            $this->load->view('weblink/index');
+            $this->load->view('templates/footer');
+    }
+
     
 
 

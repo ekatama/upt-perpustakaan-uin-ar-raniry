@@ -18,6 +18,7 @@
   <!-- Custom styles for this template-->
   <link href="<?= base_url(); ?>assets/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="<?= base_url(); ?>assets/dashboard/css/custom.css" rel="stylesheet">
 
 
 
@@ -32,11 +33,9 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url(); ?>index.php/dashboard/index">
+          <img src="<?= base_url(); ?>assets/images/logo uin.png" style="width:25%" alt="">
+        <div class="sidebar-brand-text mx-2">UPT Perpustakaan</div>
       </a>
 
       <!-- Divider -->
@@ -95,18 +94,39 @@
         </div>
       </li>
 
-      <!-- Nav Item - Artikel -->
+      <!-- Nav Item - Download -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/download/index">
+          <i class="fas fa-file-download"></i>
+          <span>Download</span></a>
+      </li>
+
+      <!-- Nav Item - Artikel & Event -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/artikel_event/index">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Artikel & Event</span></a>
       </li>
 
-      <!-- Nav Item - Tables -->
+      <!-- Nav Item - Video Tour -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/video_tour/index">
           <i class="fas fa-play-circle"></i>
           <span>Video Tour</span></a>
+      </li>
+
+      <!-- Nav Item - Galeri -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/galeri/index">
+          <i class="fas fa-image"></i>
+          <span>Galeri</span></a>
+      </li>
+
+      <!-- Nav Item - Weblink -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/weblink/index">
+          <i class="fas fa-link"></i>
+          <span>Weblink</span></a>
       </li>
 
 
@@ -118,11 +138,18 @@
         User
       </div>
 
-      <!-- Nav Item - Tables -->
+      <!-- Nav Item - Logs -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/logs/index">
           <i class="fas fa-fw fa-table"></i>
           <span>Logs</span></a>
+      </li>
+    
+      <!-- Nav Item - Help Desk -->
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/logs/index">
+          <i class="fas fa-question-circle"></i>
+          <span>Help Desk</span></a>
       </li>
 
       <!-- Divider -->
