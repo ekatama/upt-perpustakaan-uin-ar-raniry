@@ -29,7 +29,7 @@
                  <a href="" style="text-decoration:none"> <h6 class="m-0 font-weight-bold text-primary">Peresmian Website UPT Perpustakaan</h6></a>
                 </div>
                 <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary date"><i class="fas fa-calendar-day"></i> 03-03-19</span>
+                    <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
                     <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
@@ -54,7 +54,7 @@
                  <a href="" style="text-decoration:none"> <h6 class="m-0 font-weight-bold text-primary">Peresmian Website UPT Perpustakaan</h6></a>
                 </div>
                 <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary date"><i class="fas fa-calendar-day"></i> 03-03-19</span>
+                    <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
                     <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
@@ -79,7 +79,7 @@
                  <a href="" style="text-decoration:none"> <h6 class="m-0 font-weight-bold text-primary">Peresmian Website UPT Perpustakaan</h6></a>
                 </div>
                 <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary date"><i class="fas fa-calendar-day"></i> 03-03-19</span>
+                    <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
                     <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
@@ -104,7 +104,7 @@
                  <a href="" style="text-decoration:none"> <h6 class="m-0 font-weight-bold text-primary">Peresmian Website UPT Perpustakaan</h6></a>
                 </div>
                 <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary date"><i class="fas fa-calendar-day"></i> 03-03-19</span>
+                    <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
                     <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
