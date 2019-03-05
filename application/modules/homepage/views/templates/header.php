@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title><?php echo $title ?></title>
+	<title><?= ucfirst($title) ?></title>
 
     <!-- CSS -->  
-        <link rel="stylesheet" href="assets/plugins/goodlayers-core/plugins/combine/style.css" type="text/css" media="all">  
-        <link rel="stylesheet" href="assets/plugins/goodlayers-core/include/css/page-builder.css" type="text/css" media="all">  
-        <link rel="stylesheet" href="assets/plugins/revslider/public/assets/css/settings.css" type="text/css" media="all">  
-        <link rel="stylesheet" href="assets/css/style-core.css" type="text/css" media="all">  
-        <link rel="stylesheet" href="assets/css/kingster-style-custom.css" type="text/css" media="all"> 
+        <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/plugins/combine/style.css" type="text/css" media="all">  
+        <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/include/css/page-builder.css" type="text/css" media="all">  
+        <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/revslider/public/assets/css/settings.css" type="text/css" media="all">  
+        <link rel="stylesheet" href="<?= base_url()?>/assets/css/style-core.css" type="text/css" media="all">  
+        <link rel="stylesheet" href="<?= base_url()?>/assets/css/kingster-style-custom.css" type="text/css" media="all"> 
 
     <!-- Custom Google Web Font -->  
         <link rel="stylesheet" id="redux-google-fonts-be_themes_data-css" href="http://fonts.googleapis.com/css?family=Montserrat%3A700%2C400%7CCrimson+Text%3A400italic%7CRaleway%3A400%2C600%7CSource+Sans+Pro%3A400&subset=latin&ver=1428407938" type="text/css" media="all">
@@ -24,7 +24,7 @@
             <div class="kingster-mobile-header-container kingster-container clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.php"><img src="assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.php"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-mobile-menu-right">
@@ -47,7 +47,7 @@
                             <ul id="menu-main-navigation" class="m-menu">
                                 <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="<?= base_url(); ?>">Beranda</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>tentang">Tentang</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>tentang">Tentang</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Visi</a></li>
                                         <li class="menu-item"><a href="gallery.html">Misi</a></li>
@@ -59,7 +59,7 @@
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>layanan">Layanan</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>layanan">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
                                         <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
@@ -68,16 +68,47 @@
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= base_url();?>regulasi">Regulasi</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>regulasi">Regulasi</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="course-list-1.html">Policy</a></li>
-                                        <li class="menu-item"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
+                                        <li class="menu-item"><a href="course-list-1.html">Undang-undang</a></li>
+                                        <li class="menu-item"><a href="course-list-2.html">Peraturan</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="<?= base_url();?>unduh">Unduh</a></li>
-                                <li class="menu-item"><a href="<?= base_url();?>galeri">Galeri</a></li>
-                                <li class="menu-item"><a href="<?= base_url();?>situs">Situs</a></li>
-                                <li class="menu-item"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
+                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/")?>">Unduh</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-has-children"><a>Undergraduate</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.html">Business Administration</a></li>
+                                                <li class="menu-item"><a href="school-of-law.html">School Of Law</a></li>
+                                                <li class="menu-item"><a href="engineering.html">Engineering</a></li>
+                                                <li class="menu-item"><a href="medicine.html">Medicine</a></li>
+                                                <li class="menu-item"><a href="art-science.html">Art &#038; Science</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="#">Graduate Program</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="hospitality-management.html">Hospitality Management</a></li>
+                                                <li class="menu-item"><a href="physics.html">Physics</a></li>
+                                                <li class="menu-item"><a href="#">Chemistry</a></li>
+                                                <li class="menu-item"><a href="#">Music</a></li>
+                                                <li class="menu-item"><a href="#">Computer Science</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="#">Resources</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.html">Department Page</a></li>
+                                                <li class="menu-item"><a href="finance.html">Major Page</a></li>
+                                                <li class="menu-item"><a href="finance-faculty.html">Faculty Page</a></li>
+                                                <li class="menu-item"><a href="john-hagensy-phd.html">Single Instructor</a></li>
+                                                <li class="menu-item"><a href="introduction-to-financial-accounting.html">Single Course</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="#">Logo</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/");?>helpdesk">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -111,15 +142,15 @@
             <div class="kingster-header-container-inner clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.html"><img src="assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.html"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();  ?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>tentang" class="sf-with-ul-pre">Tentang</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Visi</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Misi</a></li>
@@ -130,7 +161,7 @@
                                     <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>layanan" class="sf-with-ul-pre">Layanan</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>layanan" class="sf-with-ul-pre">Layanan</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
@@ -139,16 +170,16 @@
                             </li>
                             <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>regulasi" class="sf-with-ul-pre">Regulasi</a>
+                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>regulasi" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="course-list-1.html">Policy</a></li>
                                     <li class="menu-item" data-size="60"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>unduh">Unduh</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>galeri">Galeri</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>situs">Situs</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= base_url();?>helpdesk">FAQ</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
+                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>helpdesk">FAQ</a></li>
 
                         </ul>
                         <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>

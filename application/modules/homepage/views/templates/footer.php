@@ -5,7 +5,7 @@
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="text-2" class="widget widget_text kingster-widget">
                         <div class="textwidget">
-                            <p><img src="assets/images/logo-uin-2.png" alt="" />
+                            <p><img src="<?= base_url();?>/assets/images/logo-uin-2.png" alt="" />
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_10"></span>
                                 <br /> Perpustakaan UIN Ar-Raniry
                                 <br /> Jl. Syeikh Abdul Rauf Darussalam 
@@ -102,17 +102,17 @@
 
 
 <!-- JavaScript -->
-    <script type='text/javascript' src='assets/js/jquery/jquery.js'></script>
-    <script type='text/javascript' src='assets/js/jquery/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
-    <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
 
     <script type="text/javascript">
         /*<![CDATA[*/
@@ -216,7 +216,7 @@
         } /*]]>*/
     </script>
 
-    <script type='text/javascript' src='assets/plugins/goodlayers-core/plugins/combine/script.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/goodlayers-core/plugins/combine/script.js'></script>
     <script type='text/javascript'>
         var gdlr_core_pbf = {
             "admin": "",
@@ -227,17 +227,17 @@
             "ajax_url": "https:\/\/demo.goodlayers.com\/kingster\/wp-admin\/admin-ajax.php"
         };
     </script>
-    <script type='text/javascript' src='assets/plugins/goodlayers-core/include/js/page-builder.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/goodlayers-core/include/js/page-builder.js'></script>
 
 
 
-    <script type='text/javascript' src='assets/js/jquery/ui/effect.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/ui/effect.min.js'></script>
     <script type='text/javascript'>
         var kingster_script_core = {
             "home_url": "https:\/\/demo.goodlayers.com\/kingster\/"
         };
     </script>
-    <script type='text/javascript' src='assets/js/plugins.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/plugins.min.js'></script>
     <script>
         /*<![CDATA[*/
         var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
