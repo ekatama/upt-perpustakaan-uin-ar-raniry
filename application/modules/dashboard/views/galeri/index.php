@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/tambah_album"><i class="fas fa-plus"></i> Album</a>
+              <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_album"><i class="fas fa-plus"></i> Album</a>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
-                    <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
+                    <a href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
           </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
-                    <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
+                    <a href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
           </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
-                    <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
+                    <a href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
           </div>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary date"><i class="far fa-calendar-alt"></i> 03-03-19</span>
-                    <a href="<?= base_url(); ?>index.php/dashboard/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
+                    <a href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto" class='btn btn-success btn-sm float-right' role='button'><i class="fas fa-plus"></i> Tambah Foto</a>
                   </div>
               </div>
           </div>
