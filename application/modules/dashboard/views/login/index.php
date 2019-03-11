@@ -14,7 +14,7 @@
                 <div class="p-5">
                   <div class="text-center mb-5">
                     <img src="<?= base_url('assets/images/logo uin.png'); ?>" alt="logo-uin" style="width:35%">
-                    <h4 class="text-uppercase text-dark">upt perpustakaan</h4>
+                    <h4 class="text-uppercase text-dark font-weight-bold">upt perpustakaan</h4>
                   </div>
                   <?php if($this->session->flashdata('login_gagal')) : ?>
                   <div class="alert alert-danger">

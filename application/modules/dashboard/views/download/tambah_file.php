@@ -9,20 +9,26 @@
 <div class="container">
   <div class="row mt-5">
       <div class="col-md-10">
-        <div class="card-body  shadow bg-white">
+        <div class="card-body shadow bg-white">
           <div class="col-md-12">
-            <form>
+            <form action="" method="post" class="needs-validation" novalidate>
               <div class="form-group">
-                <label for="formGroupExampleInput">Title</label>
-                <input type="text" class="form-control" id="formGroupExampleInput">
+                <label for="title">Title</label>
+                <input type="text" class="form-control " id="title" name="title" required>
+                  <div class="invalid-feedback"><?= form_error('title'); ?></div>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlFile1">Upload File</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <label for="file">Upload File</label>
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="file" name="file" required>
+                  <label class="custom-file-label" for="file">Choose file...</label>
+                  <div class="invalid-feedback"><?= form_error('file'); ?></div>
+                </div>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlFile1">Kategori</label>
-                <input class="form-control" list="categories" name="categories">
+                <label for="categories">Kategori</label>
+                <input class="form-control" list="categories" name="categories" required>
+                  <div class="invalid-feedback"><?= form_error('categories'); ?></div>
                 <datalist id="categories">
                   <option value="Internet Explorer">
                   <option value="Firefox">
@@ -32,7 +38,7 @@
                 </datalist>
               </div>
               <div class="form-group d-flex flex-row-reverse">
-                <a class='btn btn-primary' href="">Buat File</a>
+                <button name="tambah" type="submit" class='btn btn-primary' href="">Buat File</button>
                 <a class='btn btn-secondary mr-1' href="<?= base_url(); ?>index.php/dashboard/download/index">Kembali</a>
               </div>
             </form>

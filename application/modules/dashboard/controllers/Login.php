@@ -13,9 +13,9 @@ class Login extends MY_Controller{
             redirect(base_url('index.php/dashboard/'));
         }
 
-        $this->load->view('templates/auth_header');
+        $this->load->view('templates/login_header');
         $this->load->view('login/index');
-        $this->load->view('templates/auth_footer');
+        $this->load->view('templates/login_footer');
     }
     
     public function proses_login()
