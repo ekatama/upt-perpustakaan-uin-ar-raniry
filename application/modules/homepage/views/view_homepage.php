@@ -289,14 +289,14 @@
                                                 <h3 class="gdlr-core-block-item-title" id="h3_1dd7_10">Artikel & Event</h3>
                                                 <div class="gdlr-core-block-item-title-divider" id="div_1dd7_47"></div>
                                             </div>
-                                            <a class="gdlr-core-block-item-read-more" href="#" target="_self" id="a_1dd7_5">Lihat semua kegiatan</a>
+                                            <a class="gdlr-core-block-item-read-more" href="<?= site_url("homepage/");?>kegiatan" target="_self" id="a_1dd7_5">Lihat semua kegiatan</a>
                                         </div>
                                         <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
                                             <div class="gdlr-core-item-list-wrap gdlr-core-column-30">
                                                 <div class="gdlr-core-item-list-inner gdlr-core-item-mglr">
                                                     <div class="gdlr-core-blog-grid ">
                                                         <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="#">
+                                                            <a href="<?= site_url("homepage/");?>single_post">
                                                                 <img src="<?= base_url();?>/assets/uploads/galleries/8-g.jpg" width="700" height="430" alt="" />
                                                             </a>
                                                         </div>
@@ -580,7 +580,7 @@
                     <div class="gdlr-core-pbf-element">
                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" id="div_1dd7_77">
                             <div class="gdlr-core-text-box-item-content" id="div_1dd7_78">
-                                <p>Ikuti tur di Perpustakaan UIN Ar-Raniry dan Anda akan melihat koleksi terbaik di perpustakaan kami. Video ini akan membawa Anda ke setiap tempat di Perpustakaan.</p>
+                                <p>Ikuti tur di Perpustakaan UIN Ar-Raniry. <br>Video ini akan membawa Anda ke setiap tempat di Perpustakaan.</p>
                             </div>
                         </div>
                     </div>

@@ -45,9 +45,9 @@
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="<?= base_url(); ?>">Beranda</a>
+                                <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= base_url(); ?>">Beranda</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>tentang">Tentang</a>
+                                <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>tentang">Tentang</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Visi</a></li>
                                         <li class="menu-item"><a href="gallery.html">Misi</a></li>
@@ -59,22 +59,22 @@
                                         <li class="menu-item"><a href="404.html">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>layanan">Layanan</a>
+                                <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>layanan">Layanan</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
                                         <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
                                         <li class="menu-item"><a href="price-table.html">Kalender Kegiatan</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
+                                <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/");?>regulasi">Regulasi</a>
+                                <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>regulasi">Regulasi</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="course-list-1.html">Undang-undang</a></li>
                                         <li class="menu-item"><a href="course-list-2.html">Peraturan</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="<?= site_url("homepage/")?>">Unduh</a>
+                                <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/")?>">Unduh</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-has-children"><a>Undergraduate</a>
                                             <ul class="sub-menu">
@@ -106,9 +106,8 @@
                                         <li class="menu-item"><a href="#">Logo</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/");?>helpdesk">FAQ</a></li>
+                                <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
+                                <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -148,9 +147,9 @@
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang" class="sf-with-ul-pre">Tentang</a>
+                            <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Visi</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Misi</a></li>
@@ -161,25 +160,50 @@
                                     <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>layanan" class="sf-with-ul-pre">Layanan</a>
+                            <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>layanan" class="sf-with-ul-pre">Layanan</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
                                     <li class="menu-item" data-size="60"><a href="price-table.html">Kalender Kegiatan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
+                            <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
                             </li>
-                            <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>regulasi" class="sf-with-ul-pre">Regulasi</a>
+                            <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>regulasi" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="course-list-1.html">Policy</a></li>
+                                    <li class="menu-item " data-size="60"><a href="course-list-1.html">Policy</a></li>
                                     <li class="menu-item" data-size="60"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
-                            <li class="menu-item kingster-normal-menu"><a href="<?= site_url("homepage/");?>helpdesk">FAQ</a></li>
+                            <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?> kingster-normal-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a></li>
+                            <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> kingster-mega-menu"><a href="<?= site_url("homepage/");?>galeri">Galeri</a>
+                                <div class="sf-mega sf-mega-full megaimg">
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a class="sf-with-ul-pre">Album Kegiatan</a>
+                                            <ul class="sub-menu">
+                                                <img src="<?= base_url();?>/assets/uploads/galleries/g-a-2.jpg">
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Album Event</a>
+                                            <ul class="sub-menu">
+                                                <img src="<?= base_url();?>/assets/uploads/galleries/g-a-6.jpg">
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Album Perpustakaan</a>
+                                            <ul class="sub-menu">
+                                                <img src="<?= base_url();?>/assets/uploads/galleries/g-a-1.jpg">
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Video Tour</a>
+                                            <ul class="sub-menu">
+                                                <img src="<?= base_url();?>/assets/uploads/galleries/g-a-3.jpg">
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> kingster-normal-menu"><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
+                            
 
                         </ul>
                         <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>

@@ -16,6 +16,25 @@
 			
 		}
 
+		public function kegiatan()
+		{
+			$data['title'] = 'kegiatan';
+
+			$this->load->view('templates/header', $data);
+			$this->load->view('view_kegiatan');
+			$this->load->view('templates/footer');
+		}
+
+		public function single_post()
+		{
+			$data['title'] = 'postingan';
+
+			$this->load->view('templates/header', $data);
+			$this->load->view('view_single_post');
+			$this->load->view('templates/footer');
+
+		}
+
 		public function layanan()
 		{
 
@@ -32,19 +51,9 @@
 
 			$data['title'] = 'galeri';
 
-			if ($this->uri->segment(3)) {
-
-				$album = $this->uri->segment(3);
-
-				$this->load->view('templates/header', $data);
-				$this->load->view('view_detail_galeri');
-				$this->load->view('templates/footer');
-
-			} else {
-				$this->load->view('templates/header', $data);
-				$this->load->view('view_galeri');
-				$this->load->view('templates/footer');
-			}
+			$this->load->view('templates/header', $data);
+			$this->load->view('view_galeri');
+			$this->load->view('templates/footer');
 
 		}
 
