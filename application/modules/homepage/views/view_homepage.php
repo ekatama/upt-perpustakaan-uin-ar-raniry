@@ -137,7 +137,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
                                         <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
-                                            <p>Kami tidak hanya memberi mahasiswa/mahasiswi pendidikan dan pengalaman yang membuat mereka sukses dalam karier. Kami juga membantu mereka berhasil dalam karier mereka — untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya dengan membaca di perpustakaan.</p>
+                                            <p>Kami tidak hanya memberi mahasiswa/mahasiswi pendidikan dan pengalaman yang membuat mereka sukses dalam karier, <br>Kami juga membantu mereka berhasil dalam karier mereka untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya dengan membaca di perpustakaan.</p>
                                         </div>
                                     </div>
                                 </div>
