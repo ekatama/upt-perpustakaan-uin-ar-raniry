@@ -49,9 +49,6 @@
                     
                   </tbody>
                 </table>
-                <div class="form-group d-flex flex-row-reverse">
-                <a class='btn btn-secondary mr-1' href="<?= base_url(); ?>index.php/dashboard/download/index">Kembali</a>
-              </div>
               </div>
             </div>
           </div>

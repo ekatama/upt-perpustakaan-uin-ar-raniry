@@ -13,23 +13,29 @@
           <div class="col-md-12">
             <form action="" method="post" class="needs-validation" novalidate>
               <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" class="form-control " id="title" name="title" required>
-                  <div class="invalid-feedback"><?= form_error('title'); ?></div>
+                <label for="judul">Judul *</label>
+                <input type="text" class="form-control " id="title" name="judul" required>
+                  <div class="invalid-feedback">
+                  Judul harus diisi.
+                  </div>
               </div>
               <div class="form-group">
-                <label for="file">Upload File</label>
+                <label for="file">Unggah File *</label>
                 <div class="custom-file">
                   <input type="file" class="custom-file-input" id="file" name="file" required>
                   <label class="custom-file-label" for="file">Choose file...</label>
-                  <div class="invalid-feedback"><?= form_error('file'); ?></div>
+                  <div class="invalid-feedback">
+                  File harus diisi.
+                  </div>
                 </div>
               </div>
               <div class="form-group">
-                <label for="categories">Kategori</label>
-                <input class="form-control" list="categories" name="categories" required>
-                  <div class="invalid-feedback"><?= form_error('categories'); ?></div>
-                <datalist id="categories">
+                <label for="kategori">Kategori *</label>
+                <input class="form-control" list="kategori" name="kategori" required>
+                  <div class="invalid-feedback">
+                  Kategori harus diisi.
+                  </div>
+                <datalist id="kategori">
                   <option value="Internet Explorer">
                   <option value="Firefox">
                   <option value="Chrome">

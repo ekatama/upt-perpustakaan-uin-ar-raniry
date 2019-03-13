@@ -20,20 +20,25 @@ class Login extends MY_Controller{
     
     public function proses_login()
     {
+
         $email = $this->input->post('email');
         $pass = $this->input->post('password');
  
         $login = $this->user_model->cek_user($email, $pass);
 
-        if(!empty($login)) {
+        if($login) {
 
             //login berhasil
-            $this->session->set_userdata($login);
+            $data = [
+                'email' => $login['email'],
+                'admin' => TRUE
+            ];
+            $this->session->set_userdata($data);
 
-            // print_r($this->session->userdata('email'));
             redirect(base_url('index.php/dashboard'));
+
         } else {
-            
+
             $this->session->set_flashdata('login_gagal', 'Username atau password salah');
             redirect(base_url('index.php/dashboard/login'));
         }

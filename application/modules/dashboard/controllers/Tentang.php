@@ -1,11 +1,19 @@
 <?php
 
 class Tentang extends MY_Controller{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Tentang_model');
+
+    }
 
     public function tentang_perpustakaan()
     {
+        $data['tentang'] = $this->Tentang_model->getAll();
+
         $this->load->view('templates/header');
-        $this->load->view('tentang/tentang_perpustakaan');
+        $this->load->view('tentang/tentang_perpustakaan', $data);
         $this->load->view('templates/footer');
     }
 

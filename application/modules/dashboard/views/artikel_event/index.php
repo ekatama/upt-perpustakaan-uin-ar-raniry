@@ -21,7 +21,7 @@
 
     <div class="container">
         <div class="row mt-5">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
               <div class="card shadow mb-4">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
@@ -38,7 +38,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
               <div class="card shadow mb-4">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
@@ -55,7 +55,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
               <div class="card shadow mb-4">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
@@ -72,7 +72,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
               <div class="card shadow mb-4">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>

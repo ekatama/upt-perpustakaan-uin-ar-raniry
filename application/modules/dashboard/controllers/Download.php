@@ -18,9 +18,9 @@ class Download extends MY_Controller{
 
         public function tambah_file()
         {
-                $this->form_validation->set_rules('title', 'Title', 'required');
+                $this->form_validation->set_rules('judul', 'Judul', 'required');
                 $this->form_validation->set_rules('file', 'File', 'required');
-                $this->form_validation->set_rules('categories', 'Kategori', 'required');
+                $this->form_validation->set_rules('kategori', 'Kategori', 'required');
 
                 if($this->form_validation->run() == FALSE){
 
