@@ -5,14 +5,18 @@ class Download extends MY_Controller{
         function __construct() {
                 
                 parent::__construct();
+
+                $this->load->model('Download_model');
                 $this->load->library('form_validation');
                 
         }
 
         public function index()
         {
+
+                $data ['download'] = $this->Download_model->getAll();
                 $this->load->view('templates/header');
-                $this->load->view('download/index');
+                $this->load->view('download/index', $data);
                 $this->load->view('templates/footer');
         }
 

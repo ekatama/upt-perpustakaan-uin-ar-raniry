@@ -9,7 +9,7 @@ class Login extends MY_Controller{
     }
     public function index()
     {
-        if($this->session->userdata('email') == "admin@admin.com"){
+        if($this->session->userdata('admin') == TRUE){
             redirect(base_url('index.php/dashboard/'));
         }
 

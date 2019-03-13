@@ -6,14 +6,16 @@ class Artikel_event extends MY_Controller{
     function __construct() {
                 
         parent::__construct();
+        $this->load->model('Artikel_model');
         $this->load->library('form_validation');
         
     }
 
     public function index()
     {
+        $data ['artikel'] = $this->Artikel_model->getAll();
         $this->load->view('templates/header');
-        $this->load->view('artikel_event/index');
+        $this->load->view('artikel_event/index', $data);
         $this->load->view('templates/footer');
     }
 

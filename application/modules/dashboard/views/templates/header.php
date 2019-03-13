@@ -70,7 +70,8 @@
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/misi">Misi</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tujuan">Tujuan</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/struktur_organisasi">Struktur Organisasi</a>
-            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tupoksi">Tupoksi</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tugas_pokok">Tugas Pokok</a>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/fungsi">Fungsi</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/program_sasaran">Program Sasaran</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/kegiatan">Kegiatan</a>
           </div>

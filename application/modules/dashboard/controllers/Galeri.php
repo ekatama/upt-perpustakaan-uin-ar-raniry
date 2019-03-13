@@ -5,14 +5,16 @@ class Galeri extends MY_Controller{
         function __construct() {
                 
                 parent::__construct();
+                $this->load->model('Galeri_model');
                 $this->load->library('form_validation');
                 
                 }
 
     public function index()
     {
+            $data ['galeri'] = $this->Galeri_model->getAll();
             $this->load->view('templates/header');
-            $this->load->view('galeri/index');
+            $this->load->view('galeri/index', $data);
             $this->load->view('templates/footer');
     }
 
@@ -28,7 +30,7 @@ class Galeri extends MY_Controller{
         } else {
                 echo "berhasil";
         }
-     }
+    }
 
     public function tambah_foto()
     {
