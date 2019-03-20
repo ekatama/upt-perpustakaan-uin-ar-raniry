@@ -35,7 +35,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url(); ?>index.php/dashboard/index">
           <img src="<?= base_url(); ?>assets/images/logo uin.png" style="width:25%" alt="">
-        <div class="sidebar-brand-text mx-2">UPT Perpustakaan</div>
+        <div class="sidebar-brand-text text-left mx-2">UPT Perpustakaan</div>
       </a>
 
       <!-- Divider -->
@@ -59,7 +59,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTentang" aria-expanded="true" aria-controls="collapseTentang">
-          <i class="fas fa-fw fa-cog"></i>
+          <i class="fas fa-info-circle"></i>
           <span>Tentang</span>
         </a>
         <div id="collapseTentang" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -78,19 +78,15 @@
         </div>
       </li>
 
-      <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Utilities</span>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayanan" aria-expanded="true" aria-controls="collapseLayanan">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Layanan</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="collapseLayanan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Colors</a>
-            <a class="collapse-item" href="utilities-border.html">Borders</a>
-            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-            <a class="collapse-item" href="utilities-other.html">Other</a>
+            <h6 class="collapse-header">Custom Components:</h6>
+            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/layanan/jadwal_layanan">Jadwal Layanan</a>
           </div>
         </div>
       </li>
@@ -205,8 +201,8 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                <span class="d-none d-lg-inline text-gray-600 small piped"><?= $this->session->get_userdata()['fullname'];?></span>
+                <img class="img-profile rounded-circle" src="<?= base_url(); ?>assets/images/logo uin.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

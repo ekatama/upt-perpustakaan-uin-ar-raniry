@@ -6,7 +6,7 @@ class User_model extends CI_Model{
     {
         $this->db->where("email", $email);
         $this->db->where('password', md5($password));
-        $query = $this->db->select('email, password')->get('users');
+        $query = $this->db->select('email, password, fullname')->get('users');
         return $query->row_array();
     }
 }

@@ -1,4 +1,15 @@
 //Sweetalert2 function
+const flashData = $('.flash-data').data('flashdata');
+
+if (flashData) {
+	Swal.fire({
+		title: 'Album',
+		text: 'Berhasil ' + flashData + ' :)',
+		type: 'success'
+	});
+}
+
+//tombol logout
 $('.tombol-logout').on('click', function (e) {
 
 	e.preventDefault();
@@ -6,12 +17,31 @@ $('.tombol-logout').on('click', function (e) {
 
 	Swal.fire({
 		title: 'Apakah anda yakin?',
-		text: 'Pilih "Logout" jika ingin keluar dari halaman ini',
 		type: 'warning',
 		showCancelButton: true,
 		confirmButtonColor: 'btn btn-primary',
 		cancelButtonColor: 'btn btn-secondary',
 		confirmButtonText: 'Logout'
+	}).then((result) => {
+		if (result.value) {
+			document.location.href = href;
+		}
+	})
+})
+
+//tombol hapus
+$('.tombol-hapus').on('click', function (e) {
+
+	e.preventDefault();
+	const href = $(this).attr('href');
+
+	Swal.fire({
+		title: 'Apakah anda yakin?',
+		type: 'warning',
+		showCancelButton: true,
+		confirmButtonColor: '#e74a3b',
+		cancelButtonColor: 'btn btn-secondary',
+		confirmButtonText: 'Hapus'
 	}).then((result) => {
 		if (result.value) {
 			document.location.href = href;

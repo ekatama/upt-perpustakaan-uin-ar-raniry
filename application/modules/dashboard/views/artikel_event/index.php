@@ -23,18 +23,18 @@
         <div class="row mt-5">
         <?php foreach($artikel as $artkl): ?>
             <div class="col-md-3 col-sm-6">
-              <div class="card shadow mb-4">
+              <div class="card shadow mb-4" style="min-height:407px;">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
-                    <span class='m-0 font-weight-bold text-primary'>Admin</span>
+                    <span class='m-0 font-weight-bold text-primary'><?= $this->session->get_userdata()['fullname'];?></span>
                   </div>
                     <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
                   <div class="card-body py-3">
-                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= $artkl['title'];?></h6></a>
-                    <p class='mb-0'><?= $artkl['content'];?></p>
+                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['title'],7," ...");?></h6></a>
+                    <p class='mb-0'><?= word_limiter($artkl['content'],10," ...");?></p>
                   </div>
                   <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> 101 views</span>
+                    <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> <?=$artkl['view'];?> views</span>
                     <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
                   </div>
                 </div>

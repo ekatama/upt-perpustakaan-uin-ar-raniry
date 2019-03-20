@@ -32,7 +32,6 @@
               </div>
               <div class="form-group d-flex flex-row-reverse">
                 <button type="submit" class='btn btn-success' href="">Posting Foto</button>
-                <a class='btn btn-secondary mr-1' href="<?= base_url(); ?>index.php/dashboard/galeri/index">Kembali</a>
               </div>
             </form>
             

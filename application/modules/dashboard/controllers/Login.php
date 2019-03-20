@@ -31,6 +31,7 @@ class Login extends MY_Controller{
             //login berhasil
             $data = [
                 'email' => $login['email'],
+                'fullname' => $login['fullname'],
                 'admin' => TRUE
             ];
             $this->session->set_userdata($data);

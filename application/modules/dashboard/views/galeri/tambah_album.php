@@ -13,15 +13,14 @@
           <div class="col-md-12">
             <form action="" method="post" class="needs-validation" novalidate>
               <div class="form-group">
-                <label for="judul">Judul *</label>
+                <label for="judul">Judul*</label>
                 <input type="text" class="form-control" id="judul" name="judul" required>
                 <div class="invalid-feedback">
                 Judul harus diisi.
                 </div>
               </div>
-              <div class="form-group d-flex flex-row-reverse">
+              <div class="form-group d-flex flex-row-reverse mt-5">
                 <button type="submit" class='btn btn-primary' href="">Buat Album</button>
-                <a class='btn btn-secondary mr-1' href="<?= base_url(); ?>index.php/dashboard/galeri/index">Kembali</a>
               </div>
             </form>
             

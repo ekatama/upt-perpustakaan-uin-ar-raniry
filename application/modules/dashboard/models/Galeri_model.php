@@ -2,8 +2,21 @@
 
 class Galeri_model extends CI_Model{
 
-    public function getAll()
+    public function getAlbum()
     {
-        return $this->db->get('galleries')->result_array();
+        return $this->db->get('albums')->result_array();
+    }
+
+    public function tambahAlbum()
+    {
+        $data = [ "name" => $this->input->post('judul', true) ];
+
+        $this->db->insert('albums', $data);
+    }
+
+    public function hapusAlbum($id)
+    {
+        $this->db->where('id', $id);
+        $this->db->delete('albums');
     }
 }

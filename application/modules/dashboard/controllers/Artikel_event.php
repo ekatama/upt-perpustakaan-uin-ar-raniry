@@ -8,6 +8,7 @@ class Artikel_event extends MY_Controller{
         parent::__construct();
         $this->load->model('Artikel_model');
         $this->load->library('form_validation');
+        $this->load->helper('text');
         
     }
 
