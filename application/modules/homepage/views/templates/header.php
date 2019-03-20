@@ -60,13 +60,8 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>layanan">Layanan</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="about-us.html">Jadwal layanan</a></li>
-                                        <li class="menu-item"><a href="gallery.html">Jenis Layanan</a></li>
-                                        <li class="menu-item"><a href="price-table.html">Kalender Kegiatan</a></li>
-                                    </ul>
                                 </li>
-                                <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
+                                <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">Koleksi</a>
                                 </li>
                                 <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>regulasi">Regulasi</a>
                                     <ul class="sub-menu">
@@ -76,7 +71,7 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/")?>">Unduh</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-has-children"><a>Undergraduate</a>
+                                        <li class="menu-item menu-item-has-children"><a></a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item"><a href="bachelor-of-science-in-business-administration.html">Business Administration</a></li>
                                                 <li class="menu-item"><a href="school-of-law.html">School Of Law</a></li>
@@ -126,10 +121,10 @@
                         <div class="kingster-top-bar-right kingster-item-pdlr">
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
                                 <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li>
-                                <li class="menu-item kingster-normal-menu"><a href="#">Calendar</a></li>
-                                <li class="menu-item kingster-normal-menu"><a href="#">Portal</a></li>
+                                <li class="menu-item kingster-normal-menu"><a href="#">Kalender</a></li>
+                                <li class="menu-item kingster-normal-menu"><a href="#">Opac</a></li>
                             </ul>
-                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">Support KU</a></div>
+                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">FAQ</a></div>
                     </div>
                 </div>
             </div>
@@ -151,23 +146,18 @@
                             </li>
                             <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="about-us.html">Visi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="gallery.html">Misi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="price-table.html">Tujuan</a></li>
-                                    <li class="menu-item" data-size="60"><a href="maintenance.html">Struktur Organisasi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="maintenance.html">Tupoksi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="coming-soon.html">Program Sasaran</a></li>
-                                    <li class="menu-item" data-size="60"><a href="404.html">Kegiatan</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Visi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Misi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Tujuan</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Struktur Organisasi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Tupoksi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Program Sasaran</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Kegiatan</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>layanan" class="sf-with-ul-pre">Layanan</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="about-us.html">Jadwal layanan</a></li>
-                                    <li class="menu-item" data-size="60"><a href="gallery.html">Jenis Layanan</a></li>
-                                    <li class="menu-item" data-size="60"><a href="price-table.html">Kalender Kegiatan</a></li>
-                                </ul>
                             </li>
-                            <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">koleksi</a>
+                            <li class="menu-item <?= ( $title == "koleksi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="http://opac.ar-raniry.ac.id">Koleksi</a>
                             </li>
                             <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>regulasi" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">
@@ -175,7 +165,42 @@
                                     <li class="menu-item" data-size="60"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?> kingster-normal-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a></li>
+                            <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?>  kingster-mega-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a>
+                                <div class="sf-mega sf-mega-full megaimg">
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-has-children" data-size="15">
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.html">Business Administration</a></li>
+                                                <li class="menu-item"><a href="school-of-law.html">School Of Law</a></li>
+                                                <li class="menu-item"><a href="engineering.html">Engineering</a></li>
+                                                <li class="menu-item"><a href="medicine.html">Medicine</a></li>
+                                                <li class="menu-item"><a href="art-science.html">Art &#038; Science</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children" data-size="15">
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="hospitality-management.html">Hospitality Management</a></li>
+                                                <li class="menu-item"><a href="physics.html">Physics</a></li>
+                                                <li class="menu-item"><a href="#">Chemistry</a></li>
+                                                <li class="menu-item"><a href="#">Music</a></li>
+                                                <li class="menu-item"><a href="#">Computer Science</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children" data-size="15">
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.html">Department Page</a></li>
+                                                <li class="menu-item"><a href="finance.html">Major Page</a></li>
+                                                <li class="menu-item"><a href="finance-faculty.html">Faculty Page</a></li>
+                                                <li class="menu-item"><a href="john-hagensy-phd.html">Single Instructor</a></li>
+                                                <li class="menu-item"><a href="introduction-to-financial-accounting.html">Single Course</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item" data-size="15">
+                                            <div class="kingster-mega-menu-section-content"><img src="<?= base_url();?>/assets/uploads/galleries/" id="img_fd84_0" alt="" /> <span id="span_fd84_0">Academic offerings include 95 majors, 86 minors, and more than 100 in-major specializations</span></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> kingster-mega-menu"><a href="<?= site_url("homepage/");?>galeri">Galeri</a>
                                 <div class="sf-mega sf-mega-full megaimg">
                                     <ul class="sub-menu">

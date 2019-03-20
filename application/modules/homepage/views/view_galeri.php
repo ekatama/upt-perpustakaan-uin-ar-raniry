@@ -4,7 +4,17 @@
     <div class="kingster-page-title-container kingster-container">
         <div class="kingster-page-title-content kingster-item-pdlr">
             <div class="kingster-page-caption">Koleksi Album Foto Kegiatan & Event</div>
-            <h1 class="kingster-page-title">Album</h1></div>
+            <h1 class="kingster-page-title">Galeri</h1></div>
+    </div>
+</div>
+<div class="kingster-breadcrumbs">
+    <div class="kingster-breadcrumbs-container kingster-container">
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Beranda</span></a>
+            <meta property="position" content="1">
+            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Galeri</span>
+            <meta property="position" content="2">
+            </span>
+        </div>
     </div>
 </div>
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">

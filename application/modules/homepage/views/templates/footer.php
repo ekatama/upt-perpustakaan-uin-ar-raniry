@@ -21,15 +21,15 @@
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Our Campus</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Perpustakaan</h3><span class="clear"></span>
                         <div class="menu-our-campus-container">
                             <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Acedemic</a></li>
-                                <li class="menu-item"><a href="#">Planning &#038; Administration</a></li>
-                                <li class="menu-item"><a href="#">Campus Safety</a></li>
-                                <li class="menu-item"><a href="#">Office of the Chancellor</a></li>
-                                <li class="menu-item"><a href="#">Facility Services</a></li>
-                                <li class="menu-item"><a href="#">Human Resources</a></li>
+                                <li class="menu-item"><a href="#">Opac</a></li>
+                                <li class="menu-item"><a href="#">Layanan</a></li>
+                                <li class="menu-item"><a href="#">Galeri</a></li>
+                                <li class="menu-item"><a href="#">Kegiatan</a></li>
+                                <li class="menu-item"><a href="#">Koleksi</a></li>
+                                <li class="menu-item"><a href="#">Tentang</a></li>
                             </ul>
                         </div>
                     </div>
@@ -74,15 +74,6 @@
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                             <i class="fa fa-facebook" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus">
-                            <i class="fa fa-google-plus" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
-                            <i class="fa fa-linkedin" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype">
-                            <i class="fa fa-skype" ></i>
                         </a>
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
                             <i class="fa fa-twitter" ></i>
