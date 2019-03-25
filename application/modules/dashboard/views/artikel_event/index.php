@@ -1,25 +1,23 @@
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6">
-          <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/artikel_event/tambah_artikel"><i class="fas fa-plus"></i> Artikel</a>
-          <a class='btn btn-success' href="<?= base_url(); ?>index.php/dashboard/artikel_event/tambah_event"><i class="fas fa-plus"></i> Event</a>
-        </div>
-        <div class="col-md-6">
-              <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search float-right">
-                <div class="input-group">
-                  <input type="text" class="form-control border-0 small" placeholder="Cari artikel..." aria-label="Search" aria-describedby="basic-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">
-                      <i class="fas fa-search fa-sm"></i>
-                    </button>
-                  </div>
-                </div>
-              </form>
+        <div class="col-md-12">
+          <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/artikel_event/tambah_artikel"><i class="fas fa-plus"></i> Artikel / Event</a>
+          <form action="" method="get" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search float-right">
+            <div class="input-group">
+              <input type="text" class="form-control border-0 small" name="keyword" placeholder="Cari artikel..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
+      <div class="flash-data-artikel" data-flashdata="<?= $this->session->flashdata('flash');?>"></div>
         <div class="row mt-5">
         <?php foreach($artikel as $artkl): ?>
             <div class="col-md-3 col-sm-6">
@@ -28,14 +26,14 @@
                     <span class="text-muted">Dibuat oleh: </span>
                     <span class='m-0 font-weight-bold text-primary'><?= $this->session->get_userdata()['fullname'];?></span>
                   </div>
-                    <img src="<?= base_url(); ?>assets/images/16-g.png" style='width:100%' alt="buku">
+                    <img src="<?= base_url('assets/dashboard/uploads/artikel_event/').$artkl['cover']; ?>" style='width:100%' alt="buku">
                   <div class="card-body py-3">
                     <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['title'],7," ...");?></h6></a>
                     <p class='mb-0'><?= word_limiter($artkl['content'],10," ...");?></p>
                   </div>
                   <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> <?=$artkl['view'];?> views</span>
-                    <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
+                    <a href="<?= base_url();?>index.php/dashboard/artikel_event/hapus/<?= $artkl['id'];?>" class='btn btn-danger btn-sm float-right tombol-hapus' role='button'><i class="fas fa-trash"></i> Hapus</a>
                   </div>
                 </div>
             </div>

@@ -1,10 +1,33 @@
 //Sweetalert2 function
-const flashData = $('.flash-data').data('flashdata');
+//sweetalert album
+const flashDataAlbum = $('.flash-data-album').data('flashdata');
 
-if (flashData) {
+if (flashDataAlbum) {
 	Swal.fire({
 		title: 'Album',
-		text: 'Berhasil ' + flashData + ' :)',
+		text: 'Berhasil ' + flashDataAlbum + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert artikel
+const flashDataArtikel = $('.flash-data-artikel').data('flashdata');
+
+if (flashDataArtikel) {
+	Swal.fire({
+		title: 'Artikel atau Event',
+		text: 'Berhasil ' + flashDataArtikel + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert artikel
+const flashDataFoto = $('.flash-data-foto').data('flashdata');
+
+if (flashDataFoto) {
+	Swal.fire({
+		title: 'Foto',
+		text: 'Berhasil ' + flashDataFoto + ' :)',
 		type: 'success'
 	});
 }
@@ -69,3 +92,9 @@ window.addEventListener('load', function () {
 $(document).ready(function () {
 	bsCustomFileInput.init()
 })
+
+// Drag n drop function
+$("#dragndrop").dropzone({
+	maxFilesize: 4,
+	acceptedFiles: "image/*"
+});

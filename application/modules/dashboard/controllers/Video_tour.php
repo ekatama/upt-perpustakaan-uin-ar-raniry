@@ -4,7 +4,9 @@ class Video_tour extends MY_Controller{
 
     public function index()
     {
-        $this->load->view('templates/header');
+        $data['title'] = 'Video Tour';
+
+        $this->load->view('templates/header', $data);
         $this->load->view('video_tour/index');
         $this->load->view('templates/footer');
     }

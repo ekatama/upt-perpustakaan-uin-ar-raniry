@@ -15,9 +15,10 @@ class Tentang extends MY_Controller{
 
         if($this->form_validation->run() == FALSE){
         
+        $data['title'] = 'Tentang';
         $data['tentang'] = $this->Tentang_model->getType('tentang');
 
-        $this->load->view('templates/header');
+        $this->load->view('templates/header', $data);
         $this->load->view('tentang/tentang_perpustakaan', $data);
         $this->load->view('templates/footer');
     } else {
@@ -32,10 +33,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+            
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('visi');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/visi', $data);
             $this->load->view('templates/footer');
         } else {
@@ -50,10 +52,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('misi');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/misi', $data);
             $this->load->view('templates/footer');
         } else {
@@ -68,10 +71,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('tujuan');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/tujuan', $data);
             $this->load->view('templates/footer');
         } else {
@@ -83,7 +87,9 @@ class Tentang extends MY_Controller{
 
     public function struktur_organisasi()
     {
-        $this->load->view('templates/header');
+        $data['title'] = 'Tentang';
+
+        $this->load->view('templates/header', $data);
         $this->load->view('tentang/struktur_organisasi');
         $this->load->view('templates/footer');
     }
@@ -93,10 +99,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('tugas');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/tugas_pokok', $data);
             $this->load->view('templates/footer');
         } else {
@@ -111,10 +118,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('fungsi');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/fungsi', $data);
             $this->load->view('templates/footer');
         } else {
@@ -129,10 +137,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('program');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/program_sasaran', $data);
             $this->load->view('templates/footer');
         } else {
@@ -147,10 +156,11 @@ class Tentang extends MY_Controller{
         $this->form_validation->set_rules('konten', 'Konten', 'required|trim');
 
         if($this->form_validation->run() == FALSE){
-        
+
+            $data['title'] = 'Tentang';
             $data['tentang'] = $this->Tentang_model->getType('kegiatan');
 
-            $this->load->view('templates/header');
+            $this->load->view('templates/header', $data);
             $this->load->view('tentang/kegiatan', $data);
             $this->load->view('templates/footer');
         } else {

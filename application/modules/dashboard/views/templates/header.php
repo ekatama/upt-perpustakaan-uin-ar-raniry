@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>UPT Perpustakaan - Dashboard</title>
+  <title>UPT Perpustakaan - <?= $title;?></title>
 
   <!-- Custom fonts for this template-->
   <!-- <link href="assets/dashboard/vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css"> -->
@@ -19,6 +19,8 @@
   <link href="<?= base_url(); ?>assets/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="<?= base_url(); ?>assets/dashboard/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/dashboard/css/dragndrop/basic.min.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/dashboard/css/dragndrop/dropzone.min.css">
 
 
 
@@ -42,7 +44,11 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
+      <?php if ($title == 'Dashboard') : ?>
       <li class="nav-item active">
+      <?php else : ?>
+      <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/index">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
@@ -57,7 +63,11 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
+      <?php if ($title == 'Tentang') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTentang" aria-expanded="true" aria-controls="collapseTentang">
           <i class="fas fa-info-circle"></i>
           <span>Tentang</span>
@@ -92,21 +102,33 @@
       </li>
 
       <!-- Nav Item - Download -->
+      <?php if ($title == 'Download') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/download/index">
           <i class="fas fa-file-download"></i>
           <span>Download</span></a>
       </li>
 
       <!-- Nav Item - Artikel & Event -->
+      <?php if ($title == 'Artikel / Event') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/artikel_event/index">
-          <i class="fas fa-fw fa-chart-area"></i>
+          <i class="fas fa-newspaper"></i>
           <span>Artikel & Event</span></a>
       </li>
 
       <!-- Nav Item - Video Tour -->
+      <?php if ($title == 'Video Tour') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/video_tour/index">
           <i class="fas fa-play-circle"></i>
           <span>Video Tour</span></a>
@@ -177,25 +199,20 @@
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Cari..." aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
+          <!-- Dropdown - Messages -->
+          <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+            <form class="form-inline mr-auto w-100 navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light border-0 small" placeholder="Cari..." aria-label="Search" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fas fa-search fa-sm"></i>
+                    </button>
                   </div>
-                </form>
-              </div>
-            </li>
+                </div>
+              </form>
+            </div>
+          </li>
             
 
             <!-- Nav Item - User Information -->
@@ -206,15 +223,7 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="<?= base_url('index.php/dashboard/logs/index');?>">
                   <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                   Activity Log
                 </a>

@@ -12,27 +12,8 @@
         <div class="card-body  shadow bg-white">
           <div class="col-md-12">
             <h4 class="text-dark mb-5">Peresmian Website UPT Perpustakaan</h4>
-            <form action="" method="post" class="needs-validation" novalidate>
-            <div class="form-group">
-                <label for="foto">Upload Foto *</label>
-                <div class="custom-file">
-                  <input type="file" class="custom-file-input" id="foto" name="foto" required>
-                  <label class="custom-file-label" for="fotosampul">Pilih foto...</label>
-                  <div class="invalid-feedback">
-                  File Foto harus diisi.
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="deskripsi">Deskripsi *</label>
-                <input type="text" class="form-control" id="deskripsi" name="deskripsi" required>
-                <div class="invalid-feedback">
-                  Deskripsi harus diisi.
-                </div>
-              </div>
-              <div class="form-group d-flex flex-row-reverse">
-                <button type="submit" class='btn btn-success' href="">Posting Foto</button>
-              </div>
+            <form enctype="multipart/form-data" action="<?= base_url('index.php/dashboard/galeri/prosesTambahFoto');?>" method="post" class="dropzone" id="dragndrop">
+            <input type="hidden" name="album" value="<?= $this->uri->segment(4);?>">
             </form>
             
           </div>

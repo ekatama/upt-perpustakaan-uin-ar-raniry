@@ -6,14 +6,15 @@ class Dashboard extends MY_Controller{
         parent::__construct();
 
         if($this->session->userdata('email') !== "admin@admin.com"){
-            redirect(base_url('index.php/dashboard/login'));
+            redirect('index.php/dashboard/login');
         }
 
     } 
     public function index()
     {
+        $data['title'] = 'Dashboard';
 
-        $this->load->view('templates/header');
+        $this->load->view('templates/header', $data);
         $this->load->view('index');
         $this->load->view('templates/footer');
     }
