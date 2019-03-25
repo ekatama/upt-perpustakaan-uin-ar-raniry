@@ -1,4 +1,4 @@
-<!-- Footer -->
+ <!-- Footer -->
         <footer>
         <div class="kingster-footer-wrapper ">
             <div class="kingster-footer-container kingster-container clearfix">
@@ -24,46 +24,34 @@
                         <h3 class="kingster-widget-title">Perpustakaan</h3><span class="clear"></span>
                         <div class="menu-our-campus-container">
                             <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Opac</a></li>
-                                <li class="menu-item"><a href="#">Layanan</a></li>
-                                <li class="menu-item"><a href="#">Galeri</a></li>
-                                <li class="menu-item"><a href="#">Kegiatan</a></li>
-                                <li class="menu-item"><a href="#">Koleksi</a></li>
-                                <li class="menu-item"><a href="#">Tentang</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/tentang");?>">Tentang</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/layanan");?>">Layanan</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/koleksi");?>">Koleksi</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/regulasi");?>">Regulasi</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/galeri");?>">Galeri</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/unduh");?>">Unduh</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/situs");?>">Situs</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Campus Life</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Situs</h3><span class="clear"></span>
                         <div class="menu-campus-life-container">
                             <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Accessibility</a></li>
-                                <li class="menu-item"><a href="#">Financial Aid</a></li>
-                                <li class="menu-item"><a href="#">Food Services</a></li>
-                                <li class="menu-item"><a href="#">Housing</a></li>
-                                <li class="menu-item"><a href="#">Information Technologies</a></li>
-                                <li class="menu-item"><a href="#">Student Life</a></li>
+                                <?php foreach ($weblinks as $val) : ?>
+                                    <li class="menu-item">
+                                        <a href="<?= $val['url'];?>">
+                                            <?= $val['title'];?>
+                                            </a>
+                                        </li>
+                                <?php endforeach; ?>   
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                    <div id="gdlr-core-custom-menu-widget-4" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Academics</h3><span class="clear"></span>
-                        <div class="menu-academics-container">
-                            <ul id="menu-academics" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Canvas</a></li>
-                                <li class="menu-item"><a href="#">Catalyst</a></li>
-                                <li class="menu-item"><a href="#">Library</a></li>
-                                <li class="menu-item"><a href="#">Time Schedule</a></li>
-                                <li class="menu-item"><a href="#">Apply For Admissions</a></li>
-                                <li class="menu-item"><a href="#">Pay My Tuition</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         
@@ -363,6 +351,20 @@
 
     <script type='text/javascript' src='<?= base_url(); ?>/assets/js/plugins.min.js'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/js/isotope.js'></script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
     </body>
 </html>

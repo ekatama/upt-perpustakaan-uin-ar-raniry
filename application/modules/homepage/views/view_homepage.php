@@ -94,7 +94,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
                                         <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                            <p><?= $tentang['content'];?></p>
+                                            <p><?= $tentang['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,9 +160,8 @@
                                                 <div class="gdlr-core-item-list-inner gdlr-core-item-mglr">
                                                     <div class="gdlr-core-blog-grid ">
                                                         <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id;?>">
-                                                                <?php print_r($artikel_utama); ?>
-                                                                <img src="<?= base_url();?>/assets/uploads/homepage/6-g.jpg" width="700" height="430" alt="" />
+                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id; ?>">
+                                                                <img src="<?= base_url();?>assets/dashboard/uploads/artikel_event/<?= $artikel_utama->cover;?>" width="700" height="430" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="gdlr-core-blog-grid-content-wrap">
@@ -176,7 +175,7 @@
                                                                 </span>
                                                             </div>
                                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_11">
-                                                                <a href="<?= site_url("homepage/");?>single_post"><?= $artikel_utama->title;?></a>
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id ?>"><?= $artikel_utama->title;?></a>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -189,8 +188,8 @@
                                                     }?>
                                                     <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                                         <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="<?= site_url("homepage/");?>single_post/">
-                                                                <img src="<?= base_url();?>/assets/uploads/homepage/tn-1.jpg" alt="" width="150" height="150" title="Student" />
+                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>">
+                                                                <img src="<?= base_url();?>assets/dashboard/uploads/artikel_event/<?= $val['cover'];?>" alt="" width="150" height="150" title="Student" />
                                                             </a>
                                                         </div>
                                                         <div class="gdlr-core-blog-widget-content">
@@ -203,7 +202,7 @@
                                                                 </span>
                                                             </div>
                                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_12">
-                                                                <a href="<?= site_url("homepage/");?>single_post"><?= $val['title'];?></a>
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['title'];?></a>
                                                             </h3>
                                                         </div>
                                                     </div>

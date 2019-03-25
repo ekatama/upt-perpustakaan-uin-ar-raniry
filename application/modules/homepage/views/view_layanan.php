@@ -90,7 +90,6 @@
                                                     <tbody>
                                                         <tr>
                                                             <th>Jenis Layanan</th>
-                                                            <th>Tentang</th>
                                                             <th>Jam</th>
                                                             
                                                         </tr>
@@ -98,35 +97,12 @@
                                                         <?php foreach ($layanan as $val) : ?>
                                                             <tr>
                                                                 <td><?= $val['title']; ?></td>    
-                                                                <td><?= $val['content']; ?></td>
                                                                 <td><?= $val['jadwal']; ?></td>
                                                             </tr>
                                                         <?php endforeach; ?>
                                                     </tbody>
                                                 </table>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px ;">
-                                        <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Where to submit necessary documents?</h3></div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px ;">
-                                        <div class="gdlr-core-text-box-item-content" style="font-size: 17px ;text-transform: none ;">
-                                            <p>Documents not submitted through the online method can be mailed to:</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                                        <div class="gdlr-core-text-box-item-content" style="font-size: 16px ;text-transform: none ;color: #919191 ;">
-                                            <p>Box 35300
-                                                <br />1810 Campus Way NE
-                                                <br />Bothell, WA 98011-8246 USA</p>
                                         </div>
                                     </div>
                                 </div>

@@ -15,6 +15,11 @@
         	return $content->first_row();	
 		}
 
+		public function get_count()
+		{
+       		return $this->db->count_all('articles');
+    	}
+
 		public function ambil_data()
 		{
 			$content = $this->db->order_by('id','desc')->get('articles');
@@ -22,11 +27,10 @@
 		}
 
 
-		public function single_post()
+		public function single_post($id)
 		{
-
-			$content = $this->db->get('articles');
-			return $content->row_array();
+			$content = $this->db->where('id',$id)->get('articles');
+			return $content->first_row();
 		}
 
 	}

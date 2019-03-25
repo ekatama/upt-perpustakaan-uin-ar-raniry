@@ -45,26 +45,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20">
+                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <p><?= $tentang['content'];  ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                                        <div class="gdlr-core-text-box-item-content" id="div_983a_8">
-                                            <p><?= $tentang['content']; ?></p>
+                                            <p><?= $tentang['konten'];  ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -100,13 +87,11 @@
                                         <div class="gdlr-core-title-item-title-wrap ">
                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_24">Berdiskusi salah satu kegiatan rutin<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
                                     </div>
-                                    <p><?= $kegiatan['content'];?></p>  
+                                    <p><?= $kegiatan['konten'];?></p>  
                                     <div class="button">
                                         <a href="<?= site_url("homepage/");?>kegiatan" style="color: #3db166">Lihat semua kegiatan</a>
                                     </div>
                                 </div>
-
-                               
                             </div>
                         </div>
                     </div>
@@ -146,7 +131,7 @@
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
                                             <h3>Visi</h3>
-                                            <p><?= $visi['content'];?></p>
+                                            <p><?= $visi['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +145,7 @@
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_8">
                                             <h3>Misi</h3>
-                                            <p><?= $misi['content'];?></p>
+                                            <p><?= $misi['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +167,8 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_983a_4">
                                         <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Tujuan</h3></div>
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Tujuan</h3>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
@@ -195,13 +181,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20">
+                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <p><?= $tujuan['content'];  ?></p>
+                                            <p><?= $tujuan['konten'];  ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -236,14 +222,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20">
+                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
                                             <h3></h3>
-                                            <p><?= $struktur['content'];?></p>
+                                            <p><?= $struktur['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +251,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_983a_4">
                                         <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Tupoksi</h3></div>
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">TUPOKSI</h3></div>
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
@@ -285,7 +271,7 @@
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
                                             <h3>Tugas Pokok</h3>
-                                            <?= $tugas['content'];?>
+                                            <?= $tugas['konten'];?>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +285,7 @@
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_8">
                                             <h3>Fungsi</h3>
-                                            <p><?= $fungsi['content'];?></p>
+                                            <p><?= $fungsi['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -334,14 +320,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20">
+                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
                                             <h3></h3>
-                                            <p><?= $program['content'];?></p>
+                                            <p><?= $program['konten'];?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +337,5 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
 </div>

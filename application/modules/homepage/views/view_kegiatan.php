@@ -65,10 +65,15 @@
                                                         
                                                             
 
-                                                        <!-- <div class="gdlr-core-pagination  gdlr-core-style-round gdlr-core-left-align gdlr-core-item-pdlr"><span aria-current='page' class='page-numbers current'>1</span> <a class='page-numbers' href='page/2/index.html'>2</a> <a class='page-numbers' href='page/3/index.html'>3</a>
-                                                            <a class="next page-numbers" href="page/2/index.html"></a>
-                                                        </div> -->
+                                                    <div class="gdlr-core-pagination  gdlr-core-style-round gdlr-core-left-align gdlr-core-item-pdlr">
+                                                        <span aria-current='page' class='page-numbers current'>1</span>
+                                                        <a class='page-numbers' href='page/2/<?= $links; ?>'>2</a>
+                                                        <a class='page-numbers' href='page/3/<?= $links; ?>'>3</a>
+                                                        <a class="next page-numbers" href="page/2/index.html"></a>
                                                     </div>
+                                                    </div>
+
+
                                                 </div>
                                             </div>
                                         </div>

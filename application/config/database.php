@@ -94,3 +94,10 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+
+/*	'hostname' => 'remotemysql.com',
+	'username' => 'cahQB2kVXq',
+	'password' => 'wqcbhFx2EF',
+	'database' => 'cahQB2kVXq',
+*/
