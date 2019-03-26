@@ -52,19 +52,16 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>regulasi">Regulasi</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="course-list-1.html">Undang-undang</a></li>
-                                        <li class="menu-item"><a href="course-list-2.html">Peraturan</a></li>
+                                        <li class="menu-item"><a href="course-list-1.html">Policy</a></li>
+                                        <li class="menu-item"><a href="course-list-2.html">UU Peraturan Perpustakaan</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/")?>">Unduh</a>
-                                   
-                                        <?php foreach ($unduh as $val) : ?>
-                                    <ul class="sub-menu">
-                                         
-                                        <li class="menu-item"><a href="<?= $val['title']; ?>"><?= $val['title']; ?></a></li>
-                                        
-                                         <?php endforeach; ?>  
-                                    </ul>
+                                    <?php foreach ($unduh as $val) : ?>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="<?= $val['title']; ?>"><?= $val['title']; ?></a></li>
+                                        </ul>
+                                    <?php endforeach; ?> 
                                 </li>
                                 <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
@@ -125,7 +122,7 @@
                             <li class="menu-item <?= ( $title == "regulasi") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>regulasi" class="sf-with-ul-pre">Regulasi</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item " data-size="60"><a href="course-list-1.html">Policy</a></li>
-                                    <li class="menu-item" data-size="60"><a href="course-list-2.html">Undang-undang peraturan Perpustakaan</a></li>
+                                    <li class="menu-item" data-size="60"><a href="course-list-2.html">UU Peraturan Perpustakaan</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item <?= ( $title == "unduh") ? 'current-menu-item' : '' ; ?>  kingster-mega-menu"><a href="<?= site_url("homepage/");?>unduh">Unduh</a>

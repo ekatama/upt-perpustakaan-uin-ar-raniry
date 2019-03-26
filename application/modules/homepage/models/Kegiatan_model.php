@@ -2,8 +2,8 @@
 
 	class Kegiatan_model extends CI_Model
 	{
-
-		public function artikel_homepage()
+		// --------------- Untuk di Homepage
+		public function artikel_homepage() // Untuk yg di Homepage
 		{
 			$content = $this->db->order_by('id','desc')->limit('3')->get('articles');
 			return $content->result_array();
@@ -15,17 +15,18 @@
         	return $content->first_row();	
 		}
 
-		public function get_count()
+
+		// --------------- Untuk di Kegiatan
+		public function row()
 		{
-       		return $this->db->count_all('articles');
+       		return $this->db->get('articles')->num_rows();
     	}
 
-		public function ambil_data()
+		public function ambil_data($perpage, $start)
 		{
-			$content = $this->db->order_by('id','desc')->get('articles');
+			$content = $this->db->order_by('id','desc')->get('articles', $perpage, $start);
         	return $content->result_array();
 		}
-
 
 		public function single_post($id)
 		{

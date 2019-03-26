@@ -298,7 +298,7 @@ body.single-post .kingster-sidebar-style-none, body.blog .kingster-sidebar-style
 .kingster-navigation .sf-menu > .kingster-mega-menu .sf-mega-section{ border-color: #dddddd; } 
 .mm-navbar .mm-title, .mm-navbar .mm-btn, ul.mm-listview li > a, ul.mm-listview li > span{ color: #979797; }ul.mm-listview li a{ border-color: #979797; }.mm-arrow:after, .mm-next:after, .mm-prev:before{ border-color: #979797; } 
 .mm-navbar .mm-title:hover, .mm-navbar .mm-btn:hover, ul.mm-listview li a:hover, ul.mm-listview li > span:hover, ul.mm-listview li.current-menu-item > a, ul.mm-listview li.current-menu-ancestor > a, ul.mm-listview li.current-menu-ancestor > span{ color: #ffffff; } 
-.mm-menu{ background-color: #1f1f1f; } 
+.mm-menu{ background-color: #181818; } 
 ul.mm-listview li{ border-color: #626262; } 
 .kingster-overlay-menu-content{ background-color: #000000; background-color: rgba(0, 0, 0, 0.88); } 
 .kingster-overlay-menu-content ul.menu > li, .kingster-overlay-menu-content ul.sub-menu ul.sub-menu{ border-color: #424242; } 
@@ -326,7 +326,7 @@ body.kingster-boxed .kingster-body-wrapper, .gdlr-core-page-builder .gdlr-core-p
 .kingster-body h1, .kingster-body h2, .kingster-body h3, .kingster-body h4, .kingster-body h5, .kingster-body h6{ color: #014441; }.woocommerce table.shop_attributes th, .woocommerce table.shop_table th, .single-product.woocommerce div.product .product_meta .kingster-head{ color: #161616; } 
 .kingster-body a{ color: #545454; } 
 .kingster-body a:hover{ color: #60c988; } 
-.kingster-body *{ border-color: #e6e6e6; }.kingster-body .gdlr-core-portfolio-single-nav-wrap{ border-color: #e6e6e6; }.gdlr-core-columnize-item .gdlr-core-columnize-item-content{ column-rule-color: #e6e6e6; -moz-column-rule-color: #e6e6e6; -webkit-column-rule-color: #e6e6e6; } 
+.kingster-body *{ border-color: #014441; }.kingster-body .gdlr-core-portfolio-single-nav-wrap{ border-color: #e6e6e6; }.gdlr-core-columnize-item .gdlr-core-columnize-item-content{ column-rule-color: #e6e6e6; -moz-column-rule-color: #e6e6e6; -webkit-column-rule-color: #e6e6e6; } 
 .kingster-body input, .wpcf7 select, .kingster-body textarea{ background-color: #ffffff; } 
 .kingster-body input, .wpcf7 select, .kingster-body textarea{ border-color: #d7d7d7; } 
 .kingster-body input, .wpcf7 select, .kingster-body textarea{ color: #4e4e4e; } 
@@ -359,7 +359,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a, ul.gdlr-co
 .gdlr-core-video-widget i{ background-color: #3db166; } 
 .kingster-footer-wrapper{ background-color: #014441; } 
 .kingster-footer-wrapper .kingster-widget-title{ color: #ffffff; }.kingster-footer-wrapper h1, .kingster-footer-wrapper h3, .kingster-footer-wrapper h3, .kingster-footer-wrapper h4, .kingster-footer-wrapper h5, .kingster-footer-wrapper h6{ color: #ffffff; }  
-.kingster-footer-wrapper .kingster-widget-title{ border-bottom-color: #3db166; } 
+.kingster-footer-wrapper .kingster-widget-title{ border-bottom-color: #ffc60b; } 
 .kingster-footer-wrapper{ color: #ababab; }.kingster-footer-wrapper .widget_recent_entries ul li:before, .kingster-footer-wrapper .widget_recent_comments ul li:before, .kingster-footer-wrapper .widget_pages ul li:before, .kingster-footer-wrapper .widget_rss ul li:before, .kingster-footer-wrapper .widget_archive ul li:before, .kingster-footer-wrapper .widget_categories ul li:before, .widget_nav_menu ul li:before, .kingster-footer-wrapper .widget_meta ul li:before{ color: #ababab; } 
 .kingster-footer-wrapper a{ color: #aaa; } 
 .kingster-footer-wrapper a:hover{ color: #ffffff; } 
@@ -844,7 +844,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #span_1dd7_11{font-size: 15px; color: #ffffff;}
 #span_1dd7_12{margin-top: -20px ;}
 #a_1dd7_8{font-size: 15px; color: #ffffff;}
-#div_1dd7_111{border-color: #3db166 ;border-bottom-width: 2px ;}
+#div_1dd7_111{border-color: #ffc60b ;border-bottom-width: 2px ;}
 #div_1dd7_112{padding-bottom: 0px ;}
 #i_983a_0{font-size: 15px ;color: #96a2b8 ;margin-right: 8px ;}
 #i_983a_1{font-size: 15px ;color: #96a2b8 ;margin-left: 18px ;margin-right: 6px ;}

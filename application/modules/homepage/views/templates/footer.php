@@ -57,8 +57,8 @@
         
         <div class="kingster-copyright-wrapper">
             <div class="kingster-copyright-container kingster-container clearfix">
-                <div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry</div>
-                <div class="kingster-copyright-right kingster-item-pdlr">
+                <div class="kingster-copyright-left kingster-item-pdlr">&copy; Copyright All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry</div>
+                <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                             <i class="fa fa-facebook" ></i>
@@ -74,7 +74,6 @@
             </div>
         </div>
         </footer>
-
     </div>
 </div>
 

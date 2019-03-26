@@ -57,27 +57,19 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="gdlr-core-blog-content"><?= word_limiter($val['content'], 40); ?>
-                                                                            <div class="clear"></div><a class="gdlr-core-excerpt-read-more gdlr-core-button gdlr-core-rectangle" href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>">Baca selengkapnya</a></div>
+                                                                            <div class="clear"></div><a class="gdlr-core-excerpt-read-more gdlr-core-button gdlr-core-rectangle" href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>">Baca selengkapnya</a>
+                                                                        </div>
                                                                     </div>
-                                                                </div>                                                            
+                                                                </div>
                                                             </div>
                                                         <?php endforeach; ?>
-                                                        
-                                                            
-
+  
                                                     <div class="gdlr-core-pagination  gdlr-core-style-round gdlr-core-left-align gdlr-core-item-pdlr">
-                                                        <span aria-current='page' class='page-numbers current'>1</span>
-                                                        <a class='page-numbers' href='page/2/<?= $links; ?>'>2</a>
-                                                        <a class='page-numbers' href='page/3/<?= $links; ?>'>3</a>
-                                                        <a class="next page-numbers" href="page/2/index.html"></a>
+                                                        <span aria-current='page'><?= $this->pagination->create_links();?></span>
                                                     </div>
-                                                    </div>
-
-
                                                 </div>
                                             </div>
                                         </div>
-                                       
                                     </div>
                                 </div>
                             </div>

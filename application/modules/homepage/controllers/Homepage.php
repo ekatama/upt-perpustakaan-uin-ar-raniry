@@ -9,8 +9,6 @@
 
 			$this->load->helper('text', 'url');
 
-			$this->load->library('pagination');
-
 			$this->load->model('Tentang_model');
 			$this->load->model('Layanan_model');
 			$this->load->model('Kegiatan_model');
@@ -64,19 +62,16 @@
 			$data['unduh'] 		= $this->Unduh_model->ambil_data('unduh'); // navbar unduh
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
-			$config['base_url'] = site_url('kegiatan'); //site url
-		    $config['total_rows'] = $this->Kegiatan_model->get_count(); //total row
-		    $config['per_page'] = 10; 
-		    $config["uri_segment"] = 2;  // uri parameter
+			// Ambil data total kolom dan tampilkan per 2 kolom untuk setiap halaman 
+			$row = $this->Kegiatan_model->row();
+			$config['base_url'] = base_url('homepage/kegiatan');
+			$config['total_rows'] = $row;
+			$config['per_page'] = 2;
 
-		    $this->pagination->initialize($config);
+			$start = $this->uri->segment(3);
+			$this->pagination->initialize($config);
 
-			$page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
-
-	        $data["links"] = $this->pagination->create_links();
-
-	        $data['kegiatan'] = $this->Kegiatan_model->artikel_homepage($config["per_page"], $page);
-
+			$data['kegiatan'] = $this->Kegiatan_model->ambil_data($config['per_page'], $start);
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_kegiatan', $data);
@@ -114,13 +109,12 @@
 		public function galeri()
 		{
 			$data['title'] 		= 'galeri';
+
 			$data['unduh'] 		= $this->Unduh_model->ambil_data('unduh');  // navbar unduh
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['galeri'] 	= $this->Galeri_model->galeri('galeri');
 			$data['album'] 		= $this->Galeri_model->album('album');
-
-
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_galeri');
