@@ -1,17 +1,13 @@
 
-       <div class="container-fluid">
+  <div class="container-fluid">
       <div class="row mb-5">
         <div class="col-md-6">
           <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/download/index"><i class="fas fa-chevron-left"></i> Download</a>
         </div>
       </div>
   </div>
-       
-       <!-- Begin Page Content -->
+      <!-- Begin Page Content -->
         <div class="container-fluid">
-
-
-          <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-primary">Download Logs</h6>
@@ -52,9 +48,4 @@
               </div>
             </div>
           </div>
-
         </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->

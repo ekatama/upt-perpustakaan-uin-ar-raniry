@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/galeri/index"><i class="fas fa-chevron-left"></i> Galeri</a>
-			<a class='btn btn-primary float-right' href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto/<?= $this->uri->segment(4);?>"><i class="fas fa-plus"></i></i> Foto</a>
+			<a class='btn btn-success float-right' href="<?= base_url(); ?>index.php/dashboard/galeri/tambah_foto/<?= $this->uri->segment(4);?>"><i class="fas fa-plus"></i></i> Foto</a>
 		</div>
 	</div>
 </div>

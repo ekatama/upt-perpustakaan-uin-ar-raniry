@@ -1,7 +1,7 @@
 <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <a class='btn btn-success' href="<?= base_url(); ?>index.php/dashboard/galeri/index"><i class="fas fa-chevron-left"></i> Galeri</a>
+          <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/galeri/detail/<?= $this->uri->segment(4);?>"><i class="fas fa-chevron-left"></i> Album</a>
         </div>
       </div>
   </div>

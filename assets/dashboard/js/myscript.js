@@ -95,6 +95,6 @@ $(document).ready(function () {
 
 // Drag n drop function
 $("#dragndrop").dropzone({
-	maxFilesize: 4,
+	maxFilesize: 2,
 	acceptedFiles: "image/*"
 });

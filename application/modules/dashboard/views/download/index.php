@@ -15,7 +15,7 @@
                     <a href="<?= base_url(); ?>index.php/dashboard/download/detail" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= $dwnld['title'];?></h6></a>
                     </div>
                   <div class="card-footer py-2">
-                    <span class="m-0 font-weight-bold text-primary views"><i class="fas fa-download"></i> 101 downloads</span>
+                    <span class="m-0 font-weight-bold text-primary views"><i class="fas fa-download"></i> 101</span>
                     <a href="" class='btn btn-danger btn-sm float-right' role='button'><i class="fas fa-trash"></i> Hapus</a>
                   </div>
                 </div>

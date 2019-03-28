@@ -50,7 +50,7 @@
       <li class="nav-item">
       <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/index">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <i class="fas fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
 
@@ -74,7 +74,7 @@
         </a>
         <div id="collapseTentang" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
+            <h6 class="collapse-header">Components:</h6>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/tentang_perpustakaan">Tentang Perpustakaan</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/visi">Visi</a>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/tentang/misi">Misi</a>
@@ -90,12 +90,12 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayanan" aria-expanded="true" aria-controls="collapseLayanan">
-          <i class="fas fa-fw fa-cog"></i>
+          <i class="fas fa-cog"></i>
           <span>Layanan</span>
         </a>
         <div id="collapseLayanan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
+            <h6 class="collapse-header">Components:</h6>
             <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/layanan/jadwal_layanan">Jadwal Layanan</a>
           </div>
         </div>
@@ -135,14 +135,22 @@
       </li>
 
       <!-- Nav Item - Galeri -->
+      <?php if ($title == 'Galeri') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/galeri/index">
           <i class="fas fa-image"></i>
           <span>Galeri</span></a>
       </li>
 
       <!-- Nav Item - Weblink -->
+      <?php if ($title == 'Weblink') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/weblink/index">
           <i class="fas fa-link"></i>
           <span>Weblink</span></a>
@@ -158,21 +166,15 @@
       </div>
 
       <!-- Nav Item - Logs -->
+      <?php if ($title == 'Logs') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/logs/index">
-          <i class="fas fa-fw fa-table"></i>
+          <i class="fas fa-table"></i>
           <span>Logs</span></a>
       </li>
-    
-      <!-- Nav Item - Help Desk -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/logs/index">
-          <i class="fas fa-question-circle"></i>
-          <span>Help Desk</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
 
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
