@@ -2,19 +2,20 @@
 
 class Tentang_model extends CI_Model{
 
-    public function getType($type)
+    public function getType($tipe)
     {
-        return $this->db->get_where('abouts', ['type'=>$type])->row_array();
+        return $this->db->get_where('abouts', ['tipe'=>$tipe])->row_array();
 
     }
 
     public function ubahData()
     {
         $data = [
-            "content" => $this->input->post('konten',true)
+            "konten" => $this->input->post('konten',true),
+            "content" => $this->input->post('content',true)
         ];
 
-        $this->db->where('type', $this->input->post('type'));
+        $this->db->where('tipe', $this->input->post('tipe'));
         $this->db->update('abouts', $data);
     }
     

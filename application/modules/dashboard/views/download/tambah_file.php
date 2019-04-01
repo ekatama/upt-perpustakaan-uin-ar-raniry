@@ -5,7 +5,8 @@
         </div>
       </div>
   </div>
-<form action="" method="post" class="needs-validation" novalidate>
+
+<form enctype="multipart/form-data" action="<?= base_url('index.php/dashboard/download/prosesTambahFile');?>" method="post" class="needs-validation" novalidate>
 <div class="container">
   <div class="row mt-5">
       <div class="col-md-6">
@@ -26,11 +27,8 @@
                   Kategori harus diisi.
                   </div>
                 <datalist id="kategori">
-                  <option value="Internet Explorer">
-                  <option value="Firefox">
-                  <option value="Chrome">
-                  <option value="Opera">
-                  <option value="Safari">
+                  <option value="Pengumuman">
+                  <option value="Koleksi">
                 </datalist>
               </div>
   
@@ -45,21 +43,18 @@
                 <label for="title">Title *</label>
                 <input type="text" class="form-control " id="title" name="title" required>
                   <div class="invalid-feedback">
-                  Title Required.
+                  Title is required.
                   </div>
               </div>
               <div class="form-group">
                 <label for="categories">Category *</label>
                 <input class="form-control" list="categories" name="categories" required>
                   <div class="invalid-feedback">
-                  Category Required.
+                  Category is required.
                   </div>
                 <datalist id="categories">
-                  <option value="Internet Explorer">
-                  <option value="Firefox">
-                  <option value="Chrome">
-                  <option value="Opera">
-                  <option value="Safari">
+                  <option value="Announcement">
+                  <option value="Collection">
                 </datalist>
               </div>
   

@@ -1,4 +1,5 @@
 //Sweetalert2 function
+
 //sweetalert album
 const flashDataAlbum = $('.flash-data-album').data('flashdata');
 
@@ -15,7 +16,7 @@ const flashDataArtikel = $('.flash-data-artikel').data('flashdata');
 
 if (flashDataArtikel) {
 	Swal.fire({
-		title: 'Artikel atau Event',
+		title: 'Artikel / Event',
 		text: 'Berhasil ' + flashDataArtikel + ' :)',
 		type: 'success'
 	});
@@ -28,6 +29,28 @@ if (flashDataFoto) {
 	Swal.fire({
 		title: 'Foto',
 		text: 'Berhasil ' + flashDataFoto + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert download
+const flashDataDownload = $('.flash-data-download').data('flashdata');
+
+if (flashDataDownload) {
+	Swal.fire({
+		title: 'File',
+		text: 'Berhasil ' + flashDataDownload + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert tentang
+const flashDataTentang = $('.flash-data-tentang').data('flashdata');
+
+if (flashDataTentang) {
+	Swal.fire({
+		title: 'Data',
+		text: 'Berhasil ' + flashDataTentang + ' :)',
 		type: 'success'
 	});
 }

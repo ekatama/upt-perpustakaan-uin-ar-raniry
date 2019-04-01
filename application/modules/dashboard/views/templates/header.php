@@ -88,7 +88,11 @@
         </div>
       </li>
 
+      <?php if ($title == 'Layanan') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
       <li class="nav-item">
+      <?php endif; ?>
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayanan" aria-expanded="true" aria-controls="collapseLayanan">
           <i class="fas fa-cog"></i>
           <span>Layanan</span>

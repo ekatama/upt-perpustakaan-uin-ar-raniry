@@ -16,7 +16,6 @@
               </div>
               <div class="form-group d-flex flex-row-reverse mt-5">
                 <button class='btn btn-primary' type="submit" href="">Simpan</button>
-                <a class='btn btn-secondary mr-1' href="<?= base_url(); ?>index.php/dashboard/index">Kembali</a>
               </div>
             </form>        
           </div>

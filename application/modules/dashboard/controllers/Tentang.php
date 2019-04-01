@@ -23,7 +23,7 @@ class Tentang extends MY_Controller{
         $this->load->view('templates/footer');
     } else {
         $this->Tentang_model->ubahData();
-        $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+        $this->session->set_flashdata('flash','diubah');
         redirect('dashboard/tentang/tentang_perpustakaan');
     }
 }
@@ -42,7 +42,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/visi');
         }
     }
@@ -61,7 +61,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/misi');
         }
     }
@@ -80,7 +80,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/tujuan');
         }
     }
@@ -108,7 +108,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/tugas_pokok');
         }
     }
@@ -127,7 +127,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/fungsi');
         }
     }
@@ -146,7 +146,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/program_sasaran');
         }
     }
@@ -165,7 +165,7 @@ class Tentang extends MY_Controller{
             $this->load->view('templates/footer');
         } else {
             $this->Tentang_model->ubahData();
-            $this->session->set_flashdata('flash','<div class="alert alert-success" role="alert">Data berhasil diubah!</div>');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/kegiatan');
         }
     }
