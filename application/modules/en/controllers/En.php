@@ -1,6 +1,6 @@
 <?php
 
-	class Homepage extends MY_Controller 
+	class En extends MY_Controller 
 	{
  
 		public function __construct()

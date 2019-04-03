@@ -3,16 +3,16 @@
     <div class="kingster-page-title-overlay"></div>
     <div class="kingster-page-title-container kingster-container">
         <div class="kingster-page-title-content kingster-item-pdlr">
-            <div class="kingster-page-caption">Dokumen Perpustakaan</div>
-            <h1 class="kingster-page-title">Unduh</h1></div>
+            <div class="kingster-page-caption">Library Documents</div>
+            <h1 class="kingster-page-title">Download</h1></div>
     </div>
 </div>
 
 <div class="kingster-breadcrumbs">
     <div class="kingster-breadcrumbs-container kingster-container">
-        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Beranda</span></a>
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
             <meta property="position" content="1">
-            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Unduh</span>
+            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Download</span>
             <meta property="position" content="2">
             </span>
         </div>
@@ -43,18 +43,18 @@
                                                     <tbody>
                                                         <tr>
                                                             <th>No.</th>
-                                                            <th>Nama File</th>
-                                                            <th>Kategori</th>
-                                                            <th>Unduh file</th>
+                                                            <th>File Name</th>
+                                                            <th>Categories</th>
+                                                            <th>Download File</th>
                                                             
                                                         </tr>
                                                         <?php foreach ($unduh as $val) : ?>
                                                             <tr>
                                                                 <td><?= $val['id']; ?></td>
-                                                                <td><?= $val['judul']; ?></td>    
-                                                                <td><?= $val['kategori']; ?></td>
+                                                                <td><?= $val['title']; ?></td>    
+                                                                <td><?= $val['categories']; ?></td>
                                                                 <td>
-                                                                    <a href="<?= base_url("homepage/downloading/");?><?=$val['id'];?>" class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border">Unduh</a>
+                                                                    <a href="<?= base_url("homepage/downloading/");?><?=$val['id'];?>" class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border">Download</a>
                                                                 </td>
                                                             </tr>
                                                         <?php endforeach; ?>

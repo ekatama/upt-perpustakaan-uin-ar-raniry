@@ -39,7 +39,7 @@
 .gdlr-core-column-60{ float: none; width: 100%; }
 .gdlr-core-column-first{ clear: left; }
 
-.gdlr-core-pbf-wrapper{ clear: both; padding: 60px 0px 30px; position: relative; }
+.gdlr-core-pbf-wrapper{ clear: both; padding: 22px 0px 30px; position: relative; }
 .gdlr-core-pbf-wrapper.gdlr-core-wrapper-centering{ padding-top: 0px; padding-bottom: 0px; }
 .gdlr-core-pbf-wrapper-container,
 .gdlr-core-container-custom{ margin-left: auto; margin-right: auto; }
@@ -373,7 +373,7 @@
 	font-weight: 600; text-transform: uppercase; margin-bottom: 0px; }
 .gdlr-core-column-service-item .gdlr-core-column-service-caption{ font-size: 14px; font-style: italic; margin-top: 5px; }
 .gdlr-core-column-service-item .gdlr-core-column-service-content{ font-size: 15px; }
-.gdlr-core-column-service-item .gdlr-core-column-service-read-more{ font-size: 14px; font-style: italic; display: inline-block; }
+.gdlr-core-column-service-item .gdlr-core-column-service-read-more{ font-size: 16px; font-style: italic; display: inline-block; }
 .gdlr-core-column-service-item .gdlr-core-column-service-read-more i{ margin-left: 15px; vertical-align: middle; display: inline-block; }
 .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-icon{ line-height: 1; }
 .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-icon i{ font-size: 30px; }
@@ -569,7 +569,7 @@
 	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; 
 	transition: background 200ms, color 200ms; -moz-transition: background 200ms, color 200ms;
 	-o-transition: background 200ms, color 200ms; -webkit-transition: background 200ms, color 200ms; }
-.gdlr-core-accordion-style-background-title-icon .gdlr-core-accordion-item-content { padding: 13px 0px 10px; }
+.gdlr-core-accordion-style-background-title-icon .gdlr-core-accordion-item-content { padding: 13px 30px 10px; }
 .gdlr-core-accordion-style-background-title-icon .gdlr-core-accordion-item-title:before{ content: "\4c"; font-family: "ElegantIcons"; font-weight: normal;
 	font-size: 16px; vertical-align: text-bottom; }
 .gdlr-core-accordion-style-background-title-icon.gdlr-core-icon-pos-left .gdlr-core-accordion-item-title:before{ float: left;  margin-right: 15px; }

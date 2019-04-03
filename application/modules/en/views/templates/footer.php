@@ -7,7 +7,7 @@
                         <div class="textwidget">
                             <p><img src="<?= base_url();?>/assets/images/logo-uin-2.png" alt="" />
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_10"></span>
-                                <br /> Perpustakaan UIN Ar-Raniry
+                                <br /> UIN Ar-Raniry Library
                                 <br /> Jl. Syeikh Abdul Rauf Darussalam 
                                 <br /> Banda Aceh Indonesia, 23111 </p>
                             <p><span id="span_1dd7_11">0651-7557325</span>
@@ -21,23 +21,23 @@
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Perpustakaan</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Libraries</h3><span class="clear"></span>
                         <div class="menu-our-campus-container">
                             <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="<?= site_url("homepage/tentang");?>">Tentang</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/layanan");?>">Layanan</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/koleksi");?>">Koleksi</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/regulasi");?>">Regulasi</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/galeri");?>">Galeri</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/unduh");?>">Unduh</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/situs");?>">Situs</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/tentang");?>">About</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/layanan");?>">Services</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/koleksi");?>">Collections</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/regulasi");?>">Regulation</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/galeri");?>">Galleries</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/unduh");?>">Download</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/situs");?>">Weblinks</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Situs</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Weblinks</h3><span class="clear"></span>
                         <div class="menu-campus-life-container">
                             <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
                                 <?php foreach ($weblinks as $val) : ?>
@@ -57,7 +57,7 @@
         
         <div class="kingster-copyright-wrapper">
             <div class="kingster-copyright-container kingster-container clearfix">
-                <div class="kingster-copyright-left kingster-item-pdlr">&copy; Copyright All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry.</div>
+                <div class="kingster-copyright-left kingster-item-pdlr">&copy; Copyright All Right Reserved 2019, UIN Ar-Raniry Library</div>
                 <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
@@ -352,18 +352,20 @@
     <script type='text/javascript' src='<?= base_url(); ?>/assets/js/isotope.js'></script>
 
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+<!-- Tawk -->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     </body>
 </html>

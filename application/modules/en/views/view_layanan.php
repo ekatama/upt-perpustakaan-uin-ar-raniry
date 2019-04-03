@@ -3,16 +3,16 @@
     <div class="kingster-page-title-overlay"></div>
     <div class="kingster-page-title-container kingster-container">
         <div class="kingster-page-title-content kingster-item-pdlr">
-            <div class="kingster-page-caption">Jenis Layanan & Jadwal Layanan </div>
-            <h1 class="kingster-page-title">Layanan</h1></div>
+            <div class="kingster-page-caption">Types & Schedule of Services</div>
+            <h1 class="kingster-page-title">Services</h1></div>
     </div>
 </div>
 
 <div class="kingster-breadcrumbs">
     <div class="kingster-breadcrumbs-container kingster-container">
-        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Beranda</span></a>
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
             <meta property="position" content="1">
-            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Layanan</span>
+            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Services</span>
             <meta property="position" content="2">
             </span>
         </div>
@@ -28,7 +28,7 @@
                     <div class="gdlr-core-pbf-element">
                         <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 45px ;">
                             <div class="gdlr-core-title-item-title-wrap clearfix">
-                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Jenis Layanan</h3></div>
+                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Type of Services</h3></div>
                         </div>
                     </div>
                     <?php foreach ($layanan as $val) : ?>
@@ -40,9 +40,9 @@
                                             <div class="gdlr-core-column-service-media gdlr-core-character" style="margin-top: 5px;margin-right: 28px;margin-left: 3px;font-size: 45px ;color: #3db166 ;"><?= $val['id'];  ?></div>
                                             <div class="gdlr-core-column-service-content-wrapper">
                                                 <div class="gdlr-core-column-service-title-wrap">
-                                                    <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 18px ;text-transform: none ;"><?= $val['judul'];?></h3></div>
+                                                    <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 18px ;text-transform: none ;"><?= $val['title'];?></h3></div>
                                                 <div class="gdlr-core-column-service-content" style="font-size: 16px ;text-transform: none ;">
-                                                    <p><?= $val['konten'];?></p>
+                                                    <p><?= $val['content'];?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -78,7 +78,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 40px ;">
                                         <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Jadwal Layanan</h3>
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Service Schedule</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -89,14 +89,14 @@
                                                 <table style="min-width: 700px;">
                                                     <tbody>
                                                         <tr>
-                                                            <th>Jenis Layanan</th>
-                                                            <th>Jam</th>
+                                                            <th>Type of Services</th>
+                                                            <th>Schedule</th>
                                                             
                                                         </tr>
 
                                                         <?php foreach ($layanan as $val) : ?>
                                                             <tr>
-                                                                <td><?= $val['judul']; ?></td>    
+                                                                <td><?= $val['title']; ?></td>    
                                                                 <td><?= $val['jadwal']; ?></td>
                                                             </tr>
                                                         <?php endforeach; ?>

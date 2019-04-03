@@ -3,15 +3,15 @@
     <div class="kingster-page-title-overlay"></div>
     <div class="kingster-page-title-container kingster-container">
         <div class="kingster-page-title-content kingster-item-pdlr">
-            <div class="kingster-page-caption">Koleksi Album Foto Kegiatan & Event</div>
-            <h1 class="kingster-page-title">Galeri</h1></div>
+            <div class="kingster-page-caption">Event & Activity Albums</div>
+            <h1 class="kingster-page-title">Galleries</h1></div>
     </div>
 </div>
 <div class="kingster-breadcrumbs">
     <div class="kingster-breadcrumbs-container kingster-container">
-        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Beranda</span></a>
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
             <meta property="position" content="1">
-            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Galeri</span>
+            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Galleries</span>
             <meta property="position" content="2">
             </span>
         </div>
@@ -28,9 +28,9 @@
 
                             <div class="filter light-filter clearfix gdlr-core-filterer-wrap gdlr-core-js  gdlr-core-item-pdlr gdlr-core-style-text gdlr-core-center-align">
                                 <ul>
-                                    <li><a href="#" data-filter="*">Semua Album</a></li>
+                                    <li><a href="#" data-filter="*">All</a></li>
                                     <?php foreach ($album as $val) : ?>
-                                        <li><a href="#" data-filter=".album-<?= $val['id']; ?>" ><?= $val['nama'];?></a></li>
+                                        <li><a href="#" data-filter=".album-<?= $val['id']; ?>" ><?= $val['name'];?></a></li>
                                     <?php endforeach; ?>
                                 </ul>
                             </div>   
@@ -44,7 +44,7 @@
                                                 <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="<?= base_url();?>/assets/uploads/galleries/album-7.jpg" width="700" height="450"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js">
                                                     <span class="gdlr-core-image-overlay-content" >
                                                         <span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 18px ;font-weight: 400 ;letter-spacing: 1px ;text-transform: none ;">
-                                                            <a href="#"><?= $val['nama'];?></a>
+                                                            <a href="#"><?= $val['name'];?></a>
                                                         </span>
                                                         <span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="<?= base_url();?>/assets/uploads/galleries/album-7.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a>
                                                         </span>
@@ -53,13 +53,12 @@
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><?= $val['nama']; ?></span>
+                                                <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><?= $val['name']; ?></span>
                                             </div>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

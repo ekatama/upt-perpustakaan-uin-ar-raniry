@@ -21,7 +21,7 @@
 
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
-        <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+        <div class="gdlr-core-pbf-wrapper ">
             <div class="gdlr-core-pbf-background-wrap"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
