@@ -10,7 +10,7 @@ class Login extends MY_Controller{
     public function index()
     {
         if($this->session->userdata('admin') == TRUE){
-            redirect('index.php/dashboard/');
+            redirect('dashboard');
         }
 
         $this->load->view('templates/login_header');
@@ -36,12 +36,12 @@ class Login extends MY_Controller{
             ];
             $this->session->set_userdata($data);
 
-            redirect(base_url('index.php/dashboard'));
+            redirect('dashboard');
 
         } else {
 
             $this->session->set_flashdata('login_gagal', 'Username atau password salah');
-            redirect('index.php/dashboard/login');
+            redirect('dashboard/login');
         }
     }
 
@@ -49,6 +49,6 @@ class Login extends MY_Controller{
     {
         $this->session->sess_destroy();
         
-        redirect('index.php/dashboard/login');
+        redirect('dashboard/login');
     }
 }

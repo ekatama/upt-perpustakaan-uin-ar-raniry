@@ -7,6 +7,10 @@ class Artikel_model extends CI_Model{
         return $this->db->get('articles')->result_array();
     }
 
+    public function getById($id)
+    {
+        return $this->db->where('id', $id)->get('articles')->row_array();
+    }
 
     public function tambahArtikel($filename)
     {

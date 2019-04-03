@@ -17,33 +17,23 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Email</th>
                       <th>Alamat IP</th>
                       <th>Sistem Operasi</th>
-                      <th>Tanggal</th>
+                      <th>Browser</th>
+                      <th>Tanggal & Waktu</th>
                     </tr>
                   </thead>
+                  <?php foreach($downloadlogs as $dwnldlgs):?>
                   <tbody>
                     <tr>
-                      <td>bhrdnn@gmail.com</td>
-                      <td>192.168.0.10</td>
-                      <td>Windows</td>
-                      <td>05/07/2019</td>
+                      <td><?= $dwnldlgs['ip'];?></td>
+                      <td><?= $dwnldlgs['os'];?></td>
+                      <td><?= $dwnldlgs['browser'];?></td>
+                      <td><?= $dwnldlgs['created_at'];?></td>
                     </tr>
-                    <tr>
-                      <td>alfthakbr@gmail.com</td>
-                      <td>192.168.0.10</td>
-                      <td>Linux</td>
-                      <td>05/07/2019</td>
-                    </tr>
-                    <tr>
-                      <td>aqmalio@gmail.com</td>
-                      <td>192.168.0.10</td>
-                      <td>Mac</td>
-                      <td>05/07/2019</td>
-                    </tr>
-                    
                   </tbody>
+                  <?php endforeach; ?>
+
                 </table>
               </div>
             </div>

@@ -1,12 +1,12 @@
-<div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/galeri/index"><i class="fas fa-chevron-left"></i> Galeri</a>
-        </div>
-      </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/galeri/index"><i class="fas fa-chevron-left"></i> Galeri</a>
+    </div>
   </div>
+</div>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row mt-5">
       <div class="col-md-10">
         <div class="card-body  shadow bg-white">
@@ -19,7 +19,7 @@
                 Judul harus diisi.
                 </div>
               </div>
-              <div class="form-group d-flex flex-row-reverse mt-5">
+              <div class="form-group d-flex flex-row-reverse mt-3">
                 <button type="submit" class='btn btn-primary' href="">Buat Album</button>
               </div>
             </form>

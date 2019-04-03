@@ -85,12 +85,47 @@ class Tentang extends MY_Controller{
         }
     }
 
+    public function prosesUbahStrukturId()
+    {
+        $config['upload_path']       = '.\assets\dashboard\uploads';
+        $config['file_name']         = 'struktur_id';
+        $config['allowed_types']     = 'jpg';
+        $config['overwrite']         = true;
+        $config['max_size']          = 2048; //2MB
+
+        $this->load->library('upload', $config);
+
+        if($this->upload->do_upload('struktur_id')) {
+    
+            $this->session->set_flashdata('flash','ditambahkan');
+            redirect('dashboard/tentang/struktur_organisasi');
+        }
+    }
+
+    public function prosesUbahStrukturEn()
+    {
+        $config['upload_path']       = '.\assets\dashboard\uploads';
+        $config['file_name']         = 'struktur_en';
+        $config['allowed_types']     = 'jpg';
+        $config['overwrite']         = true;
+        $config['max_size']          = 2048; //2MB
+
+        $this->load->library('upload', $config);
+
+        if($this->upload->do_upload('struktur_en')) {
+    
+            $this->session->set_flashdata('flash','ditambahkan');
+            redirect('dashboard/tentang/struktur_organisasi');
+        }
+    }
+
     public function struktur_organisasi()
     {
         $data['title'] = 'Tentang';
+        $data['tentang'] = $this->Tentang_model->getType('struktur');
 
         $this->load->view('templates/header', $data);
-        $this->load->view('tentang/struktur_organisasi');
+        $this->load->view('tentang/struktur_organisasi', $data);
         $this->load->view('templates/footer');
     }
 

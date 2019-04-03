@@ -25,6 +25,28 @@ class Artikel_event extends MY_Controller{
         $this->load->view('artikel_event/index', $data);
         $this->load->view('templates/footer');
     }
+
+    public function detail($id)
+    {
+        $data['title'] = 'Artikel / Event';
+        $data['artikel'] = $this->Artikel_model->getById($id);
+
+        $this->form_validation->set_rules('judul', 'Judul', 'required');
+        $this->form_validation->set_rules('konten', 'Konten', 'required');
+        $this->form_validation->set_rules('title', 'Title', 'required');
+        $this->form_validation->set_rules('content', 'Content', 'required');
+        $this->form_validation->set_rules('jadwal', 'Jadwal', 'required');
+        
+        if($this->form_validation->run() == FALSE){
+            $this->load->view('templates/header', $data);
+            $this->load->view('artikel_event/detail', $data);
+            $this->load->view('templates/footer');
+        } else {
+            $this->Artikel_model->ubahArtikel();
+            $this->session->set_flashdata('flash','diubah');
+            redirect('dashboard/artikel_event');
+        }
+    }
     
     public function tambah_artikel()
     {

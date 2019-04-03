@@ -11,6 +11,28 @@ if (flashDataAlbum) {
 	});
 }
 
+//sweetalert video
+const flashDataVideo = $('.flash-data-video').data('flashdata');
+
+if (flashDataVideo) {
+	Swal.fire({
+		title: 'URL',
+		text: 'Berhasil ' + flashDataVideo + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert weblink
+const flashDataWeblink = $('.flash-data-weblink').data('flashdata');
+
+if (flashDataWeblink) {
+	Swal.fire({
+		title: 'Weblink',
+		text: 'Berhasil ' + flashDataWeblink + ' :)',
+		type: 'success'
+	});
+}
+
 //sweetalert artikel
 const flashDataArtikel = $('.flash-data-artikel').data('flashdata');
 
@@ -22,7 +44,7 @@ if (flashDataArtikel) {
 	});
 }
 
-//sweetalert artikel
+//sweetalert galeri
 const flashDataFoto = $('.flash-data-foto').data('flashdata');
 
 if (flashDataFoto) {
@@ -51,6 +73,17 @@ if (flashDataTentang) {
 	Swal.fire({
 		title: 'Data',
 		text: 'Berhasil ' + flashDataTentang + ' :)',
+		type: 'success'
+	});
+}
+
+//sweetalert layanan
+const flashDataLayanan = $('.flash-data-layanan').data('flashdata');
+
+if (flashDataLayanan) {
+	Swal.fire({
+		title: 'Layanan',
+		text: 'Berhasil ' + flashDataLayanan + ' :)',
 		type: 'success'
 	});
 }

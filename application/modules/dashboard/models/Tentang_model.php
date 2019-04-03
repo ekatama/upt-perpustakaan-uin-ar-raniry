@@ -18,6 +18,6 @@ class Tentang_model extends CI_Model{
         $this->db->where('tipe', $this->input->post('tipe'));
         $this->db->update('abouts', $data);
     }
-    
+
 }
 

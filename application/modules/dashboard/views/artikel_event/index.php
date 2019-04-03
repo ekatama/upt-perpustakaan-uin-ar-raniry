@@ -26,7 +26,7 @@
                     <span class="text-muted">Dibuat oleh: </span>
                     <span class='m-0 font-weight-bold text-primary'><?= $this->session->get_userdata()['fullname'];?></span>
                   </div>
-                    <img src="<?= base_url('assets/dashboard/uploads/artikel_event/').$artkl['cover']; ?>" style='width:100%' alt="buku">
+                    <img src="<?= base_url('assets/dashboard/uploads/artikel_event/').$artkl['cover']; ?>" style='width:100%'>
                   <div class="card-body py-3">
                     <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['title'],7," ...");?></h6></a>
                     <p class='mb-0'><?= word_limiter($artkl['content'],10," ...");?></p>

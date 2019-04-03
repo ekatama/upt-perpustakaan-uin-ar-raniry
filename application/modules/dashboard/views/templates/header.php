@@ -36,8 +36,8 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url(); ?>index.php/dashboard/index">
-          <img src="<?= base_url(); ?>assets/images/logo uin.png" style="width:25%" alt="">
-        <div class="sidebar-brand-text text-left mx-2">UPT Perpustakaan</div>
+          <img src="<?= base_url(); ?>assets/images/logo uin.png" style="width:20%" alt="logo uin">
+        <div class="sidebar-brand-text text-left mx-2" style="font-size:14px;">UPT Perpustakaan</div>
       </a>
 
       <!-- Divider -->
@@ -93,16 +93,9 @@
       <?php else : ?>
       <li class="nav-item">
       <?php endif; ?>
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayanan" aria-expanded="true" aria-controls="collapseLayanan">
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/layanan/index">
           <i class="fas fa-cog"></i>
-          <span>Layanan</span>
-        </a>
-        <div id="collapseLayanan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Components:</h6>
-            <a class="collapse-item" href="<?= base_url(); ?>index.php/dashboard/layanan/jadwal_layanan">Jadwal Layanan</a>
-          </div>
-        </div>
+          <span>Layanan</span></a>
       </li>
 
       <!-- Nav Item - Download -->
