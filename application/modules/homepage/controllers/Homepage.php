@@ -1,23 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	class Homepage extends CI_Controller
-	{
-
-		public function index()
-		{
-
-
-			$this->load->modules('templates/header', );
-			$this->load->view('homepage/view_homepage');
-=======
-class Homepage extends CI_Controller {
-
-	public function index()
-	{
->>>>>>> 9094579c78712be07a66dfb455a3d3cf3acfd9f2
-=======
 	class Homepage extends MY_Controller 
 	{
  
@@ -193,7 +175,6 @@ class Homepage extends CI_Controller {
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs');
 
 			$data['faq']		= $this->FAQ_model->ambil_data('faq');
->>>>>>> 20e9695a539c1fbc75b801288d479c1564f7279d
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_faq', $data);
