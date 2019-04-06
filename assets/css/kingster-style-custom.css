@@ -490,7 +490,7 @@ blockquote, q, pre{ background-color: #f5f5f5; }
 .gdlr-core-body .gdlr-core-load-more, .gdlr-core-body .gdlr-core-button, .kingster-body .kingster-button, .kingster-body input[type="button"], .kingster-body input[type="submit"]{ color: #ffffff; } 
 .gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ color: #ffc60b; } 
 .gdlr-core-body .gdlr-core-load-more, .gdlr-core-body .gdlr-core-button, .kingster-body .kingster-button, .kingster-body input[type="button"], .kingster-body input[type="submit"]{ background-color: #3db166; } 
-.gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ background-color: #014441; } 
+.gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ background-color: #ffc60b; } 
 .gdlr-core-body .gdlr-core-button-with-border{ border-color: #383838; } .gdlr-core-body .gdlr-core-button-with-border.gdlr-core-button-transparent{ color: #383838; } 
 .gdlr-core-body .gdlr-core-button-with-border:hover{ border-color: #000000; }.gdlr-core-body .gdlr-core-button-with-border.gdlr-core-button-transparent:hover{ color: #000000; } 
 .gdlr-core-body .gdlr-core-button.gdlr-core-button-gradient{ background-color: #3db166; background: -webkit-linear-gradient(#57ba73, #3db166); background: -o-linear-gradient(#57ba73, #3db166); background: -moz-linear-gradient(#57ba73, #3db166); background: linear-gradient(#57ba73, #3db166); }.gdlr-core-body .gdlr-core-button.gdlr-core-button-gradient-v{ background-color: #3db166; background: -webkit-linear-gradient(to right, #57ba73, #3db166); background: -o-linear-gradient(to right, #57ba73, #3db166); background: -moz-linear-gradient(to right, #57ba73, #3db166); background: linear-gradient(to right, #57ba73, #3db166); } 

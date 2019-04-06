@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 
 	class Unduh_model extends CI_Model
 	{
@@ -11,7 +11,7 @@
 		public function track_os()
 		{
 			if ($this->agent->is_mobile('iphone')) {
-				$agent = "iPhone";
+				$agent = "iOS";
 			}
 			elseif ($this->agent->is_mobile()) {
 				$agent = "Android";

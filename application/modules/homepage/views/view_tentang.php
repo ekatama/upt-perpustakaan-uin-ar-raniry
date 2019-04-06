@@ -228,8 +228,8 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <h3></h3>
-                                            <p><?= $struktur['konten'];?></p>
+                                          <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
+                                                <img src="<?= base_url();?>/assets/uploads/homepage/<?= $struktur['konten'];?>" width="700" height="450"  alt="" />
                                         </div>
                                     </div>
                                 </div>

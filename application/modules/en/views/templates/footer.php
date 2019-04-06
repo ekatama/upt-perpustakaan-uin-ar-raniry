@@ -43,7 +43,7 @@
                                 <?php foreach ($weblinks as $val) : ?>
                                     <li class="menu-item">
                                         <a href="<?= $val['url'];?>">
-                                            <?= $val['title'];?>
+                                            <?= $val['name'];?>
                                             </a>
                                         </li>
                                 <?php endforeach; ?>   

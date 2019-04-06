@@ -99,5 +99,5 @@ $db['default'] = array(
 /*	'hostname' => 'remotemysql.com',
 	'username' => 'cahQB2kVXq',
 	'password' => 'wqcbhFx2EF',
-	'database' => 'cahQB2kVXq',
+	'database' => 'cahQB2kVXq', 
 */
