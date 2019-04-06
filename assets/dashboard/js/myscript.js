@@ -88,6 +88,17 @@ if (flashDataLayanan) {
 	});
 }
 
+//sweetalert FAQ
+const flashDataFaq = $('.flash-data-faq').data('flashdata');
+
+if (flashDataFaq) {
+	Swal.fire({
+		title: 'FAQ',
+		text: 'Berhasil ' + flashDataFaq + ' :)',
+		type: 'success'
+	});
+}
+
 //tombol logout
 $('.tombol-logout').on('click', function (e) {
 

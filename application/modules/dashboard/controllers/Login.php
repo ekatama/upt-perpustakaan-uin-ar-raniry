@@ -4,7 +4,8 @@ class Login extends MY_Controller{
 
     function __construct() {
         parent::__construct();
-        $this->load->model('user_model');
+        $this->load->model('User_model');
+        $this->load->model('Logs_model');
 
     }
     public function index()
@@ -23,8 +24,8 @@ class Login extends MY_Controller{
 
         $email = $this->input->post('email');
         $pass = $this->input->post('password');
- 
-        $login = $this->user_model->cek_user($email, $pass);
+
+        $login = $this->User_model->cek_user($email, $pass);
 
         if($login) {
 
@@ -34,7 +35,9 @@ class Login extends MY_Controller{
                 'fullname' => $login['fullname'],
                 'admin' => TRUE
             ];
+
             $this->session->set_userdata($data);
+            $this->Logs_model->setData();
 
             redirect('dashboard');
 

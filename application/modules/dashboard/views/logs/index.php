@@ -14,15 +14,17 @@
                       <th>Tanggal</th>
                     </tr>
                   </thead>
+                  <?php foreach ($logs as $lgs) : ?>
                   <tbody>
                     <tr>
-                      <td><?= $ip_address;?></td>
-                      <td><?= $os;?></td>
-                      <td><?= $browser;?></td>
-                      <td>05/07/2019</td>
+                      <td><?= $lgs['ip'];?></td>
+                      <td><?= $lgs['os'];?></td>
+                      <td><?= $lgs['browser'];?></td>
+                      <td><?= $lgs['created_at'];?></td>
                     </tr>
                     
                   </tbody>
+                <?php endforeach; ?>
                 </table>
               </div>
             </div>

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
       <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/layanan/tambah_layanan"><i class="fas fa-plus"></i> Layanan</a>
@@ -6,7 +6,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
 <div class="flash-data-layanan" data-flashdata="<?= $this->session->flashdata('flash');?>"></div>
   <div class="row mt-5">
     <?php foreach($layanan as $lyanan): ?>

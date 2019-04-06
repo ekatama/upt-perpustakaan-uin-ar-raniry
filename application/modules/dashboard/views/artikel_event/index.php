@@ -28,8 +28,8 @@
                   </div>
                     <img src="<?= base_url('assets/dashboard/uploads/artikel_event/').$artkl['cover']; ?>" style='width:100%'>
                   <div class="card-body py-3">
-                    <a href="" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['title'],7," ...");?></h6></a>
-                    <p class='mb-0'><?= word_limiter($artkl['content'],10," ...");?></p>
+                    <a href="<?= base_url();?>index.php/dashboard/artikel_event/detail/<?= $artkl['id'];?>" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['judul'],7," ...");?></h6></a>
+                    <p class='mb-0'><?= word_limiter($artkl['konten'],10," ...");?></p>
                   </div>
                   <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> <?=$artkl['view'];?> views</span>

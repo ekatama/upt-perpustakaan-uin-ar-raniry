@@ -153,6 +153,17 @@
           <span>Weblink</span></a>
       </li>
 
+      <!-- Nav Item - FAQ -->
+      <?php if ($title == 'FAQ') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
+      <li class="nav-item">
+      <?php endif; ?>
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/faq/index">
+          <i class="fas fa-question-circle"></i>
+          <span>FAQ</span></a>
+      </li>
+
 
       <!-- Divider -->
       <hr class="sidebar-divider">

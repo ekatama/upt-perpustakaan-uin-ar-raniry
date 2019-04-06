@@ -16,14 +16,34 @@ class Artikel_model extends CI_Model{
     {
         $data = [
         
-        "title" => $this->input->post('judul', true), 
         "cover" => $filename, 
-        "content" => $this->input->post('konten', true), 
+        "judul" => $this->input->post('judul', true), 
+        "konten" => $this->input->post('konten', true), 
+        "tanda" => $this->input->post('tanda', true), 
+        "title" => $this->input->post('title', true), 
+        "content" => $this->input->post('content', true), 
         "tag" => $this->input->post('tag', true), 
     
         ];
 
         $this->db->insert('articles', $data);
+    }
+
+    public function ubahArtikel()
+    {
+        $data = [
+        
+        "judul" => $this->input->post('judul', true), 
+        "konten" => $this->input->post('konten', true), 
+        "tanda" => $this->input->post('tanda', true), 
+        "title" => $this->input->post('title', true), 
+        "content" => $this->input->post('content', true), 
+        "tag" => $this->input->post('tag', true), 
+    
+        ];
+
+        $this->db->where('id', $this->input->post('id'));
+        $this->db->update('articles', $data);
     }
 
     public function hapusArtikelEvent($id)

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
       <a class='btn btn-primary mr-2' href="<?= base_url(); ?>index.php/dashboard/layanan/index"><i class="fas fa-chevron-left"></i> Layanan</a>
@@ -20,7 +20,6 @@
             </div>
         </div>
         <div class="form-group">
-            <input type="hidden" name="type" value="">
             <label for="konten">Konten *</label>
             <textarea class="form-control" id="konten" name="konten" rows="5" required></textarea>
             <div class="invalid-feedback">
@@ -40,7 +39,6 @@
             </div>
         </div>
         <div class="form-group">
-            <input type="hidden" name="type" value="">
             <label for="content">Content *</label>
             <textarea class="form-control" id="content" name="content" rows="5" required></textarea>
             <div class="invalid-feedback">
@@ -51,15 +49,15 @@
 		</div>
     <div class="col-md-12 mt-4">
       <div class="card-body shadow bg-white">
-      <div class="form-group">
-            <label for="jadwal">Jadwal</label>
-            <input type="text" class="form-control" id="jadwal" name="jadwal" placeholder="08.15 - 10.15" required>
-            <div class="invalid-feedback">
-            Jadwal harus diisi.
-            </div>
-            <div class="form-group d-flex flex-row-reverse mt-3">
-              <button type="submit" class='btn btn-primary'>Buat Layanan</button>
-            </div>
-	</div>
-</div>
+        <div class="form-group">
+          <label for="jadwal">Jadwal</label>
+          <input type="text" class="form-control" id="jadwal" name="jadwal" placeholder="08.15 - 10.15" required>
+          <div class="invalid-feedback">
+          Jadwal harus diisi.
+        </div>
+        <div class="form-group d-flex flex-row-reverse mt-3">
+          <button type="submit" class='btn btn-primary'>Buat Layanan</button>
+        </div>
+      </div>
+    </div>
 </form>        

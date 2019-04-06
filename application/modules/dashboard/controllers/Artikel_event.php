@@ -3,7 +3,8 @@
 class Artikel_event extends MY_Controller{
 
 
-    function __construct() {
+    function __construct()
+    {
                 
         parent::__construct();
         $this->load->model('Artikel_model');
@@ -30,6 +31,8 @@ class Artikel_event extends MY_Controller{
     {
         $data['title'] = 'Artikel / Event';
         $data['artikel'] = $this->Artikel_model->getById($id);
+        $data['tanda'] = ['Acara', 'Kegiatan'];
+        $data['tag'] = ['Event', 'Activities'];
 
         $this->form_validation->set_rules('judul', 'Judul', 'required');
         $this->form_validation->set_rules('konten', 'Konten', 'required');
@@ -72,6 +75,28 @@ class Artikel_event extends MY_Controller{
             $this->Artikel_model->tambahArtikel($this->upload->data("file_name"));
             $this->session->set_flashdata('flash','ditambahkan');
             redirect('dashboard/artikel_event');
+        }
+    }
+
+    public function prosesUbahArtikel()
+    {
+        $config['upload_path']       = '.\assets\dashboard\uploads\artikel_event';
+        $config['file_name']         = $this->input->post('cover');
+        $config['allowed_types']     = 'jpg|png';
+        $config['overwrite']         = true;
+        $config['max_size']          = 2048; //2MB
+
+        $this->load->library('upload', $config);
+
+        if($this->upload->do_upload('fotosampul')) {
+    
+            $this->Artikel_model->ubahArtikel();
+            $this->session->set_flashdata('flash','ditambahkan');
+            redirect('dashboard/artikel_event');
+        } else {
+            
+            $this->session->set_flashdata('flash','Ukuran file terlalu besar, file maksimal berukuran 2MB.');
+            redirect('dashboard/artikel_event/detail/'.$this->input->post('id'));
         }
     }
 
