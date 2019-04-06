@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'remotemysql.com',
+	'username' => 'cahQB2kVXq',
+	'password' => 'wqcbhFx2EF',
+	'database' => 'cahQB2kVXq',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +94,10 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+
+/*	'hostname' => 'remotemysql.com',
+	'username' => 'cahQB2kVXq',
+	'password' => 'wqcbhFx2EF',
+	'database' => 'cahQB2kVXq', 
+*/

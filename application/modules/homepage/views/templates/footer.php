@@ -1,18 +1,18 @@
-<!-- Footer -->
+ <!-- Footer -->
         <footer>
         <div class="kingster-footer-wrapper ">
             <div class="kingster-footer-container kingster-container clearfix">
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="text-2" class="widget widget_text kingster-widget">
                         <div class="textwidget">
-                            <p><img src="assets/images/logo-upt-perpus-uin.png" alt="" />
+                            <p><img src="<?= base_url();?>/assets/images/logo-uin-2.png" alt="" />
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_10"></span>
-                                <br /> Box 35300
-                                <br /> 1810 Campus Way NE
-                                <br /> Bothell, WA 98011-8246</p>
-                            <p><span id="span_1dd7_11">+1-2534-4456-345</span>
+                                <br /> Perpustakaan UIN Ar-Raniry
+                                <br /> Jl. Syeikh Abdul Rauf Darussalam 
+                                <br /> Banda Aceh Indonesia, 23111 </p>
+                            <p><span id="span_1dd7_11">0651-7557325</span>
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_12"></span>
-                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">admin@kingsteruni.edu</a></p>
+                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">library@ar-raniry.ac.id</a></p>
                             <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
                                 <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_111"></div>
                             </div>
@@ -21,68 +21,47 @@
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Our Campus</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Perpustakaan</h3><span class="clear"></span>
                         <div class="menu-our-campus-container">
                             <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Acedemic</a></li>
-                                <li class="menu-item"><a href="#">Planning &#038; Administration</a></li>
-                                <li class="menu-item"><a href="#">Campus Safety</a></li>
-                                <li class="menu-item"><a href="#">Office of the Chancellor</a></li>
-                                <li class="menu-item"><a href="#">Facility Services</a></li>
-                                <li class="menu-item"><a href="#">Human Resources</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/tentang");?>">Tentang</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/layanan");?>">Layanan</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/koleksi");?>">Koleksi</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/regulasi");?>">Regulasi</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/galeri");?>">Galeri</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/unduh");?>">Unduh</a></li>
+                                <li class="menu-item"><a href="<?= site_url("homepage/situs");?>">Situs</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Campus Life</h3><span class="clear"></span>
+                        <h3 class="kingster-widget-title">Situs</h3><span class="clear"></span>
                         <div class="menu-campus-life-container">
                             <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Accessibility</a></li>
-                                <li class="menu-item"><a href="#">Financial Aid</a></li>
-                                <li class="menu-item"><a href="#">Food Services</a></li>
-                                <li class="menu-item"><a href="#">Housing</a></li>
-                                <li class="menu-item"><a href="#">Information Technologies</a></li>
-                                <li class="menu-item"><a href="#">Student Life</a></li>
+                                <?php foreach ($weblinks as $val) : ?>
+                                    <li class="menu-item">
+                                        <a href="<?= $val['url'];?>">
+                                            <?= $val['name'];?>
+                                            </a>
+                                        </li>
+                                <?php endforeach; ?>   
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                    <div id="gdlr-core-custom-menu-widget-4" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                        <h3 class="kingster-widget-title">Academics</h3><span class="clear"></span>
-                        <div class="menu-academics-container">
-                            <ul id="menu-academics" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="#">Canvas</a></li>
-                                <li class="menu-item"><a href="#">Catalyst</a></li>
-                                <li class="menu-item"><a href="#">Library</a></li>
-                                <li class="menu-item"><a href="#">Time Schedule</a></li>
-                                <li class="menu-item"><a href="#">Apply For Admissions</a></li>
-                                <li class="menu-item"><a href="#">Pay My Tuition</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         
         <div class="kingster-copyright-wrapper">
             <div class="kingster-copyright-container kingster-container clearfix">
-                <div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry</div>
-                <div class="kingster-copyright-right kingster-item-pdlr">
+                <div class="kingster-copyright-left kingster-item-pdlr">&copy; Copyright All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry.</div>
+                <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                             <i class="fa fa-facebook" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus">
-                            <i class="fa fa-google-plus" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
-                            <i class="fa fa-linkedin" ></i>
-                        </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype">
-                            <i class="fa fa-skype" ></i>
                         </a>
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
                             <i class="fa fa-twitter" ></i>
@@ -95,24 +74,23 @@
             </div>
         </div>
         </footer>
-
     </div>
 </div>
 
 
 
 <!-- JavaScript -->
-    <script type='text/javascript' src='assets/js/jquery/jquery.js'></script>
-    <script type='text/javascript' src='assets/js/jquery/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
-    <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="<?= base_url(); ?>/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
 
     <script type="text/javascript">
         /*<![CDATA[*/
@@ -216,7 +194,7 @@
         } /*]]>*/
     </script>
 
-    <script type='text/javascript' src='assets/plugins/goodlayers-core/plugins/combine/script.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/goodlayers-core/plugins/combine/script.js'></script>
     <script type='text/javascript'>
         var gdlr_core_pbf = {
             "admin": "",
@@ -227,17 +205,17 @@
             "ajax_url": "https:\/\/demo.goodlayers.com\/kingster\/wp-admin\/admin-ajax.php"
         };
     </script>
-    <script type='text/javascript' src='assets/plugins/goodlayers-core/include/js/page-builder.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/plugins/goodlayers-core/include/js/page-builder.js'></script>
 
 
 
-    <script type='text/javascript' src='assets/js/jquery/ui/effect.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/jquery/ui/effect.min.js'></script>
     <script type='text/javascript'>
         var kingster_script_core = {
             "home_url": "https:\/\/demo.goodlayers.com\/kingster\/"
         };
     </script>
-    <script type='text/javascript' src='assets/js/plugins.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/plugins.min.js'></script>
     <script>
         /*<![CDATA[*/
         var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
@@ -370,6 +348,22 @@
         } /*]]>*/
     </script>
 
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/plugins.min.js'></script>
+    <script type='text/javascript' src='<?= base_url(); ?>/assets/js/isotope.js'></script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
     </body>
 </html>
