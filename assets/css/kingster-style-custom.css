@@ -488,7 +488,7 @@ blockquote, q, pre{ background-color: #f5f5f5; }
 .gdlr-core-blockquote-item-quote{ color: #3db166; } 
 .gdlr-core-blockquote-item-content, .gdlr-core-blockquote-item-author, pre{ color: #2d2d2d; } 
 .gdlr-core-body .gdlr-core-load-more, .gdlr-core-body .gdlr-core-button, .kingster-body .kingster-button, .kingster-body input[type="button"], .kingster-body input[type="submit"]{ color: #ffffff; } 
-.gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ color: #ffc60b; } 
+.gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ color: #fff; } 
 .gdlr-core-body .gdlr-core-load-more, .gdlr-core-body .gdlr-core-button, .kingster-body .kingster-button, .kingster-body input[type="button"], .kingster-body input[type="submit"]{ background-color: #3db166; } 
 .gdlr-core-body .gdlr-core-load-more:hover, .gdlr-core-body .gdlr-core-button:hover{ background-color: #ffc60b; } 
 .gdlr-core-body .gdlr-core-button-with-border{ border-color: #383838; } .gdlr-core-body .gdlr-core-button-with-border.gdlr-core-button-transparent{ color: #383838; } 

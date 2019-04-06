@@ -41,7 +41,7 @@
 
 		public function tentang()
 		{
-			$data['title'] 		= 'tentang';
+			$data['title'] 		= 'about';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['tentang']	= $this->Tentang_model->ambil_data('tentang');
@@ -61,20 +61,28 @@
 
 		public function kegiatan()
 		{
-			$data['title']			= 'kegiatan';
+			$data['title']			= 'activity';
 			$data['weblinks'] 		= $this->Situs_model->ambil_data('situs'); // footer link
 
 			// Ambil data total kolom dan tampilkan per 2 kolom untuk setiap halaman 
 			$row = $this->Kegiatan_model->row();
 
-			$config['base_url'] 	= base_url('homepage/kegiatan');
-			$config['total_rows'] 	= $row;
-			$config['per_page'] 	= 2;
+			$config['base_url'] 		= base_url('homepage/kegiatan');
+			$config['total_rows'] 		= $row;
+			$config['per_page'] 		= 2;
+
+			$config['next_link']		= '&gt;';
+			$config['cur_tag_open'] 	= '<span class="page-numbers current">';
+			$config['cur_tag_close']	= '</span>';
+
 
 			$start = $this->uri->segment(3);
 			$this->pagination->initialize($config);
 
+
+
 			$data['kegiatan'] 		= $this->Kegiatan_model->ambil_data($config['per_page'], $start);
+
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_kegiatan', $data);
@@ -83,7 +91,7 @@
 
 		public function single_post()
 		{
-			$data['title'] 			= 'postingan';
+			$data['title'] 			= 'post';
 			$data['weblinks']		= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['single_post'] 	= $this->Kegiatan_model->single_post($this->uri->segment(3));
@@ -91,13 +99,11 @@
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_single_post', $data);
 			$this->load->view('templates/footer');
-
 		}
 
 		public function layanan()
 		{
-
-			$data['title'] 		= 'layanan';
+			$data['title'] 		= 'service';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['layanan']	= $this->Layanan_model->ambil_data('layanan');
@@ -109,7 +115,7 @@
 
 		public function galeri()
 		{
-			$data['title'] 		= 'galeri';
+			$data['title'] 		= 'gallery';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['galeri'] 	= $this->Galeri_model->galeri('galeri');
@@ -122,7 +128,7 @@
 
 		public function unduh()
 		{
-			$data['title'] 		= 'unduh';
+			$data['title'] 		= 'download';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['unduh']		= $this->Unduh_model->ambil_data('unduh');
@@ -157,12 +163,11 @@
 			$this->db->query("SET FOREIGN_KEY_CHECKS = 0");
 			$this->db->insert('downloadlogs', $data);
 			$this->db->query("SET FOREIGN_KEY_CHECKS = 1");
-
 		}
 
 		public function situs()
 		{
-			$data['title'] 		= 'situs';
+			$data['title'] 		= 'weblinks';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs');
 
 			$this->load->view('templates/header', $data);
@@ -172,7 +177,7 @@
 
 		public function faq()
 		{
-			$data['title']		= 'faq';
+			$data['title']		= 'fAQ';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs');
 
 			$data['faq']		= $this->FAQ_model->ambil_data('faq');

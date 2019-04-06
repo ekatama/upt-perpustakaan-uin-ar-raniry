@@ -209,7 +209,8 @@
                                                                 </span>
                                                             </div>
                                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_12">
-                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?></a>
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?>
+                                                                </a>
                                                             </h3>
                                                         </div>
                                                     </div>

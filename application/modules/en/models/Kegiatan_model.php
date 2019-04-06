@@ -25,17 +25,22 @@
 		public function ambil_data($perpage, $start)
 		{
 			$content = $this->db->order_by('id','desc')->get('articles', $perpage, $start);
+			
         	return $content->result_array();
 		}
 
+		// --------------- Single Post
+
 		public function single_post($id)
 		{
-			$content = $this->db->where('id',$id)->get('articles');
-			return $content->first_row();
+			$data = $this->db->where('id',$id)->get('articles');
+
+			$this->db->set('view', $data->first_row()->view+1);
+            $this->db->where('id', $id);
+			$this->db->update('articles');
+
+			return $data->first_row();
 		}
-
 	}
-
-
 
  ?>
