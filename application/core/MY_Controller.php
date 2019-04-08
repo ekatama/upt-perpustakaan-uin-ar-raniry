@@ -17,6 +17,7 @@ class MY_Controller extends MX_Controller {
         parent::__construct();
         if (version_compare(CI_VERSION, '2.1.0', '<')) {
             $this->load->library('security');
+            
         }
     }
  

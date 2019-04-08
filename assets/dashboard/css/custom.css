@@ -1,0 +1,17 @@
+.dropdown-item:hover,
+.dropdown-item:focus {
+	color: rgb(230, 213, 213) !important;
+	text-decoration: none;
+	background-color: unset;
+}
+
+span.date,
+.views {
+	font-size: 13px !important;
+}
+
+span.piped {
+	border-right: 1px solid #ccc;
+	padding: 0 10px;
+	margin-right: 10px;
+}

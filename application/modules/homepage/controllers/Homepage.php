@@ -42,6 +42,7 @@
 			$data['title'] 		= 'tentang';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
+
 			$data['tentang']	= $this->Tentang_model->ambil_data('tentang');
 			$data['visi']		= $this->Tentang_model->ambil_data('visi');
 			$data['misi'] 		= $this->Tentang_model->ambil_data('misi');
