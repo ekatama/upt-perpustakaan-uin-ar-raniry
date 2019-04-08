@@ -14,7 +14,7 @@
             <form action="" method="post" class="needs-validation" novalidate>
             <input type="hidden" name="id" value="<?= $weblink['id'];?>">
               <div class="form-group">
-                <label for="name">Nama Weblink *</label>
+                <label for="name">Nama Website *</label>
                 <input type="text" class="form-control" id="name" name="name" value="<?= $weblink['name'];?>" required>
                 <div class="invalid-feedback">
                 Nama Weblink harus diisi.

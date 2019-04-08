@@ -23,7 +23,7 @@
                     </div>
                   </div>
                 </div>
-                <img src="<?= base_url('assets/dashboard/uploads/galeri/').$glr['img'];?>" style='width:100%' alt="buku">
+                <img src="<?= base_url('assets/uploads/galeri/').$glr['img'];?>" style='width:100%' alt="buku">
           </div>
           <?php endforeach; ?>
     </div>

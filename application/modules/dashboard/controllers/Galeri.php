@@ -51,9 +51,9 @@ class Galeri extends MY_Controller{
 	
 	public function prosesTambahFoto()
     {
-			$config['upload_path']       = '.\assets\dashboard\uploads\galeri';
+			$config['upload_path']       = '.\assets\uploads\galeri';
 			$config['file_name']         = time();
-			$config['allowed_types']     = 'jpg|png';
+			$config['allowed_types']     = 'jpg|png|jpeg';
 			$config['overwrite']         = true;
 			$config['max_size']          = 2048; //2MB
 	
@@ -64,7 +64,6 @@ class Galeri extends MY_Controller{
 			$this->Galeri_model->tambahFoto($this->upload->data("file_name"));
 			$this->session->set_flashdata('flash','ditambahkan');
 		}
-		return print($this->upload->display_errors());
 		
     }
 	

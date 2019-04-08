@@ -62,9 +62,9 @@ class Artikel_event extends MY_Controller{
 
     public function prosesTambahArtikel()
     {
-        $config['upload_path']       = '.\assets\dashboard\uploads\artikel_event';
+        $config['upload_path']       = '.\assets\uploads\artikel_event';
         $config['file_name']         = time();
-        $config['allowed_types']     = 'jpg|png';
+        $config['allowed_types']     = 'jpg|png|jpeg';
         $config['overwrite']         = true;
         $config['max_size']          = 2048; //2MB
 
@@ -80,9 +80,9 @@ class Artikel_event extends MY_Controller{
 
     public function prosesUbahArtikel()
     {
-        $config['upload_path']       = '.\assets\dashboard\uploads\artikel_event';
+        $config['upload_path']       = '.\assets\uploads\artikel_event';
         $config['file_name']         = $this->input->post('cover');
-        $config['allowed_types']     = 'jpg|png';
+        $config['allowed_types']     = 'jpg|png|jpeg';
         $config['overwrite']         = true;
         $config['max_size']          = 2048; //2MB
 
@@ -91,11 +91,11 @@ class Artikel_event extends MY_Controller{
         if($this->upload->do_upload('fotosampul')) {
     
             $this->Artikel_model->ubahArtikel();
-            $this->session->set_flashdata('flash','ditambahkan');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/artikel_event');
         } else {
             
-            $this->session->set_flashdata('flash','Ukuran file terlalu besar, file maksimal berukuran 2MB.');
+            $this->session->set_flashdata('flash','Upload gagal, ukuran file terlalu besar, file maksimal berukuran 2MB.');
             redirect('dashboard/artikel_event/detail/'.$this->input->post('id'));
         }
     }

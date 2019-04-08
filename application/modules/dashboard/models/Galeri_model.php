@@ -40,7 +40,7 @@ class Galeri_model extends CI_Model{
         $query = $this->db->where('id', $id)->get('galleries');
         $row = $query->row();
 
-        unlink('./assets/dashboard/uploads/galeri/'.$row->img);
+        unlink('./assets/uploads/galeri/'.$row->img);
         $id_album = $row->album;
         $this->db->where('id', $id)->delete('galleries');
         return $id_album;
@@ -49,5 +49,10 @@ class Galeri_model extends CI_Model{
     public function detailAlbum($id) {
         $query = $this->db->where('album', $id)->get('galleries');
         return $query->result_array();
+    }
+
+    public function countGaleri()
+    {
+        return $query = $this->db->query('Select COUNT(id) from galleries')->row_array();
     }
 }

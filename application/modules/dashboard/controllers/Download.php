@@ -22,7 +22,7 @@ class Download extends MY_Controller{
 		
 		public function prosesTambahFile()
 		{
-			$config['upload_path']       = '.\assets\dashboard\uploads\file_download';
+			$config['upload_path']       = '.\assets\uploads\unduh';
 			$config['file_name']         = time();
 			$config['allowed_types']     = 'pdf';
 			$config['overwrite']         = true;

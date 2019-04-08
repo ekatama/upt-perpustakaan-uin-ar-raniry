@@ -51,7 +51,7 @@ class Artikel_model extends CI_Model{
         $query = $this->db->where('id', $id)->get('articles');
         $row = $query->row();
 
-        unlink('./assets/dashboard/uploads/artikel_event/'.$row->cover);
+        unlink('./assets/uploads/artikel_event/'.$row->cover);
         $this->db->where('id', $id)->delete('articles');
     }
 
@@ -63,6 +63,11 @@ class Artikel_model extends CI_Model{
         $this->db->or_like('tag', $keyword);
         $this->db->or_like('tanda', $keyword);
         return $this->db->get('articles')->result_array();
+    }
+
+    public function countArtikel()
+    {
+        return $query = $this->db->query('Select COUNT(id) from articles')->row_array();
     }
 
 }

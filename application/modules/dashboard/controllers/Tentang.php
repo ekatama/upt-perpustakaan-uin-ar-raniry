@@ -87,7 +87,7 @@ class Tentang extends MY_Controller{
 
     public function prosesUbahStrukturId()
     {
-        $config['upload_path']       = '.\assets\dashboard\uploads';
+        $config['upload_path']       = '.\assets\uploads';
         $config['file_name']         = 'struktur_id';
         $config['allowed_types']     = 'jpg';
         $config['overwrite']         = true;
@@ -97,14 +97,14 @@ class Tentang extends MY_Controller{
 
         if($this->upload->do_upload('struktur_id')) {
     
-            $this->session->set_flashdata('flash','ditambahkan');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/struktur_organisasi');
         }
     }
 
     public function prosesUbahStrukturEn()
     {
-        $config['upload_path']       = '.\assets\dashboard\uploads';
+        $config['upload_path']       = '.\assets\uploads';
         $config['file_name']         = 'struktur_en';
         $config['allowed_types']     = 'jpg';
         $config['overwrite']         = true;
@@ -114,7 +114,7 @@ class Tentang extends MY_Controller{
 
         if($this->upload->do_upload('struktur_en')) {
     
-            $this->session->set_flashdata('flash','ditambahkan');
+            $this->session->set_flashdata('flash','diubah');
             redirect('dashboard/tentang/struktur_organisasi');
         }
     }

@@ -15,11 +15,11 @@ class Download_model extends CI_Model{
     {
         $data = [
 
-          "title" => $this->input->post('title', true), 
-          "judul" => $this->input->post('judul', true),
-          "categories" => $this->input->post('categories', true), 
-          "kategori" => $this->input->post('kategori', true), 
-          "file" => $filename, 
+        "title" => $this->input->post('title', true), 
+        "judul" => $this->input->post('judul', true),
+        "categories" => $this->input->post('categories', true), 
+        "kategori" => $this->input->post('kategori', true), 
+        "file" => $filename, 
 
         ];
 
@@ -31,7 +31,12 @@ class Download_model extends CI_Model{
         $query = $this->db->where('id', $id)->get('download');
         $row = $query->row();
 
-        unlink('./assets/dashboard/uploads/file_download/'.$row->file);
+        unlink('./assets/uploads/unduh/'.$row->file);
         $this->db->where('id', $id)->delete('download');
+    }
+
+    public function countFile()
+    {
+        return $query = $this->db->query('Select COUNT(id) from download')->row_array();
     }
 }

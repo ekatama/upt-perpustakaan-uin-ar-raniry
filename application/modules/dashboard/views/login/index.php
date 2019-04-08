@@ -18,7 +18,7 @@
                   </div>
                   <?php if($this->session->flashdata('login_gagal')) : ?>
                   <div class="alert alert-danger">
-                  <?= $this->session->flashdata('login_gagal');?>
+                  <small><?= $this->session->flashdata('login_gagal');?></small>
                   </div>
                   <?php endif; ?>
                   <form class="user" method="post" action="<?= base_url('index.php/dashboard/login/proses_login'); ?>">

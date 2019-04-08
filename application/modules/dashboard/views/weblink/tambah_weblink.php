@@ -13,7 +13,7 @@
           <div class="col-md-12">
             <form action="" method="post" class="needs-validation" novalidate>
               <div class="form-group">
-                <label for="name">Nama Weblink *</label>
+                <label for="name">Nama Website *</label>
                 <input type="text" class="form-control" id="name" name="name" required>
                 <div class="invalid-feedback">
                 Nama Weblink harus diisi.

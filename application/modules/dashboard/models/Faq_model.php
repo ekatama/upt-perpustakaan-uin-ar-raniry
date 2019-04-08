@@ -43,4 +43,9 @@ class Faq_model extends CI_Model{
         $this->db->where('id', $id)->delete('faq');
     }
 
+    public function countFaq()
+    {
+        return $query = $this->db->query('Select COUNT(id) from faq')->row_array();
+    }
+
   }

@@ -8,7 +8,7 @@
           <div class="form-group">
             <input type="hidden" name="tipe" value="<?= $tentang['tipe'];?>">
             <label for="konten">Konten Program Sasaran *</label>
-            <textarea class="form-control col-12" id="konten" name="konten" rows="10"><?=$tentang['konten'];?></textarea>
+            <textarea class="form-control col-12" id="konten" name="konten" rows="12"><?=$tentang['konten'];?></textarea>
           </div>
           <div class="form-group d-flex flex-row-reverse">
             <button type="submit" class='btn btn-primary'>Simpan</button>
@@ -20,7 +20,7 @@
           <h6>English Version</h6>
           <div class="form-group">
             <label for="content">Target Program Content *</label>
-            <textarea class="form-control col-12" id="content" name="content" rows="10"><?=$tentang['content'];?></textarea>
+            <textarea class="form-control col-12" id="content" name="content" rows="12"><?=$tentang['content'];?></textarea>
           </div>
           <div class="form-group d-flex flex-row-reverse">
             <button type="submit" class='btn btn-primary'>Simpan</button>
