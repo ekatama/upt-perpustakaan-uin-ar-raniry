@@ -6,6 +6,8 @@
 
 	<title><?= ucfirst($title) ?></title>
 
+
+ <!-- tes -->
     <!-- CSS -->  
         <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/plugins/combine/style.css" type="text/css" media="all">  
         <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/include/css/page-builder.css" type="text/css" media="all">  
