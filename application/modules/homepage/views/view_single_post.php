@@ -1,6 +1,6 @@
 
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
-    <div class="kingster-blog-title-wrap kingster-style-custom kingster-feature-image" style="background-image: url(<?= base_url("/assets/dashboard/uploads/artikel_event/").$single_post->cover;?>);">
+    <div class="kingster-blog-title-wrap kingster-style-custom kingster-feature-image" style="background-image: url(<?= base_url("/assets/uploads/artikel_event/").$single_post->cover;?>);">
         <div class="kingster-header-transparent-substitute"></div>
         <div class="kingster-blog-title-overlay" style="opacity: 0.01 ;"></div>
         <div class="kingster-blog-title-bottom-overlay"></div>

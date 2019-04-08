@@ -33,7 +33,6 @@
 			$data['weblinks'] 			= $this->Situs_model->ambil_data('situs');
 			$data['video']				= $this->Video_model->video('video');
 
-
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_homepage', $data);
 			$this->load->view('templates/footer');

@@ -33,7 +33,7 @@
                                         <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
                                             <div class="gdlr-core-item-list gdlr-core-blog-full  gdlr-core-item-mglr gdlr-core-style-left">
                                                 <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                    <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>"><img src="<?= base_url();?>/assets/uploads/galleries/8-g.jpg" width="1100" height="490"  alt="" />
+                                                    <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>"><img src="<?= base_url();?>/assets/uploads/artikel_event/<?= $val['cover']; ?>" width="1100" height="490"  alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="gdlr-core-blog-full-head clearfix">

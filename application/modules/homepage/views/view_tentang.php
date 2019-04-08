@@ -21,7 +21,7 @@
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
 
-    <!-- Tentang -->
+    <!-- Tentang --> 
         <div class="gdlr-core-pbf-wrapper " id="div_983a_3">
             <div class="gdlr-core-pbf-background-wrap"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
@@ -228,8 +228,9 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                          <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
+                                            <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
                                                 <img src="<?= base_url();?>/assets/uploads/homepage/<?= $struktur['konten'];?>" width="700" height="450"  alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
