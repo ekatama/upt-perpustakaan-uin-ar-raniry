@@ -77,10 +77,10 @@
                         <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" id="i_fd84_0"></i> UPT-Perpustakaan@UIN-Ar-raniry.edu<i class="fa fa-phone" id="i_fd84_1"></i> +62-3435-2356-222</div>
                         <div class="kingster-top-bar-right kingster-item-pdlr">
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
-                                <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>situs">Weblink</a></li>
+                                <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>situs">Weblink</a></li>
                             </ul>
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
-                                <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>faq">FAQ</a></li>
+                                <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>faq">FAQ</a></li>
                             </ul>
                             <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a>
                         </div>

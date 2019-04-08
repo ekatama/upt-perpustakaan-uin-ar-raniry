@@ -33,7 +33,6 @@
 			$data['weblinks'] 			= $this->Situs_model->ambil_data('situs');
 			$data['video']				= $this->Video_model->video('video');
 
-
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_homepage', $data);
 			$this->load->view('templates/footer');
@@ -67,14 +66,22 @@
 			// Ambil data total kolom dan tampilkan per 2 kolom untuk setiap halaman 
 			$row = $this->Kegiatan_model->row();
 
-			$config['base_url'] 	= base_url('homepage/kegiatan');
-			$config['total_rows'] 	= $row;
-			$config['per_page'] 	= 2;
+			$config['base_url'] 		= base_url('homepage/kegiatan');
+			$config['total_rows'] 		= $row;
+			$config['per_page'] 		= 2;
+
+			$config['next_link']		= '&gt;';
+			$config['cur_tag_open'] 	= '<span class="page-numbers current">';
+			$config['cur_tag_close']	= '</span>';
+
 
 			$start = $this->uri->segment(3);
 			$this->pagination->initialize($config);
 
+
+
 			$data['kegiatan'] 		= $this->Kegiatan_model->ambil_data($config['per_page'], $start);
+
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_kegiatan', $data);
@@ -91,12 +98,10 @@
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_single_post', $data);
 			$this->load->view('templates/footer');
-
 		}
 
 		public function layanan()
 		{
-
 			$data['title'] 		= 'layanan';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
@@ -171,7 +176,7 @@
 
 		public function faq()
 		{
-			$data['title']		= 'faq';
+			$data['title']		= 'fAQ';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs');
 
 			$data['faq']		= $this->FAQ_model->ambil_data('faq');

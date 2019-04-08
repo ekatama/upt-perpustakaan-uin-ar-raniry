@@ -52,8 +52,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                <img src="<?= base_url();?>/assets/uploads/homepage/<?= $struktur['content'];?>" width="700" height="450"  alt="" />
+                                            <p><?= $tentang['content']; ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +90,7 @@
                                     </div>
                                     <p><?= $kegiatan['content'];?></p>  
                                     <div class="button">
-                                        <a href="<?= site_url("homepage/");?>kegiatan" style="color: #3db166">See all activities</a>
+                                        <a href="<?= site_url("en/");?>kegiatan" style="color: #3db166">See all activities</a>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +131,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <h3>Visi</h3>
+                                            <h3>Vision</h3>
                                             <p><?= $visi['content'];?></p>
                                         </div>
                                     </div>
@@ -146,7 +145,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_8">
-                                            <h3>Misi</h3>
+                                            <h3>Missions</h3>
                                             <p><?= $misi['content'];?></p>
                                         </div>
                                     </div>
@@ -230,8 +229,9 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <h3></h3>
-                                            <p><?= $struktur['content'];?></p>
+                                            <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
+                                                <img src="<?= base_url();?>/assets/uploads/homepage/<?= $struktur['content'];?>" width="700" height="450"  alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

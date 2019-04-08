@@ -12,7 +12,7 @@
                                 <br /> Banda Aceh Indonesia, 23111 </p>
                             <p><span id="span_1dd7_11">0651-7557325</span>
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_12"></span>
-                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">library@ar-raniry.ac.id</a></p>
+                                <br /> <a id="a_1dd7_8" href="mailto:library@ar-raniry.ac.id">library@ar-raniry.ac.id</a></p>
                             <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
                                 <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_111"></div>
                             </div>
@@ -67,7 +67,8 @@
                             <i class="fa fa-twitter" ></i>
                         </a>
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
-                            <i class="fa fa-instagram" ></i>
+                            <!-- uin_arraniry_official -->
+                            <i class="fa fa-instagram"></i>
                         </a>
                     </div>
                 </div>

@@ -50,7 +50,7 @@
                                                         <?php foreach ($weblinks as $val) : ?>
                                                             <tr>
                                                                 <td><?= $val['id']; ?></td>
-                                                                <td><?= $val['title']; ?></td>    
+                                                                <td><?= $val['name']; ?></td>    
                                                                 <td>
                                                                     <a href="<?= $val['url']; ?>"> <?= $val['url']; ?>
                                                                     </a>

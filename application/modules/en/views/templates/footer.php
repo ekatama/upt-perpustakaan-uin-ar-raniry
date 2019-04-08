@@ -12,7 +12,7 @@
                                 <br /> Banda Aceh Indonesia, 23111 </p>
                             <p><span id="span_1dd7_11">0651-7557325</span>
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_12"></span>
-                                <br /> <a id="a_1dd7_8" href="mailto:admin@kingsteruni.edu">library@ar-raniry.ac.id</a></p>
+                                <br /> <a id="a_1dd7_8" href="mailto:library@ar-raniry.ac.id">library@ar-raniry.ac.id</a></p>
                             <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
                                 <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_111"></div>
                             </div>
@@ -24,13 +24,13 @@
                         <h3 class="kingster-widget-title">Libraries</h3><span class="clear"></span>
                         <div class="menu-our-campus-container">
                             <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <li class="menu-item"><a href="<?= site_url("homepage/tentang");?>">About</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/layanan");?>">Services</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/koleksi");?>">Collections</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/regulasi");?>">Regulation</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/galeri");?>">Galleries</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/unduh");?>">Download</a></li>
-                                <li class="menu-item"><a href="<?= site_url("homepage/situs");?>">Weblinks</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/tentang");?>">About</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/layanan");?>">Services</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/koleksi");?>">Collections</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/regulasi");?>">Regulation</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/galeri");?>">Galleries</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/unduh");?>">Download</a></li>
+                                <li class="menu-item"><a href="<?= site_url("en/situs");?>">Weblinks</a></li>
                             </ul>
                         </div>
                     </div>

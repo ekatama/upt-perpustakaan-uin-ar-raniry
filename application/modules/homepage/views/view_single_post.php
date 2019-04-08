@@ -1,5 +1,6 @@
+
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
-    <div class="kingster-blog-title-wrap kingster-style-custom kingster-feature-image" style="background-image: url(<?= base_url("/assets/dashboard/uploads/artikel_event/").$single_post->cover;?>);">
+    <div class="kingster-blog-title-wrap kingster-style-custom kingster-feature-image" style="background-image: url(<?= base_url("/assets/uploads/artikel_event/").$single_post->cover;?>);">
         <div class="kingster-header-transparent-substitute"></div>
         <div class="kingster-blog-title-overlay" style="opacity: 0.01 ;"></div>
         <div class="kingster-blog-title-bottom-overlay"></div>
@@ -11,9 +12,9 @@
                         <div class="kingster-single-article-date-month"><?= date("M", strtotime($single_post->created_at)); ?></div>
                     </div>
                     <div class="kingster-single-article-head-right">
-                        <h1 class="kingster-single-article-title"><?= $single_post->title; ?></h1>
+                        <h1 class="kingster-single-article-title"><?= $single_post->judul;?></h1>
                         <div class="kingster-blog-info-wrapper">
-                            <div class="kingster-blog-info kingster-blog-info-font kingster-blog-info-author vcard author post-author "><span class="kingster-head"><a href="<?= site_url("homepage/");?>kegiatan"><?= $single_post->tag ?></a></span><span class="kingster-head">/</span><span class="kingster-head">By Admin</span></div> 
+                            <div class="kingster-blog-info kingster-blog-info-font kingster-blog-info-author vcard author post-author "><span class="kingster-head"><a href="<?= site_url("homepage/");?>kegiatan"><?= $single_post->tanda ?></a></span><span class="kingster-head">/</span><span class="kingster-head">By Admin</span></div> 
                         </div>
                     </div>
                 </header>
@@ -22,11 +23,11 @@
     </div>
     <div class="kingster-breadcrumbs">
         <div class="kingster-breadcrumbs-container kingster-container">
-            <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="index.html" class="home"><span property="name">Home</span></a>
+            <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="index.html" class="home"><span property="name">Beranda</span></a>
                 <meta property="position" content="1">
-                </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Kegiatan" href="<?= site_url("homepage/");?>kegiatan" class="taxonomy category"><span property="name"><?= $single_post->tag; ?></span></a>
+                </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Kegiatan" href="<?= site_url("homepage/");?>kegiatan" class="taxonomy category"><span property="name"><?= $single_post->tanda; ?></span></a>
                 <meta property="position" content="2">
-                </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name"><?= $single_post->title;?></span>
+                </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name"><?= $single_post->judul;?></span>
                 <meta property="position" content="3">
                 </span>
             </div>
@@ -40,7 +41,7 @@
                         <article id="post-1268" class="post-1268 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-post-format tag-news">
                             <div class="kingster-single-article clearfix">
                                 <div class="kingster-single-article-content">
-                                    <p><?= $single_post->content;?></p>
+                                    <p><?= $single_post->konten;?></p>
                                 </div>
                             </div>
                         </article>

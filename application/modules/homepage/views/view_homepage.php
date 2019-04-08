@@ -168,7 +168,7 @@
                                                     <div class="gdlr-core-blog-grid ">
                                                         <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
                                                             <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id; ?>">
-                                                                <img src="<?= base_url();?>assets/dashboard/uploads/artikel_event/<?= $artikel_utama->cover;?>" width="700" height="430" alt="">
+                                                                <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $artikel_utama->cover;?>" width="765" height="430" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="gdlr-core-blog-grid-content-wrap">
@@ -196,7 +196,7 @@
                                                     <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                                         <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
                                                             <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>">
-                                                                <img src="<?= base_url();?>assets/dashboard/uploads/artikel_event/<?= $val['cover'];?>" alt="" width="150" height="150" />
+                                                                <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $val['cover'];?>" alt="" width="150" height="150" />
                                                             </a>
                                                         </div>
                                                         <div class="gdlr-core-blog-widget-content">
@@ -209,7 +209,8 @@
                                                                 </span>
                                                             </div>
                                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_12">
-                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?></a>
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?>
+                                                                </a>
                                                             </h3>
                                                         </div>
                                                     </div>
