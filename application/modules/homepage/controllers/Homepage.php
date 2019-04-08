@@ -18,7 +18,6 @@
 			$this->load->model('Unduh_model');
 			$this->load->model('Video_model');
 			$this->load->model('FAQ_model');
-
 		}
 
 		public function index()
