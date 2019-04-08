@@ -36,7 +36,7 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url(); ?>index.php/dashboard/index">
-          <img src="<?= base_url(); ?>assets/images/logo uin.png" style="width:20%" alt="logo uin">
+          <img src="<?= base_url(); ?>assets/images/logo-uin.png" style="width:20%" alt="logo uin">
         <div class="sidebar-brand-text text-left mx-2" style="font-size:14px;">UPT Perpustakaan</div>
       </a>
 
@@ -229,7 +229,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="d-none d-lg-inline text-gray-600 small piped"><?= $this->session->get_userdata()['fullname'];?></span>
-                <img class="img-profile rounded-circle" src="<?= base_url(); ?>assets/images/logo uin.png">
+                <img class="img-profile rounded-circle" src="<?= base_url(); ?>assets/images/logo-uin.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

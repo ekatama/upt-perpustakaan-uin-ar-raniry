@@ -21,15 +21,15 @@
         <div class="row mt-5">
         <?php foreach($artikel as $artkl): ?>
             <div class="col-md-3 col-sm-6">
-              <div class="card shadow mb-4" style="min-height:407px;">
+              <div class="card shadow mb-4">
               <div class="card-header py-2">
                     <span class="text-muted">Dibuat oleh: </span>
                     <span class='m-0 font-weight-bold text-primary'><?= $this->session->get_userdata()['fullname'];?></span>
                   </div>
                     <img src="<?= base_url('assets/uploads/artikel_event/').$artkl['cover']; ?>" style='width:100%'>
-                  <div class="card-body py-3">
-                    <a href="<?= base_url();?>index.php/dashboard/artikel_event/detail/<?= $artkl['id'];?>" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= word_limiter($artkl['judul'],7," ...");?></h6></a>
-                    <p class='mb-0'><?= word_limiter($artkl['konten'],10," ...");?></p>
+                  <div class="card-body py-3"  style="height: 150px;">
+                    <a href="<?= base_url();?>index.php/dashboard/artikel_event/detail/<?= $artkl['id'];?>" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?= character_limiter($artkl['judul'],40," ...");?></h6></a>
+                    <p class='mb-0'><?= character_limiter($artkl['konten'],50," ...");?></p>
                   </div>
                   <div class="card-footer py-2">
                     <span class="m-0 font-weight-bold text-primary views"><i class="far fa-eye"></i> <?=$artkl['view'];?> views</span>

@@ -27,7 +27,7 @@ class Logs_model extends CI_Model{
 
     public function getData()
     {
-      return $this->db->get('logs')->result_array();
+      return $this->db->order_by('id', 'desc')->get('logs')->result_array();
     }
 
   }

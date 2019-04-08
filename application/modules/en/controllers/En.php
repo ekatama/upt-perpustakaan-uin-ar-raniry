@@ -67,7 +67,7 @@
 			// Ambil data total kolom dan tampilkan per 2 kolom untuk setiap halaman 
 			$row = $this->Kegiatan_model->row();
 
-			$config['base_url'] 		= base_url('homepage/kegiatan');
+			$config['base_url'] 		= base_url('en/kegiatan');
 			$config['total_rows'] 		= $row;
 			$config['per_page'] 		= 2;
 

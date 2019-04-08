@@ -6,8 +6,6 @@
 
 	<title><?= ucfirst($title) ?></title>
 
-
- <!-- tes -->
     <!-- CSS -->  
         <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/plugins/combine/style.css" type="text/css" media="all">  
         <link rel="stylesheet" href="<?= base_url()?>/assets/plugins/goodlayers-core/include/css/page-builder.css" type="text/css" media="all">  
@@ -131,61 +129,12 @@
                             <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> kingster-mega-menu"><a href="<?= site_url("homepage/");?>galeri">Galeri</a>
                                 
                             </li>
-                            
-    
                         </ul>
                         <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-    </header>ection-content"><img src="upload/mega-menu-logo.png" style="margin-bottom: 13px;" alt=""> <span style="font-size: 14px; font-weight: 500;">Academic offerings include 95 majors, 86 minors, and more than 100 in-major specializations</span></div>  
-	                            </li>  
-	                        </ul>  
-	                    </div>  
-	                </li>  
-	                <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="apply-to-kingster.html" class="sf-with-ul-pre">Admissions</a>  
-	                    <ul class="sub-menu">  
-	                        <li class="menu-item" data-size="60"><a href="apply-to-kingster.html">Apply To Kingster</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="campus-tour.html">Campus Tour</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="scholarships.html">Scholarships</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="athletics.html">Athletics</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="give-to-kingster.html">Give To Kingster</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="alumni.html">Alumni</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="event-calendar.html">Event Calendar</a></li>  
-	                    </ul>  
-	                </li>  
-	                <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Courses</a>  
-	                    <ul class="sub-menu">  
-	                        <li class="menu-item" data-size="60"><a href="course-list-1.html">Course List 1</a></li>  
-	                        <li class="menu-item" data-size="60"><a href="course-list-2.html">Course List 2</a></li>  
-	                    </ul>  
-	                </li>  
-	                <li class="menu-item kingster-normal-menu"><a href="athletics.html">Athletics</a></li>  
-	                <li class="menu-item kingster-normal-menu"><a href="university-life.html">University Life</a></li>  
-	            </ul>  
-	            <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>  
-	        </div>  
-	        <div class="kingster-main-menu-right-wrap clearfix ">  
-	            <div class="kingster-main-menu-search" id="kingster-top-search"><i class="icon_search"></i></div>  
-	            <div class="kingster-top-search-wrap">  
-	                <div class="kingster-top-search-close"></div>  
-	                <div class="kingster-top-search-row">  
-	                    <div class="kingster-top-search-cell">  
-	                        <form role="search" method="get" class="search-form" action="#">  
-	                            <input type="text" class="search-field kingster-title-font" placeholder="Search..." value="" name="s">  
-	                            <div class="kingster-top-search-submit"><i class="fa fa-search"></i></div>  
-	                            <input type="submit" class="search-submit" value="Search">  
-	                            <div class="kingster-top-search-close"><i class="icon_close"></i></div>  
-	                        </form>  
-	                    </div>  
-	                </div>  
-	            </div>  
-	        </div>  
-	    </div>
-	</section> 
-
-
+    </header>
 </body>
 </html>

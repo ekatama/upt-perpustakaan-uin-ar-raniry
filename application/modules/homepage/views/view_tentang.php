@@ -228,8 +228,8 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" id="div_983a_7">
-                                            <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                <img src="<?= base_url();?>/assets/uploads/homepage/<?= $struktur['konten'];?>" width="700" height="450"  alt="" />
+                                            <div class="gdlr-core-portfolio-thumbnail-image-wrap ">
+                                                <img src="<?= base_url();?>/assets/uploads/struktur/<?= $struktur['konten'];?>" width="700" height="450"  alt="" />
                                             </div>
                                         </div>
                                     </div>
