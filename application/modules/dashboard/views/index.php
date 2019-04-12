@@ -1,6 +1,6 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
-
+ 
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
   <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
@@ -53,7 +53,7 @@
             <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah File</div>
             <div class="row no-gutters align-items-center">
               <div class="col-auto">
-                <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $file['COUNT(id)'];?></div>
+                <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $file['COUNT(*)'];?></div>
               </div>
             </div>
           </div>

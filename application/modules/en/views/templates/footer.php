@@ -5,7 +5,7 @@
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="text-2" class="widget widget_text kingster-widget">
                         <div class="textwidget">
-                            <p><img src="<?= base_url();?>/assets/images/logo-uin-2.png" alt="" />
+                            <p><img src="<?= base_url();?>/assets/images/logo-uin-eng-trans.png" alt="" />
                                 <br /> <span class="gdlr-core-space-shortcode" id="span_1dd7_10"></span>
                                 <br /> UIN Ar-Raniry Library
                                 <br /> Jl. Syeikh Abdul Rauf Darussalam 
@@ -57,7 +57,7 @@
         
         <div class="kingster-copyright-wrapper">
             <div class="kingster-copyright-container kingster-container clearfix">
-                <div class="kingster-copyright-left kingster-item-pdlr">&copy; Copyright All Right Reserved 2019, UIN Ar-Raniry Library</div>
+                <div class="kingster-copyright-left kingster-item-pdlr">Copyright &copy; All Right Reserved 2019, UIN Ar-Raniry Library</div>
                 <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                         <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">

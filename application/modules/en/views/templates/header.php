@@ -26,7 +26,7 @@
             <div class="kingster-mobile-header-container kingster-container clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.php"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.php"><img src="<?= base_url();?>/assets/images/logo-uin-eng.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-mobile-menu-right">
@@ -41,7 +41,7 @@
                                         <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Misions</a></li>
                                         <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Our Goals</a></li>
                                         <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Organizational Structure</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Tupoksi</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Jobdesk</a></li>
                                         <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Target Program</a></li>
                                         <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Activities</a></li>
                                     </ul>
@@ -60,6 +60,8 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>galeri">Galleries</a></li>
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>situs">Weblinks</a></li>
+                                <li><a title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -95,7 +97,7 @@
             <div class="kingster-header-container-inner clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.html"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.html"><img src="<?= base_url();?>/assets/images/logo-uin-eng.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
@@ -109,7 +111,7 @@
                                     <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Misions</a></li>
                                     <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Our Goals</a></li>
                                     <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Organizational Structure</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Tupoksi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Jobdesk</a></li>
                                     <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Target Program</a></li>
                                     <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Activities</a></li>
                                 </ul>

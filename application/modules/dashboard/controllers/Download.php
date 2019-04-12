@@ -12,9 +12,10 @@ class Download extends MY_Controller{
 
 		public function index()
 		{
-			$data['title'] = 'Download';
-			$data ['download'] = $this->Download_model->getAll();
-			
+			$data['title'] 		= 'Download';
+			$data['download'] 	= $this->Download_model->getAll();
+			$data['count'] 		= $this->Download_model->countFile();
+
 			$this->load->view('templates/header', $data);
 			$this->load->view('download/index', $data);
 			$this->load->view('templates/footer');
@@ -23,7 +24,7 @@ class Download extends MY_Controller{
 		public function prosesTambahFile()
 		{
 			$config['upload_path']       = '.\assets\uploads\unduh';
-			$config['file_name']         = time();
+			$config['file_name']         = time(); 
 			$config['allowed_types']     = 'pdf';
 			$config['overwrite']         = true;
 			$config['max_size']          = 2048; //2MB

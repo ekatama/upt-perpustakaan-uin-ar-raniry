@@ -26,7 +26,7 @@
             <div class="kingster-mobile-header-container kingster-container clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.php"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.php"><img src="<?= base_url();?>/assets/images/logo-uin-indo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-mobile-menu-right">
@@ -60,6 +60,7 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>galeri">Galeri</a></li>
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("homepage/");?>situs">Situs</a></li>
+                                <li><a title="Change to English" href="<?= site_url("en");?>">EN</a></li>
                             </ul>
                         </div>
                     </div>
@@ -95,7 +96,7 @@
             <div class="kingster-header-container-inner clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index.html"><img src="<?= base_url();?>/assets/images/logo-upt-perpus-uin.png" alt="" /></a>
+                        <a class="" href="index.html"><img src="<?= base_url();?>/assets/images/logo-uin-indo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">

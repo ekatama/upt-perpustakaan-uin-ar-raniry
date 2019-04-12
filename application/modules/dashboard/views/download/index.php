@@ -16,7 +16,9 @@
             <a href="<?= base_url(); ?>index.php/dashboard/download/detail/<?= $dwnld['id'];?>" style='text-decoration: none'><h6 class="mt-0 font-weight-bold text-primary"><?=word_limiter($dwnld['judul'],7," ...");?></h6></a>
             </div>
           <div class="card-footer py-2">
-            <span class="m-0 font-weight-bold text-primary views"><i class="fas fa-download"></i> 101</span>
+            <span class="m-0 font-weight-bold text-primary views"><i class="fas fa-download"></i>
+              <?= $this->db->where('download_id',$dwnld['id'])->from('downloadlogs')->count_all_results() ?>
+            </span>
             <a href="<?= base_url();?>index.php/dashboard/download/hapus/<?= $dwnld['id'];?>" class='btn btn-danger btn-sm float-right tombol-hapus' role='button'><i class="fas fa-trash"></i> Hapus</a>
           </div>
         </div>

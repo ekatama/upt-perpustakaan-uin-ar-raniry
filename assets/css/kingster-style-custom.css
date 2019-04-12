@@ -218,10 +218,10 @@ body.kingster-boxed .kingster-body-wrapper{ margin-top: 0px; margin-bottom: 0px;
 .kingster-page-title-wrap .kingster-page-title-top-gradient{ height: 413px; } 
 .kingster-page-title-wrap .kingster-page-title-bottom-gradient{ height: 413px; } 
 .kingster-page-title-wrap .kingster-page-title-overlay{ opacity: 0; } 
-.kingster-not-found-wrap .kingster-not-found-background{ opacity: 0.27; } 
+.kingster-not-found-wrap .kingster-not-found-background{ opacity: 0.5; } 
 .kingster-blog-title-wrap.kingster-style-custom .kingster-blog-title-content{ padding-top: 93px; } 
 .kingster-blog-title-wrap.kingster-style-custom .kingster-blog-title-content{ padding-bottom: 87px; } 
-.kingster-blog-title-wrap{ background-image: url(../uploads/galleries/10-g.png); } 
+.kingster-blog-title-wrap{ background-image: url(../uploads/not_found/404.png); } 
 .kingster-blog-title-wrap.kingster-feature-image .kingster-blog-title-top-overlay{ height: 242px; } 
 .kingster-blog-title-wrap.kingster-feature-image .kingster-blog-title-bottom-overlay{ height: 333px; } 
 .kingster-blog-title-wrap .kingster-blog-title-overlay{ opacity: 0.25; } 
@@ -331,10 +331,10 @@ body.kingster-boxed .kingster-body-wrapper, .gdlr-core-page-builder .gdlr-core-p
 .kingster-body input, .wpcf7 select, .kingster-body textarea{ border-color: #d7d7d7; } 
 .kingster-body input, .wpcf7 select, .kingster-body textarea{ color: #4e4e4e; } 
 .kingster-body ::-webkit-input-placeholder{  color: #5e5e5e; }.kingster-body ::-moz-placeholder{  color: #5e5e5e; }.kingster-body :-ms-input-placeholder{  color: #5e5e5e; }.kingster-body :-moz-placeholder{  color: #5e5e5e; } 
-.kingster-not-found-wrap{ background-color: #23618e; } 
+.kingster-not-found-wrap{ background-color: black; } 
 .kingster-not-found-wrap .kingster-not-found-head{ color: #ffffff; } 
 .kingster-not-found-wrap .kingster-not-found-title{ color: #ffffff; } 
-.kingster-not-found-wrap .kingster-not-found-caption{ color: #c3e7ff; } 
+.kingster-not-found-wrap .kingster-not-found-caption{ color: #ffc60b; } 
 .kingster-not-found-wrap form.search-form input.search-field{ background-color: #000000; background-color: rgba(0, 0, 0, 0.4) } 
 .kingster-not-found-wrap form.search-form input.search-field, .kingster-not-found-wrap .kingster-top-search-submit{ color: #ffffff; } .kingster-not-found-wrap input::-webkit-input-placeholder { color: #ffffff; } .kingster-not-found-wrap input:-moz-placeholder{ color: #ffffff; } .kingster-not-found-wrap input::-moz-placeholder{ color: #ffffff; } .kingster-not-found-wrap input:-ms-input-placeholder{ color: #ffffff; } 
 .kingster-not-found-wrap .kingster-not-found-back-to-home a, .kingster-not-found-wrap .kingster-not-found-back-to-home a:hover{ color: #ffffff; } 
@@ -366,8 +366,8 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a, ul.gdlr-co
 .kingster-footer-wrapper, .kingster-footer-wrapper *{ border-color: #363636; } 
 .kingster-copyright-wrapper{ background-color: #181818; } 
 .kingster-copyright-wrapper{ color: #aaa; } 
-.kingster-copyright-wrapper a{ color: #014441; } 
-.kingster-copyright-wrapper a:hover{ color: #ffffff; } 
+.kingster-copyright-wrapper a{ color: #ffffff; } 
+.kingster-copyright-wrapper a:hover{ color: #ffc60b; } 
 .kingster-footer-back-to-top-button{ background-color: #dbdbdb; } 
 .kingster-body .kingster-footer-back-to-top-button, .kingster-body .kingster-footer-back-to-top-button:hover{ color: #313131; } 
 .kingster-body .kingster-blog-title-wrap .kingster-single-article-title{ color: #ffffff; } 

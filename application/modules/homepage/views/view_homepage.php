@@ -82,7 +82,7 @@
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
-                                        <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-2.png" alt="" width="262" height="35" title="logo-white" /></div>
+                                        <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-indo-trans.png" alt="" width="262" height="35" title="logo-white" /></div>
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
