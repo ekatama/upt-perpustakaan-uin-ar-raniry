@@ -24,6 +24,7 @@
 			$data['title'] 				= 'homepage';
 			$data['unduh']				= $this->Unduh_model->ambil_data('unduh');  // navbar unduh
 
+			$data['layanan']	= $this->Layanan_model->ambil_data('layanan');
 			$data['tentang']			= $this->Tentang_model->ambil_data('tentang');
 			$data['jadwal']				= $this->Layanan_model->ambil_data('jadwal');
 			$data['artikel_homepage'] 	= $this->Kegiatan_model->artikel_homepage('artikel_homepage');

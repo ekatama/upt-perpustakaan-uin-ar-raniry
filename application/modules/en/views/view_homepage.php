@@ -1,6 +1,7 @@
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
         
+        <!-- Slides -->
         <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
             <div class="gdlr-core-pbf-background-wrap" style="background-color: #014441 ;"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
@@ -35,104 +36,50 @@
             </div>
         </div>
 
-        
-        <div class="gdlr-core-pbf-wrapper "  id="gdlr-core-wrapper-2">
-            <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_13" data-parallax-speed="0.8"></div>
-            </div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
-                    
-                    <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-4">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_16" data-sync-height="height-1">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_17" data-parallax-speed="0.1"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_18">
-                                        <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Join us</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Benefits of being a Librarian Member</span></div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
-                                        <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
-                                            <p>We not only provide students with education and experience that makes them successful in careers, <br> We also help them succeed in their careers to find fields they like and dare to lead them by reading in the library.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="<?= site_url("en/");?>tentang" id="a_1dd7_0"><span class="gdlr-core-content">About us</span></a></div>
+        <!-- Layanan -->
+        <div class="kingster-page-wrapper" id="kingster-page-wrapper">
+            <div class="gdlr-core-page-builder-body">
+                
+                <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+                    <div class="gdlr-core-pbf-background-wrap"></div>
+                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
+                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                   
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
-            <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"></div>
-            </div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
-                                        <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-eng-trans.png" alt="" width="262" height="35" title="logo-white" /></div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_25">
-                                        <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5">About the Library</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
-                                        <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                            <p><?= $tentang['content'];?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="<?= site_url("en/");?>tentang" id="gdlr-core-button-id-66813"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_0"  ></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_30" data-skin="Column Service">
-            <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_31"></div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    <?php foreach ($jadwal as $val) : ?>
-                        <div class="gdlr-core-pbf-column gdlr-core-column-15 gdlr-core-column-5">
-                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                    <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" id="div_1dd7_32">
-                                            <div class="gdlr-core-column-service-media gdlr-core-media-image" id="div_1dd7_33"><img src="<?= base_url();?>/assets/images/icons/col-icon-1.png" alt="" width="41" height="41" title="col-icon-1" />
-                                            </div>
-                                            <div class="gdlr-core-column-service-content-wrapper">
-                                                <div class="gdlr-core-column-service-title-wrap">
-                                                    <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" id="h3_1dd7_6"><?= $val['title'];?></h3>
+                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 40px ;">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Service Schedule</h3>
                                                 </div>
-                                                <div class="gdlr-core-column-service-content" id="div_1dd7_34">
-                                                    <p><?= $val['jadwal'];?></p> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="<?= site_url("en/");?>layanan" id="a_1dd7_1">See More</a>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px ;">
+                                                <div class="gdlr-core-text-box-item-content" style="text-transform: none ;">
+                                                    <div style="overflow-x: auto;">
+                                                        <table style="min-width: 700px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>Type of Services</th>
+                                                                    <th>Schedule</th>
+                                                                    
+                                                                </tr>
+
+                                                                <?php foreach ($layanan as $val) : ?>
+                                                                    <tr>
+                                                                        <td><?= $val['title']; ?></td>    
+                                                                        <td><?= $val['jadwal']; ?></td>
+                                                                    </tr>
+                                                                <?php endforeach; ?>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,11 +87,12 @@
                                 </div>
                             </div>
                         </div>
-                    <?php endforeach;?>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <!-- Activities -->
         <div class="gdlr-core-pbf-wrapper " id="div_1dd7_44">
             <div class="gdlr-core-pbf-background-wrap"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
@@ -260,6 +208,121 @@
             </div>
         </div>
 
+        <!-- Join Us -->
+        <div class="gdlr-core-pbf-wrapper "  id="gdlr-core-wrapper-2">
+            <div class="gdlr-core-pbf-background-wrap">
+                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_13" data-parallax-speed="0.8"></div>
+            </div>
+            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
+                    
+                    <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-4">
+                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_16" data-sync-height="height-1">
+                            <div class="gdlr-core-pbf-background-wrap">
+                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_17" data-parallax-speed="0.1"></div>
+                            </div>
+                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_18">
+                                        <div class="gdlr-core-title-item-title-wrap clearfix">
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Join us</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Benefits of being a Librarian Member</span></div>
+                                </div>
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
+                                        <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
+                                            <p>We not only provide students with education and experience that makes them successful in careers, <br> We also help them succeed in their careers to find fields they like and dare to lead them by reading in the library.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="<?= site_url("en/");?>tentang" id="a_1dd7_0"><span class="gdlr-core-content">About us</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+            <!-- <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
+                <div class="gdlr-core-pbf-background-wrap">
+                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"></div>
+                </div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
+                                            <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-eng-trans.png" alt="" width="262" height="35" title="logo-white" /></div>
+                                        </div>
+                                    </div>
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_25">
+                                            <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5">About the Library</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-40">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
+                                            <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
+                                                <p><?= $tentang['content'];?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="<?= site_url("en/");?>tentang" id="gdlr-core-button-id-66813"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_0"  ></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        
+        <!-- Jadwal -->
+        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_30" data-skin="Column Service">
+            <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_31"></div>
+            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                    <?php foreach ($jadwal as $val) : ?>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-15 gdlr-core-column-5">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" id="div_1dd7_32">
+                                            <div class="gdlr-core-column-service-media gdlr-core-media-image" id="div_1dd7_33"><img src="<?= base_url();?>/assets/images/icons/col-icon-1.png" alt="" width="41" height="41" title="col-icon-1" />
+                                            </div>
+                                            <div class="gdlr-core-column-service-content-wrapper">
+                                                <div class="gdlr-core-column-service-title-wrap">
+                                                    <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" id="h3_1dd7_6"><?= $val['title'];?></h3>
+                                                </div>
+                                                <div class="gdlr-core-column-service-content" id="div_1dd7_34">
+                                                    <p><?= $val['jadwal'];?></p> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="<?= site_url("en/");?>layanan" id="a_1dd7_1">See More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach;?>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video -->
         <div class="gdlr-core-pbf-wrapper " id="div_1dd7_72">
             <div class="gdlr-core-pbf-background-wrap">
                 <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_73" data-parallax-speed="0.2"></div>

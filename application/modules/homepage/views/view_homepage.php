@@ -35,261 +35,319 @@
             </div>
         </div>
 
-        
-        <div class="gdlr-core-pbf-wrapper "  id="gdlr-core-wrapper-2">
-            <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_13" data-parallax-speed="0.8"></div>
-            </div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
-                    
-                    <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-4">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_16" data-sync-height="height-1">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_17" data-parallax-speed="0.1"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+        <!-- Jadwal Layanan -->
+            <div class="kingster-page-wrapper" id="kingster-page-wrapper">
+                <div class="gdlr-core-page-builder-body">
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+                        <div class="gdlr-core-pbf-background-wrap"></div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                                <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                    </div>
+                                </div>
+                                <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                            <div class="gdlr-core-pbf-element">
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 40px ;">
+                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Jadwal Layanan</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-core-pbf-element">
+                                                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px ;">
+                                                    <div class="gdlr-core-text-box-item-content" style="text-transform: none ;">
+                                                        <div style="overflow-x: auto;">
+                                                            <table style="min-width: 700px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th>Jenis Layanan</th>
+                                                                        <th>Jam</th>
+                                                                        
+                                                                    </tr>
 
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_18">
-                                        <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Bergabung dengan kami</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Keuntungan Menjadi Anggota Perpustakaan</span></div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
-                                        <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
-                                            <p>Kami tidak hanya memberi mahasiswa/mahasiswi pendidikan dan pengalaman yang membuat mereka sukses dalam karier, <br>Kami juga membantu mereka berhasil dalam karier mereka untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya dengan membaca di perpustakaan.</p>
+                                                                    <?php foreach ($layanan as $val) : ?>
+                                                                        <tr>
+                                                                            <td><?= $val['judul']; ?></td>    
+                                                                            <td><?= $val['jadwal']; ?></td>
+                                                                        </tr>
+                                                                    <?php endforeach; ?>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="<?= site_url("homepage/");?>tentang" id="a_1dd7_0"><span class="gdlr-core-content">Lihat tentang kami</span></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
-            <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"></div>
-            </div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
-                                        <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-indo-trans.png" alt="" width="262" height="35" title="logo-white" /></div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_25">
-                                        <div class="gdlr-core-title-item-title-wrap clearfix">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5">Tentang Perpustakaan</h3>
+
+        <!-- Kegiatan -->
+            <div class="gdlr-core-pbf-wrapper " id="div_1dd7_44">
+                <div class="gdlr-core-pbf-background-wrap"></div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        
+                        <div class="gdlr-core-pbf-column gdlr-core-column-40 gdlr-core-column-first">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_45" data-sync-height="height-2">
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-blog-item gdlr-core-item-pdb clearfix  gdlr-core-style-blog-widget">
+                                            <div class="gdlr-core-block-item-title-wrap  gdlr-core-left-align gdlr-core-item-mglr" id="div_1dd7_46">
+                                                <div class="gdlr-core-block-item-title-inner clearfix">
+                                                    <h3 class="gdlr-core-block-item-title" id="h3_1dd7_10">Kegiatan & Event</h3>
+                                                    <div class="gdlr-core-block-item-title-divider" id="div_1dd7_47"></div>
+                                                </div>
+                                                <a class="gdlr-core-block-item-read-more" href="<?= site_url("homepage/");?>kegiatan" target="_self" id="a_1dd7_5">Lihat semua kegiatan</a>
+                                            </div>
+                                            <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
+                                                <div class="gdlr-core-item-list-wrap gdlr-core-column-30">
+                                                    <div class="gdlr-core-item-list-inner gdlr-core-item-mglr">
+                                                        <div class="gdlr-core-blog-grid ">
+                                                            <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id; ?>">
+                                                                    <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $artikel_utama->cover;?>" width="765" height="430" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="gdlr-core-blog-grid-content-wrap">
+                                                                <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider">
+                                                                    <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
+                                                                        <?= date("d M Y", strtotime($artikel_utama->created_at)); ?>
+                                                                    </span>
+                                                                    <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-tag">
+                                                                        <?= $artikel_utama->tanda;?>
+
+                                                                    </span>
+                                                                </div>
+                                                                <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_11">
+                                                                    <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id ?>"><?= $artikel_utama->judul;?></a>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-item-list-wrap gdlr-core-column-30">
+                                                    <?php foreach ($artikel_homepage as $val) : ?>
+                                                        <?php if ($artikel_utama->id == $val['id'] ){
+                                                            continue;
+                                                        }?>
+                                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                                            <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
+                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>">
+                                                                    <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $val['cover'];?>" alt="" width="150" height="150" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="gdlr-core-blog-widget-content">
+                                                                <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider">
+                                                                    <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
+                                                                         <?= date("d M Y", strtotime($val['created_at'])); ?>
+                                                                    </span>
+                                                                    <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-tag">
+                                                                        <?= $val['tanda']; ?>
+                                                                    </span>
+                                                                </div>
+                                                                <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_12">
+                                                                    <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?>
+                                                                    </a>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    <?php endforeach; ?>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-40">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
-                                        <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                            <p><?= $tentang['konten'];?></p>
+
+                        <div class="gdlr-core-pbf-column gdlr-core-column-20" id="gdlr-core-column-8">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right" id="div_1dd7_48" data-sync-height="height-2">
+                                <div class="gdlr-core-pbf-background-wrap">
+                                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_49" data-parallax-speed="0"></div>
+                                </div>
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_1dd7_50">
+                                            <div class="gdlr-core-title-item-left-icon" id="div_1dd7_51"><i class="icon_link_alt" id="i_1dd7_1"></i></div>
+                                            <div class="gdlr-core-title-item-left-icon-wrap">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_15">Situs</h3></div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <?php foreach ($weblinks as $val) : ?>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-66469">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="<?= $val['url'];?>" target="_self" ><?= $val['name'];?></a></h3></div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_52">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_53"></div>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
                                 </div>
-                                
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="<?= site_url("homepage/");?>tentang" id="gdlr-core-button-id-66813"><span class="gdlr-core-content" >Baca lebih lanjut</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_0"  ></i></a></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Join us -->
+            <div class="gdlr-core-pbf-wrapper "  id="gdlr-core-wrapper-2">
+                <div class="gdlr-core-pbf-background-wrap">
+                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_13" data-parallax-speed="0.8"></div>
+                </div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
+                        
+                        <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-4">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_16" data-sync-height="height-1">
+                                <div class="gdlr-core-pbf-background-wrap">
+                                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_17" data-parallax-speed="0.1"></div>
+                                </div>
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_18">
+                                            <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_4">Bergabung dengan kami</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_0">Keuntungan Menjadi Anggota Perpustakaan</span></div>
+                                    </div>
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_19">
+                                            <div class="gdlr-core-text-box-item-content" id="div_1dd7_20">
+                                                <p>Kami tidak hanya memberi mahasiswa/mahasiswi pendidikan dan pengalaman yang membuat mereka sukses dalam karier, <br>Kami juga membantu mereka berhasil dalam karier mereka untuk menemukan bidang yang mereka sukai dan berani untuk memimpinnya dengan membaca di perpustakaan.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="<?= site_url("homepage/");?>tentang" id="a_1dd7_0"><span class="gdlr-core-content">Lihat tentang kami</span></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_30" data-skin="Column Service">
-            <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_31"></div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    <?php foreach ($jadwal as $val) : ?>
-                        <div class="gdlr-core-pbf-column gdlr-core-column-15 gdlr-core-column-5">
+
+        <!-- Tentang -->
+            <!-- <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
+                <div class="gdlr-core-pbf-background-wrap">
+                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"></div>
+                </div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first">
                             <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                     <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" id="div_1dd7_32">
-                                            <div class="gdlr-core-column-service-media gdlr-core-media-image" id="div_1dd7_33"><img src="<?= base_url();?>/assets/images/icons/col-icon-1.png" alt="" width="41" height="41" title="col-icon-1" />
-                                            </div>
-                                            <div class="gdlr-core-column-service-content-wrapper">
-                                                <div class="gdlr-core-column-service-title-wrap">
-                                                    <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" id="h3_1dd7_6"><?= $val['judul'];?></h3>
-                                                </div>
-                                                <div class="gdlr-core-column-service-content" id="div_1dd7_34">
-                                                    <p><?= $val['jadwal'];?></p> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="<?= site_url("homepage/");?>layanan" id="a_1dd7_1">Lihat Selengkapnya</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach;?>
-                </div>
-            </div>
-        </div>
-
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_44">
-            <div class="gdlr-core-pbf-background-wrap"></div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    
-                    <div class="gdlr-core-pbf-column gdlr-core-column-40 gdlr-core-column-first">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_45" data-sync-height="height-2">
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-blog-item gdlr-core-item-pdb clearfix  gdlr-core-style-blog-widget">
-                                        <div class="gdlr-core-block-item-title-wrap  gdlr-core-left-align gdlr-core-item-mglr" id="div_1dd7_46">
-                                            <div class="gdlr-core-block-item-title-inner clearfix">
-                                                <h3 class="gdlr-core-block-item-title" id="h3_1dd7_10">Kegiatan & Event</h3>
-                                                <div class="gdlr-core-block-item-title-divider" id="div_1dd7_47"></div>
-                                            </div>
-                                            <a class="gdlr-core-block-item-read-more" href="<?= site_url("homepage/");?>kegiatan" target="_self" id="a_1dd7_5">Lihat semua kegiatan</a>
-                                        </div>
-                                        <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
-                                            <div class="gdlr-core-item-list-wrap gdlr-core-column-30">
-                                                <div class="gdlr-core-item-list-inner gdlr-core-item-mglr">
-                                                    <div class="gdlr-core-blog-grid ">
-                                                        <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id; ?>">
-                                                                <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $artikel_utama->cover;?>" width="765" height="430" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="gdlr-core-blog-grid-content-wrap">
-                                                            <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider">
-                                                                <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                    <?= date("d M Y", strtotime($artikel_utama->created_at)); ?>
-                                                                </span>
-                                                                <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-tag">
-                                                                    <?= $artikel_utama->tanda;?>
-
-                                                                </span>
-                                                            </div>
-                                                            <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_11">
-                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $artikel_utama->id ?>"><?= $artikel_utama->judul;?></a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list-wrap gdlr-core-column-30">
-                                                <?php foreach ($artikel_homepage as $val) : ?>
-                                                    <?php if ($artikel_utama->id == $val['id'] ){
-                                                        continue;
-                                                    }?>
-                                                    <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
-                                                        <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>">
-                                                                <img src="<?= base_url();?>assets/uploads/artikel_event/<?= $val['cover'];?>" alt="" width="150" height="150" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="gdlr-core-blog-widget-content">
-                                                            <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider">
-                                                                <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                     <?= date("d M Y", strtotime($val['created_at'])); ?>
-                                                                </span>
-                                                                <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-tag">
-                                                                    <?= $val['tanda']; ?>
-                                                                </span>
-                                                            </div>
-                                                            <h3 class="gdlr-core-blog-title gdlr-core-skin-title" id="h3_1dd7_12">
-                                                                <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>"><?= $val['judul'];?>
-                                                                </a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                <?php endforeach; ?>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20" id="gdlr-core-column-8">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right" id="div_1dd7_48" data-sync-height="height-2">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_49" data-parallax-speed="0"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_1dd7_50">
-                                        <div class="gdlr-core-title-item-left-icon" id="div_1dd7_51"><i class="icon_link_alt" id="i_1dd7_1"></i></div>
-                                        <div class="gdlr-core-title-item-left-icon-wrap">
-                                            <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_15">Situs</h3></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <?php foreach ($weblinks as $val) : ?>
-                                    <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-66469">
-                                            <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="<?= $val['url'];?>" target="_self" ><?= $val['name'];?></a></h3></div>
+                                        <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
+                                            <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="<?= base_url();?>/assets/images/logo-uin-indo-trans.png" alt="" width="262" height="35" title="logo-white" /></div>
                                         </div>
                                     </div>
                                     <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_52">
-                                            <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_53"></div>
+                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_25">
+                                            <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5">Tentang Perpustakaan</h3>
+                                            </div>
                                         </div>
                                     </div>
-                                <?php endforeach; ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-40">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
+                                            <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
+                                                <p><?= $tentang['konten'];?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="<?= site_url("homepage/");?>tentang" id="gdlr-core-button-id-66813"><span class="gdlr-core-content" >Baca lebih lanjut</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_0"  ></i></a></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-            </div>
-        </div>
+            </div> -->
 
-        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_72">
-            <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_73" data-parallax-speed="0.2"></div>
+        <!-- Layanan -->
+            <div class="gdlr-core-pbf-wrapper " id="div_1dd7_30" data-skin="Column Service">
+                <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_31"></div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <?php foreach ($jadwal as $val) : ?>
+                            <div class="gdlr-core-pbf-column gdlr-core-column-15 gdlr-core-column-5">
+                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" id="div_1dd7_32">
+                                                <div class="gdlr-core-column-service-media gdlr-core-media-image" id="div_1dd7_33"><img src="<?= base_url();?>/assets/images/icons/col-icon-1.png" alt="" width="41" height="41" title="col-icon-1" />
+                                                </div>
+                                                <div class="gdlr-core-column-service-content-wrapper">
+                                                    <div class="gdlr-core-column-service-title-wrap">
+                                                        <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" id="h3_1dd7_6"><?= $val['judul'];?></h3>
+                                                    </div>
+                                                    <div class="gdlr-core-column-service-content" id="div_1dd7_34">
+                                                        <p><?= $val['jadwal'];?></p> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="<?= site_url("homepage/");?>layanan" id="a_1dd7_1">Lihat Selengkapnya</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach;?>
+                    </div>
+                </div>
             </div>
-            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" id="div_1dd7_74">
-                    <div class="gdlr-core-pbf-element">
-                        <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align" id="div_1dd7_75">
-                            <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_76">
-                                <a class="gdlr-core-lightgallery gdlr-core-js " href="<?= $video['url']; ?>"><img src="<?= base_url();?>/assets/images/icons/icon-play.png" alt="" width="82" height="82" title="Lihat Video" /></a>
+
+        <!-- Vidio -->
+            <div class="gdlr-core-pbf-wrapper " id="div_1dd7_72">
+                <div class="gdlr-core-pbf-background-wrap">
+                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_73" data-parallax-speed="0.2"></div>
+                </div>
+                <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                    <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" id="div_1dd7_74">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align" id="div_1dd7_75">
+                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_76">
+                                    <a class="gdlr-core-lightgallery gdlr-core-js " href="<?= $video['url']; ?>"><img src="<?= base_url();?>/assets/images/icons/icon-play.png" alt="" width="82" height="82" title="Lihat Video" /></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="gdlr-core-pbf-element">
-                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                            <div class="gdlr-core-title-item-title-wrap clearfix">
-                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_23"><?= $video['judul']; ?></h3></div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
+                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_23"><?= $video['judul']; ?></h3></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="gdlr-core-pbf-element">
-                        <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" id="div_1dd7_77">
-                            <div class="gdlr-core-text-box-item-content" id="div_1dd7_78">
-                                <p><?= $video['konten']; ?></p>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" id="div_1dd7_77">
+                                <div class="gdlr-core-text-box-item-content" id="div_1dd7_78">
+                                    <p><?= $video['konten']; ?></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </div>
 </div>

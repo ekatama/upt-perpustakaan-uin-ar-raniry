@@ -33,17 +33,17 @@
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= base_url(); ?>">Beranda</a>
+                                <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= base_url("homepage/"); ?>">Beranda</a>
                                 </li>
-                                <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>tentang">Tentang</a>
+                                <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>tentang?module=tentang">Tentang</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Visi</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Misi</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Tujuan</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Struktur Organisasi</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Tupoksi</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Program dan Sasaran</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang">Kegiatan</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=visi">Visi</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=misi">Misi</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=tujuan">Tujuan</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=struktur">Struktur Organisasi</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=tupoksi">Tupoksi</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=program-sasaran">Program dan Sasaran</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("homepage/");?>tentang?module=kegiatan">Kegiatan</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("homepage/");?>layanan">Layanan</a>
@@ -102,17 +102,17 @@
                 <div class="kingster-navigation kingster-item-pdlr clearfix ">
                     <div class="kingster-main-menu" id="kingster-main-menu">
                         <ul id="menu-main-navigation-1" class="sf-menu">
-                            <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= base_url();?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
+                            <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= base_url("homepage/");?>" class="sf-with-ul-pre sf-with-ul">Beranda</a>
                             </li>
-                            <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang" class="sf-with-ul-pre">Tentang</a>
+                            <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>tentang?module=tentang" class="sf-with-ul-pre">Tentang</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Visi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Misi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Tujuan</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Struktur Organisasi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Tupoksi</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Program Sasaran</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang">Kegiatan</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=visi">Visi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=misi">Misi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=tujuan">Tujuan</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=struktur">Struktur Organisasi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=tupoksi">Tupoksi</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=program-sasaran">Program Sasaran</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('homepage/');?>tentang?module=kegiatan">Kegiatan</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("homepage/");?>layanan" class="sf-with-ul-pre">Layanan</a>

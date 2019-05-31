@@ -51,6 +51,25 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Data Visitor -->
+                <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
+                    <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
+                        <h3 class="kingster-widget-title">Visitor</h3><span class="clear"></span>
+                        <div class="menu-campus-life-container">
+                            <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
+                                <?php foreach ($weblinks as $val) : ?>
+                                    <li class="menu-item">
+                                        <a href="<?= $val['url'];?>">
+                                            <?= $val['name'];?>
+                                            </a>
+                                        </li>
+                                <?php endforeach; ?>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 
             </div>
         </div>
@@ -60,13 +79,13 @@
                 <div class="kingster-copyright-left kingster-item-pdlr">Copyright &copy; All Right Reserved 2019, UIN Ar-Raniry Library</div>
                 <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
+                        <a href="https://www.facebook.com/perpustakaan.arraniry" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                             <i class="fa fa-facebook" ></i>
                         </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
+                        <a href="https://twitter.com/@libraryArraniry" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
                             <i class="fa fa-twitter" ></i>
                         </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
+                        <a href="https://www.instagram.com/uptperpustakaanarraniry/" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
                             <i class="fa fa-instagram" ></i>
                         </a>
                     </div>

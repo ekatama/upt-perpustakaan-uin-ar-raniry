@@ -57,18 +57,17 @@
         
         <div class="kingster-copyright-wrapper">
             <div class="kingster-copyright-container kingster-container clearfix">
-                <div class="kingster-copyright-left kingster-item-pdlr">Copyright &copy; All Right Reserved 2019, UPT Perpustakaan UIN Ar-Raniry.</div>
+                <div class="kingster-copyright-left kingster-item-pdlr">Copyright &copy; All Right Reserved 2019, UIN Ar-Raniry Library</div>
                 <div class="kingster-copyright-right kingster-item-pdlr" style="padding: 0px 100px;">
                     <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
+                        <a href="https://www.facebook.com/perpustakaan.arraniry" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                             <i class="fa fa-facebook" ></i>
                         </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
+                        <a href="https://twitter.com/@libraryArraniry" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
                             <i class="fa fa-twitter" ></i>
                         </a>
-                        <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
-                            <!-- uin_arraniry_official -->
-                            <i class="fa fa-instagram"></i>
+                        <a href="https://www.instagram.com/uptperpustakaanarraniry/" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
+                            <i class="fa fa-instagram" ></i>
                         </a>
                     </div>
                 </div>

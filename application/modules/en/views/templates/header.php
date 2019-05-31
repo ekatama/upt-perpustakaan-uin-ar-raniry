@@ -35,15 +35,15 @@
                             <ul id="menu-main-navigation" class="m-menu">
                                 <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= base_url("en/"); ?>">Home</a>
                                 </li>
-                                <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("en/");?>tentang">About</a>
+                                <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("en/");?>tentang?module=about">About</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Visions</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Misions</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Our Goals</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Organizational Structure</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Jobdesk</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Target Program</a></li>
-                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang">Activities</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=vision">Visions</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=mision">Misions</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=goals">Our Goals</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=structure">Organizational Structure</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=jobdesk">Jobdesk</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=program">Target Program</a></li>
+                                        <li class="menu-item"><a href="<?= site_url("en/");?>tentang?module=activities">Activities</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children"><a href="<?= site_url("en/");?>layanan">Services</a>
@@ -60,7 +60,7 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>galeri">Galleries</a></li>
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>situs">Weblinks</a></li>
-                                <li><a title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a></li>
+                                <li><a title="Change to Indonesian" href="<?= site_url("homepage");?>">EN</a></li>
 
                             </ul>
                         </div>
@@ -84,7 +84,7 @@
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>faq">FAQ</a></li>
                             </ul>
-                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a>
+                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" title="Change to Indonesian" href="<?= site_url("homepage");?>">EN</a>
                         </div>
                     </div>
                 </div>
@@ -105,15 +105,15 @@
                         <ul id="menu-main-navigation-1" class="sf-menu">
                             <li class="menu-item menu-item-home <?= ( $title == "homepage") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= base_url("en/");?>" class="sf-with-ul-pre sf-with-ul">Home</a>
                             </li>
-                            <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("en/");?>tentang" class="sf-with-ul-pre">About</a>
+                            <li class="menu-item <?= ( $title == "tentang") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url('en/');?>tentang?module=about" class="sf-with-ul-pre">About</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Visions</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Misions</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Our Goals</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Organizational Structure</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Jobdesk</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Target Program</a></li>
-                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang">Activities</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=vision" >Visions</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=mision">Misions</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=goals">Our Goals</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=structure">Organizational Structure</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=jobdesk">Jobdesk</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=program">Target Program</a></li>
+                                    <li class="menu-item" data-size="60"><a href="<?= site_url('en/');?>tentang?module=activities">Activities</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item <?= ( $title == "layanan") ? 'current-menu-item' : '' ; ?> menu-item-has-children kingster-normal-menu"><a href="<?= site_url("en/");?>layanan" class="sf-with-ul-pre">Services</a>

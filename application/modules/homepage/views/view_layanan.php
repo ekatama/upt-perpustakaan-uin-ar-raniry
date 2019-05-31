@@ -60,7 +60,7 @@
                     <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" style="margin-bottom: 15px ;">
                         <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #50bd77 ;border-bottom-width: 3px ;"></div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
         <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">

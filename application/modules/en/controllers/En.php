@@ -26,13 +26,13 @@
 			$data['title'] 				= 'homepage';
 			$data['unduh']				= $this->Unduh_model->ambil_data('unduh');  // navbar unduh
 
+			$data['layanan']			= $this->Layanan_model->ambil_data('layanan');
 			$data['tentang']			= $this->Tentang_model->ambil_data('tentang');
 			$data['jadwal']				= $this->Layanan_model->ambil_data('jadwal');
 			$data['artikel_homepage'] 	= $this->Kegiatan_model->artikel_homepage('artikel_homepage');
 			$data['artikel_utama']		= $this->Kegiatan_model->artikel_utama('artikel_utama');
 			$data['weblinks'] 			= $this->Situs_model->ambil_data('situs');
 			$data['video']				= $this->Video_model->video('video');
-
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_homepage', $data);
