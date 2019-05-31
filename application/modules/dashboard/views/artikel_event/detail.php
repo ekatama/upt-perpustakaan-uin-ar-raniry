@@ -1,10 +1,10 @@
 <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/artikel_event/index"><i class="fas fa-chevron-left"></i> Artikel & Event</a>
-        </div>
+    <div class="row">
+      <div class="col-md-6">
+        <a class='btn btn-primary' href="<?= base_url(); ?>index.php/dashboard/artikel_event/index"><i class="fas fa-chevron-left"></i> Artikel & Event</a>
       </div>
-  </div>
+    </div>
+</div>
   <?= $this->session->flashdata('flash');?>
   <form enctype="multipart/form-data" action="<?= base_url('index.php/dashboard/artikel_event/prosesUbahArtikel');?>" method="post" class="needs-validation" novalidate>
   <input type="hidden" name="id" value="<?= $artikel['id'];?>">

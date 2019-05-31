@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/upt-perpustakaan-uin-ar-raniry/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
