@@ -2,17 +2,27 @@
 
 	class Kegiatan_model extends CI_Model
 	{
+
+		// --------------- Search
+		public function search()
+	    {
+	        $keyword = $this->input->get('search', true);
+	        $this->db->like('judul', $keyword);
+	        $this->db->or_like('tanda', $keyword);
+	        return $this->db->get('articles')->result_array();
+	    }
+
 		// --------------- Untuk di Homepage
 		public function artikel_homepage() // Untuk yg di Homepage
 		{
-			$data = $this->db->order_by('id','desc')->limit('3')->get('articles');
-			return $data->result_array();
+			$content = $this->db->order_by('id','desc')->limit('3')->get('articles');
+			return $content->result_array();
 		}
 
 		public function artikel_utama() // Untuk yg di gambar besar homepage
 		{
-			$data = $this->db->order_by('id','desc')->get('articles');
-        	return $data->first_row();	
+			$content = $this->db->order_by('id','desc')->get('articles');
+        	return $content->first_row();	
 		}
 
 
@@ -24,13 +34,12 @@
 
 		public function ambil_data($perpage, $start)
 		{
-			$data = $this->db->order_by('id','desc')->get('articles', $perpage, $start);
+			$content = $this->db->order_by('id','desc')->get('articles', $perpage, $start);
 			
-        	return $data->result_array();
+        	return $content->result_array();
 		}
 
 		// --------------- Single Post
-
 		public function single_post($id)
 		{
 			$data = $this->db->where('id',$id)->get('articles');

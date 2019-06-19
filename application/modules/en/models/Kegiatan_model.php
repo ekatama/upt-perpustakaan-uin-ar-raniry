@@ -2,6 +2,16 @@
 
 	class Kegiatan_model extends CI_Model
 	{
+
+		// --------------- Search
+		public function search()
+	    {
+	        $keyword = $this->input->get('search', true);
+	        $this->db->like('title', $keyword);
+	        $this->db->or_like('tag', $keyword);
+	        return $this->db->get('articles')->result_array();
+	    }
+
 		// --------------- Untuk di Homepage
 		public function artikel_homepage() // Untuk yg di Homepage
 		{
@@ -30,7 +40,6 @@
 		}
 
 		// --------------- Single Post
-
 		public function single_post($id)
 		{
 			$data = $this->db->where('id',$id)->get('articles');

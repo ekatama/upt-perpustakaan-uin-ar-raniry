@@ -21,7 +21,7 @@
 
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
-        <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+        <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 50px 0px;">
             <div class="gdlr-core-pbf-background-wrap"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -42,21 +42,23 @@
                                                 <table style="min-width: 700px;">
                                                     <tbody>
                                                         <tr>
-                                                            <th>No.</th>
+                                                            <th style="width: 70px;">No.</th>
                                                             <th>Nama File</th>
                                                             <th>Kategori</th>
                                                             <th>Unduh file</th>
                                                             
                                                         </tr>
+                                                        <?php $no = 1; ?>
                                                         <?php foreach ($unduh as $val) : ?>
                                                             <tr>
-                                                                <td><?= $val['id']; ?></td>
+                                                                <td><?= $no; ?></td>
                                                                 <td><?= $val['judul']; ?></td>    
                                                                 <td><?= $val['kategori']; ?></td>
                                                                 <td>
                                                                     <a href="<?= base_url("homepage/downloading/");?><?=$val['id'];?>" class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border">Unduh</a>
                                                                 </td>
                                                             </tr>
+                                                        <?php $no++; ?>
                                                         <?php endforeach; ?>
                                                     </tbody>
                                                 </table>

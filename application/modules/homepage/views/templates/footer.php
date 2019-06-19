@@ -19,6 +19,8 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Perpustakaan -->
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
                         <h3 class="kingster-widget-title">Perpustakaan</h3><span class="clear"></span>
@@ -35,9 +37,29 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Situs  -->
                 <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                     <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
                         <h3 class="kingster-widget-title">Situs</h3><span class="clear"></span>
+                        <div class="menu-campus-life-container">
+                            <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
+                                <?php foreach ($weblinks as $val) : ?>
+                                    <li class="menu-item">
+                                        <a href="<?= $val['url'];?>">
+                                            <?= $val['name'];?>
+                                            </a>
+                                        </li>
+                                <?php endforeach; ?>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visitor -->
+                <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
+                    <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
+                        <h3 class="kingster-widget-title">Visitor</h3><span class="clear"></span>
                         <div class="menu-campus-life-container">
                             <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
                                 <?php foreach ($weblinks as $val) : ?>
@@ -352,18 +374,18 @@
     <script type='text/javascript' src='<?= base_url(); ?>/assets/js/isotope.js'></script>
 
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5c934fb3c37db86fcfcf15b5/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     </body>
 </html>

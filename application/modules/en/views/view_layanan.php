@@ -31,13 +31,14 @@
                                 <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Type of Services</h3></div>
                         </div>
                     </div>
+                    <?php $no = 1; ?>
                     <?php foreach ($layanan as $val) : ?>
                         <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="Blut Title Column Service">
                             <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                     <div class="gdlr-core-pbf-element">
                                         <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 20px;">
-                                            <div class="gdlr-core-column-service-media gdlr-core-character" style="margin-top: 5px;margin-right: 28px;margin-left: 3px;font-size: 45px ;color: #3db166 ;"><?= $val['id'];  ?></div>
+                                            <div class="gdlr-core-column-service-media gdlr-core-character" style="margin-top: 5px;margin-right: 28px;margin-left: 3px;font-size: 45px ;color: #3db166 ;"><?= $no;  ?></div>
                                             <div class="gdlr-core-column-service-content-wrapper">
                                                 <div class="gdlr-core-column-service-title-wrap">
                                                     <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 18px ;text-transform: none ;"><?= $val['title'];?></h3></div>
@@ -50,6 +51,7 @@
                                 </div>
                             </div>
                         </div>
+                    <?php $no++; ?>
                     <?php endforeach; ?>
                 </div>
             </div>

@@ -38,7 +38,7 @@
         <!-- Jadwal Layanan -->
             <div class="kingster-page-wrapper" id="kingster-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 0px 0px;">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -105,7 +105,7 @@
                                                     <h3 class="gdlr-core-block-item-title" id="h3_1dd7_10">Kegiatan & Event</h3>
                                                     <div class="gdlr-core-block-item-title-divider" id="div_1dd7_47"></div>
                                                 </div>
-                                                <a class="gdlr-core-block-item-read-more" href="<?= site_url("homepage/");?>kegiatan" target="_self" id="a_1dd7_5">Lihat semua kegiatan</a>
+                                                <a class="gdlr-core-block-item-read-more" href="<?= site_url("homepage/");?>kegiatan" target="_self" id="a_1dd7_5">Lihat semua</a>
                                             </div>
                                             <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
                                                 <div class="gdlr-core-item-list-wrap gdlr-core-column-30">

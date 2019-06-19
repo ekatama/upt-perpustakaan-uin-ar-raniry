@@ -53,8 +53,8 @@ class Artikel_model extends CI_Model{
 
         unlink('./assets/uploads/artikel_event/'.$row->cover);
         $this->db->where('id', $id)->delete('articles');
-    }
-
+    } 
+ 
     public function cariArtikel()
     {
         $keyword = $this->input->get('keyword', true);

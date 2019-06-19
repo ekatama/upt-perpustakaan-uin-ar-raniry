@@ -10,7 +10,7 @@
 
 <div class="kingster-breadcrumbs">
     <div class="kingster-breadcrumbs-container kingster-container">
-        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("en");?>" class="home"><span property="name">Home</span></a>
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
             <meta property="position" content="1">
             </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">All News</span>
             <meta property="position" content="2">
@@ -33,30 +33,30 @@
                                         <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
                                             <div class="gdlr-core-item-list gdlr-core-blog-full  gdlr-core-item-mglr gdlr-core-style-left">
                                                 <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                    <a href="<?= site_url("en/");?>single_post/<?= $val['id']; ?>"><img src="<?= base_url();?>/assets/uploads/artikel_event/<?= $val['cover'];?>" width="1100" height="490"  alt="" />
+                                                    <a href="<?= site_url("homepage/");?>single_post/<?= $val['id']; ?>"><img src="<?= base_url();?>/assets/uploads/artikel_event/<?= $val['cover'];?>" width="1100" height="490"  alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="gdlr-core-blog-full-head clearfix">
                                                     <div class="gdlr-core-blog-full-head-right">
                                                         <h3 class="gdlr-core-blog-title gdlr-core-skin-title" style="font-size: 28px ;font-weight: 800 ;letter-spacing: 0px ;">
-                                                            <a href="<?= site_url("en/");?>single_post/<?= $val['id'];?>">
-                                                                <?= $val['title']; ?>
+                                                            <a href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>">
+                                                                <?= $val['judul']; ?>
                                                             </a>
                                                         </h3>
                                                          <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider">
                                                             <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date"><?= date("d M Y", strtotime($val['created_at'])) ; ?>
                                                             </span>
                                                             <span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                <span class="gdlr-core-head"><?= $val['tag'];  ?></span>
+                                                                <span class="gdlr-core-head"><?= $val['judul'];  ?></span>
                                                             </span>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="gdlr-core-blog-content">
-                                                    <?= word_limiter($val['content'], 40); ?>
+                                                    <?= word_limiter($val['konten'], 40); ?>
                                                     <div class="clear"></div>
-                                                    <a class="gdlr-core-excerpt-read-more gdlr-core-button gdlr-core-rectangle" href="<?= site_url("en/");?>single_post/<?= $val['id'];?>">
-                                                        Read More
+                                                    <a class="gdlr-core-excerpt-read-more gdlr-core-button gdlr-core-rectangle" href="<?= site_url("homepage/");?>single_post/<?= $val['id'];?>">
+                                                        Baca Selengkapnya
                                                     </a>
                                                 </div>
                                             </div>

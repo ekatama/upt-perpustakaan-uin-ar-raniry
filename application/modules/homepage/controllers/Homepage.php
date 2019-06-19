@@ -14,6 +14,7 @@
 			$this->load->model('Kegiatan_model');
 			$this->load->model('Galeri_model');
 			$this->load->model('Situs_model');
+			$this->load->model('Regulasi_model');
 			$this->load->model('Unduh_model');
 			$this->load->model('Video_model');
 			$this->load->model('FAQ_model');
@@ -21,10 +22,10 @@
 
 		public function index()
 		{
-			$data['title'] 				= 'homepage';
+			$data['title'] 				= 'beranda';
 			$data['unduh']				= $this->Unduh_model->ambil_data('unduh');  // navbar unduh
 
-			$data['layanan']	= $this->Layanan_model->ambil_data('layanan');
+			$data['layanan']			= $this->Layanan_model->ambil_data('layanan');
 			$data['tentang']			= $this->Tentang_model->ambil_data('tentang');
 			$data['jadwal']				= $this->Layanan_model->ambil_data('jadwal');
 			$data['artikel_homepage'] 	= $this->Kegiatan_model->artikel_homepage('artikel_homepage');
@@ -34,6 +35,34 @@
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_homepage', $data);
+			$this->load->view('templates/footer');
+		}
+
+		public function search()
+		{
+			$data['title']	= 'all news';
+			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
+
+			if($this->input->get('search')){
+	            $data['kegiatan'] = $this->Kegiatan_model->search();
+	        }
+
+	        $this->load->view('templates/header', $data);
+	        $this->load->view('view_cari', $data);
+	        $this->load->view('templates/footer');
+		}
+
+		public function regulasi()
+		{
+			$data['title']		= 'regulasi';
+			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
+
+			$data['regulasi']	= $this->Regulasi_model->data('regulasi');
+			$data['policy']		= $this->Regulasi_model->module('Kebijakan Perpustakaan');
+			$data['uu_perpus']	= $this->Regulasi_model->module('UU Perpustakaan');
+
+			$this->load->view('templates/header', $data);
+			$this->load->view('view_regulasi', $data);
 			$this->load->view('templates/footer');
 		}
 
@@ -74,14 +103,10 @@
 			$config['cur_tag_open'] 	= '<span class="page-numbers current">';
 			$config['cur_tag_close']	= '</span>';
 
-
 			$start = $this->uri->segment(3);
 			$this->pagination->initialize($config);
 
-
-
 			$data['kegiatan'] 		= $this->Kegiatan_model->ambil_data($config['per_page'], $start);
-
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_kegiatan', $data);
@@ -139,7 +164,6 @@
 
 		public function downloading()
 		{
-
 			$id 	= $this->uri->segment(3);
 			$data	= $this->Unduh_model->downloading($id);
 

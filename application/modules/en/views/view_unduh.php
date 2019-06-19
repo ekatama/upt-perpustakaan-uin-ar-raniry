@@ -4,15 +4,15 @@
     <div class="kingster-page-title-container kingster-container">
         <div class="kingster-page-title-content kingster-item-pdlr">
             <div class="kingster-page-caption">Library Documents</div>
-            <h1 class="kingster-page-title">Download</h1></div>
+            <h1 class="kingster-page-title">Downloads</h1></div>
     </div>
 </div>
 
 <div class="kingster-breadcrumbs">
     <div class="kingster-breadcrumbs-container kingster-container">
-        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Kembali ke Beranda" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
+        <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Back to Homepage" href="<?= site_url("homepage");?>" class="home"><span property="name">Home</span></a>
             <meta property="position" content="1">
-            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Download</span>
+            </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Downloads</span>
             <meta property="position" content="2">
             </span>
         </div>
@@ -21,7 +21,7 @@
 
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
     <div class="gdlr-core-page-builder-body">
-        <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 50px 0px;">
+        <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 50px 0px;">
             <div class="gdlr-core-pbf-background-wrap"></div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -36,27 +36,29 @@
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px ;">
+                                    <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                         <div class="gdlr-core-text-box-item-content" style="text-transform: none ;">
                                             <div style="overflow-x: auto;">
                                                 <table style="min-width: 700px;">
                                                     <tbody>
                                                         <tr>
-                                                            <th>No.</th>
+                                                            <th style="width: 70px">No.</th>
                                                             <th>File Name</th>
                                                             <th>Categories</th>
                                                             <th>Download File</th>
                                                             
                                                         </tr>
+                                                        <?php $no = 1; ?>
                                                         <?php foreach ($unduh as $val) : ?>
                                                             <tr>
-                                                                <td><?= $val['id']; ?></td>
+                                                                <td><?= $no; ?></td>
                                                                 <td><?= $val['title']; ?></td>    
                                                                 <td><?= $val['categories']; ?></td>
                                                                 <td>
                                                                     <a href="<?= base_url("homepage/downloading/");?><?=$val['id'];?>" class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border">Download</a>
                                                                 </td>
                                                             </tr>
+                                                        <?php $no++; ?>
                                                         <?php endforeach; ?>
                                                     </tbody>
                                                 </table>

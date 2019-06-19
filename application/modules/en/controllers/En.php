@@ -14,11 +14,11 @@
 			$this->load->model('Layanan_model');
 			$this->load->model('Kegiatan_model');
 			$this->load->model('Galeri_model');
-			$this->load->model('Situs_model');
+			$this->load->model('Situs_model'); 
 			$this->load->model('Unduh_model');
 			$this->load->model('Video_model');
 			$this->load->model('FAQ_model');
-
+			$this->load->model('Regulasi_model');
 		}
 
 		public function index()
@@ -36,6 +36,33 @@
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_homepage', $data);
+			$this->load->view('templates/footer');
+		}
+
+		public function search()
+		{
+			$data['title']	= 'all news';
+
+			if($this->input->get('search')){
+	            $data['kegiatan'] = $this->Kegiatan_model->search();
+	        }
+
+	        $this->load->view('templates/header', $data);
+	        $this->load->view('view_cari', $data);
+	        $this->load->view('templates/footer');
+		}
+
+		public function regulasi()
+		{
+			$data['title']		= 'regulation';
+			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
+
+			$data['regulasi']	= $this->Regulasi_model->data('regulasi');
+			$data['policy']		= $this->Regulasi_model->module('Kebijakan Perpustakaan');
+			$data['uu_perpus']	= $this->Regulasi_model->module('UU Perpustakaan');
+
+			$this->load->view('templates/header', $data);
+			$this->load->view('view_regulasi', $data);
 			$this->load->view('templates/footer');
 		}
 
@@ -70,19 +97,14 @@
 			$config['base_url'] 		= base_url('en/kegiatan');
 			$config['total_rows'] 		= $row;
 			$config['per_page'] 		= 2;
-
 			$config['next_link']		= '&gt;';
 			$config['cur_tag_open'] 	= '<span class="page-numbers current">';
 			$config['cur_tag_close']	= '</span>';
 
-
 			$start = $this->uri->segment(3);
 			$this->pagination->initialize($config);
 
-
-
 			$data['kegiatan'] 		= $this->Kegiatan_model->ambil_data($config['per_page'], $start);
-
 
 			$this->load->view('templates/header', $data);
 			$this->load->view('view_kegiatan', $data);
@@ -103,7 +125,7 @@
 
 		public function layanan()
 		{
-			$data['title'] 		= 'service';
+			$data['title'] 		= 'services';
 			$data['weblinks'] 	= $this->Situs_model->ambil_data('situs'); // footer link
 
 			$data['layanan']	= $this->Layanan_model->ambil_data('layanan');

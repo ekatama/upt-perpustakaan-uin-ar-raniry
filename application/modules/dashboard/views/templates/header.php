@@ -109,6 +109,17 @@
           <span>Download</span></a>
       </li>
 
+      <!-- Nav Item - Regulasi -->
+      <?php if ($title == 'Regulasi') : ?>
+      <li class="nav-item active">
+      <?php else : ?>
+      <li class="nav-item">
+      <?php endif; ?>
+        <a class="nav-link" href="<?= base_url(); ?>index.php/dashboard/regulasi/index">
+          <i class="fas fa-gavel"></i>
+          <span>Regulasi</span></a>
+      </li>
+
       <!-- Nav Item - Artikel & Event -->
       <?php if ($title == 'Artikel / Event') : ?>
       <li class="nav-item active">
