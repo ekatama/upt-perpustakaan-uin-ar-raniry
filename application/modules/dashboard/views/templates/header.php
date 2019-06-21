@@ -213,12 +213,11 @@
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
+          PENGUNJUNG <iframe src="<?= base_url(); ?>counter/hit_counter" frameborder="0" style="height: 58px;"></iframe>
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
+
 
           <!-- Dropdown - Messages -->
           <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">

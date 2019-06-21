@@ -62,13 +62,7 @@
                         <h3 class="kingster-widget-title">Visitor</h3><span class="clear"></span>
                         <div class="menu-campus-life-container">
                             <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                <?php foreach ($weblinks as $val) : ?>
-                                    <li class="menu-item">
-                                        <a href="<?= $val['url'];?>">
-                                            <?= $val['name'];?>
-                                            </a>
-                                        </li>
-                                <?php endforeach; ?>   
+                                <iframe src="<?= base_url(); ?>counter/hit_counter" frameborder="0"></iframe>
                             </ul>
                         </div>
                     </div>
