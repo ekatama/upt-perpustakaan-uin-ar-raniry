@@ -74,7 +74,7 @@
                                 </li>
                                 <li class="menu-item <?= ( $title == "galeri") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>galeri">Galleries</a></li>
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>situs">Weblinks</a></li>
-                                <li><a title="Change to Indonesian" href="<?= site_url("homepage");?>">EN</a></li>
+                                <li><a title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a></li>
 
                                 <div class="kingster-main-menu-search" id="kingster-mobile-top-search"><i class="fa fa-search"></i></div>
                             </ul>
@@ -99,7 +99,7 @@
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
                                 <li class="menu-item <?= ( $title == "situs") ? 'current-menu-item' : '' ; ?> "><a href="<?= site_url("en/");?>faq">FAQ</a></li>
                             </ul>
-                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" title="Change to Indonesian" href="<?= site_url("homepage");?>">EN</a>
+                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" title="Change to Indonesian" href="<?= site_url("homepage");?>">ID</a>
                         </div>
                     </div>
                 </div>
